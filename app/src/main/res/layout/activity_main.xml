@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        >
+
+        <TextView
+            style="@style/MyText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Добро пожаловать в GeoStudy"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/world_button"
+            style="@style/MyButton"
+            android:background="@drawable/button_background"
+            android:text="@string/world"
+            android:textSize="30sp"/>
+
+        <Button
+            android:id="@+id/europe_button"
+            style="@style/MyButton"
+            android:background="@drawable/button_background"
+            android:text="Европа"
+            android:textSize="30sp"/>
+
+
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
