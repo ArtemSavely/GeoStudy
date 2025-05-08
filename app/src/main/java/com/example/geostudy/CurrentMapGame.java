@@ -29,10 +29,30 @@ public class CurrentMapGame {
     }
     @JavascriptInterface
     public void nextGame(){
-        int intPer = coins * 100 / regions.size();
-        activity.percent.setText(String.valueOf(intPer) + "%");
-        if (activity.gameIndex < regions.size()){
-            activity.nextQuestion();
+        if (activity.gameIndex < regions.size() - 1){
+            new Thread(new Runnable() {
+                @Override
+                public void run() {
+                    activity.runOnUiThread(new Runnable() {
+                        @Override
+                        public void run() {
+                            activity.nextQuestion();
+                        }
+                    });
+                }
+            }).start();
+        } else {
+            new Thread(new Runnable() {
+                @Override
+                public void run() {
+                    activity.runOnUiThread(new Runnable() {
+                        @Override
+                        public void run() {
+                            activity.showFininshAlert();
+                        }
+                    });
+                }
+            }).start();
         }
     }
 
