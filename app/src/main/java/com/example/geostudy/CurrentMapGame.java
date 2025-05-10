@@ -48,7 +48,7 @@ public class CurrentMapGame {
                     activity.runOnUiThread(new Runnable() {
                         @Override
                         public void run() {
-                            activity.showFininshAlert();
+                            activity.finishCurrentGame();
                         }
                     });
                 }

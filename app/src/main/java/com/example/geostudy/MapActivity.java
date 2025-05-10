@@ -3,6 +3,7 @@ package com.example.geostudy;
 import android.annotation.SuppressLint;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
@@ -31,6 +32,7 @@ public class MapActivity extends AppCompatActivity {
     List<String> regionNames;
     ListView answers;
     int gameIndex = -1;
+    String gameName;
 
     ArrayList<AnswerItem> answerItems;
     AnswerListAdapter answerListAdapter;
@@ -42,7 +44,7 @@ public class MapActivity extends AppCompatActivity {
         setContentView(R.layout.activity_map);
         currentRegion = findViewById(R.id.current_region_text);
         percent = findViewById(R.id.perc);
-        String gameName = getIntent().getStringExtra("gameName");
+        gameName = getIntent().getStringExtra("gameName");
         webView = findViewById(R.id.web_view);
         webView.getSettings().setJavaScriptEnabled(true);
         webView.loadUrl("file:///android_asset/" + gameName + ".svg");
@@ -77,6 +79,11 @@ public class MapActivity extends AppCompatActivity {
         System.out.println(game.currentRegion);
     }
 
+    public void finishCurrentGame(){
+        saveRecordResult();
+        showFininshAlert();
+    }
+
     public View createCustomToast(String message){
         LinearLayout container = new LinearLayout(this);
         container.setOrientation(LinearLayout.HORIZONTAL);
@@ -93,19 +100,7 @@ public class MapActivity extends AppCompatActivity {
         int intPer = game.coins * 100 / game.regions.size();
         String strPer = String.valueOf(intPer) + "%";
         percent.setText(String.valueOf(intPer) + "%");
-//        new AlertDialog.Builder(MapActivity.this)
-//                .setTitle("Поздравляем!")
-//                .setMessage("Вы ответиили верно на " + strPer + "вопросов.")
-//                .setPositiveButton("Продолжить", new DialogInterface.OnClickListener() {
-//                    @Override
-//                    public void onClick(DialogInterface dialog, int which) {
-//                        Intent intent = new Intent(MapActivity.this, MainActivity.class);
-//                        startActivity(intent);
-//                    }
-//                })
-//                .create()
-//                .show();
-        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        AlertDialog.Builder builder = new AlertDialog.Builder(this, R.style.ShadowedAlertDialogStyle);
         View customView = getLayoutInflater().inflate(R.layout.finish_alert_layout, null);
         TextView message = customView.findViewById(R.id.finish_alert_message);
         message.setText("Вы ответиили верно на " + strPer + " вопросов.");
@@ -120,5 +115,18 @@ public class MapActivity extends AppCompatActivity {
         builder.setView(customView);
         AlertDialog finishAlert = builder.create();
         finishAlert.show();
+    }
+
+    public void saveRecordResult(){
+        int intPer = game.coins * 100 / game.regions.size();
+        SharedPreferences sharedPref = getSharedPreferences("geostudy_prefs", MODE_PRIVATE);
+        int bestScore = sharedPref.getInt(gameName, 0);
+        if (intPer > bestScore){
+            SharedPreferences.Editor editor = sharedPref.edit();
+            editor.putInt(gameName, intPer);
+            editor.apply();
+        }
+        int bestScore1 = sharedPref.getInt(gameName, 0);
+        System.out.println(bestScore1);
     }
 }
