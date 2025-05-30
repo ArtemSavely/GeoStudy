@@ -7,16 +7,47 @@ public class AllGamesList {
     public Map<String, Map<String, String>> allGamesList = new HashMap<>();
     public Map<String, String> countryCodes = new HashMap<>();
     public Map<String, String> belarus = new HashMap<>();
+    public Map<String, String> russia = new HashMap<>();
+    public Map<String, String> europe = new HashMap<>();
+    public Map<String, String> africa = new HashMap<>();
+    public Map<String, String> northAmerica = new HashMap<>();
 
     public AllGamesList(){
-        createWorldIndia();
-        createBelarus();
-        createAllGames();
+//        createWorldIndia();
+//        createBelarus();
+//        createAllGames();
+//        createRussia();
+//        createEurope();
 //        System.out.println(allGamesList.get("belarusLow").values());
     }
 
     public Map<String, String> getRegionsMap(String key) {
         return allGamesList.get(key);
+    }
+
+    public void createMapGame(String map){
+        switch (map){
+            case "russiaHigh":
+                createRussia();
+                break;
+            case "europeLow":
+                createEurope();
+                break;
+            case "worldIndiaLow":
+                createWorldIndia();
+                break;
+            case "belarusLow":
+                createBelarus();
+                break;
+            case "africaLow":
+                createAfrica();
+                System.out.println(africa);
+                break;
+            case "northAmericaLow":
+                createNorthAmerica();
+                break;
+        }
+        createAllGames();
     }
 
     public void createWorldIndia(){
@@ -196,6 +227,25 @@ public class AllGamesList {
         countryCodes.put("ZM", "Замбия");
         countryCodes.put("ZW", "Зимбабве");
     }
+    
+    public void createNorthAmerica(){
+        northAmerica.put("BS", "Багамские Острова");
+        northAmerica.put("BZ", "Белиз");
+        northAmerica.put("CA", "Канада");
+        northAmerica.put("CR", "Коста-Рика");
+        northAmerica.put("CU", "Куба");
+        northAmerica.put("DO", "Доминиканская Республика");
+        northAmerica.put("GT", "Гватемала");
+        northAmerica.put("HN", "Гондурас");
+        northAmerica.put("HT", "Гаити");
+        northAmerica.put("JM", "Ямайка");
+        northAmerica.put("MX", "Мексика");
+        northAmerica.put("NI", "Никарагуа");
+        northAmerica.put("PA", "Панама");
+        northAmerica.put("PR", "Пуэрто-Рико");
+        northAmerica.put("SV", "Сальвадор");
+        northAmerica.put("US", "США");
+    }
 
     public void createBelarus() {
         belarus.put("BY-BR", "Брестская область");
@@ -207,9 +257,212 @@ public class AllGamesList {
         belarus.put("BY-VI", "Витебская область");
     }
 
+    public void createEurope(){
+        europe.put("RU", "Россия");
+        europe.put("NL", "Нидерланды");
+        europe.put("CY", "Кипр");
+        europe.put("UA", "Украина");
+        europe.put("TR", "Турция");
+        europe.put("SE", "Швеция");
+        europe.put("SI", "Словения");
+        europe.put("SK", "Словакия");
+        europe.put("RS", "Сербия");
+        europe.put("RO", "Румыния");
+        europe.put("PT", "Португалия");
+        europe.put("PL", "Польша");
+        //europe.put("SJ", "Шпицберген и Ян-Майен");
+        europe.put("NO", "Норвегия");
+        europe.put("ME", "Черногория");
+        europe.put("MK", "Северная Македония");
+        europe.put("MD", "Молдова");
+        europe.put("LV", "Латвия");
+        europe.put("LU", "Люксембург");
+        europe.put("LT", "Литва");
+        //europe.put("LI", "Лихтенштейн");
+        europe.put("KV", "Косово");
+        //europe.put("JE", "Джерси");
+        europe.put("IS", "Исландия");
+        europe.put("IE", "Ирландия");
+        //europe.put("IM", "Остров Мэн");
+        europe.put("HU", "Венгрия");
+        europe.put("HR", "Хорватия");
+        europe.put("GR", "Греция");
+        //europe.put("GG", "Гернси");
+        europe.put("GE", "Грузия");
+        europe.put("FR", "Франция");
+        //europe.put("FO", "Фарерские острова");
+        europe.put("FI", "Финляндия");
+        europe.put("EE", "Эстония");
+        europe.put("ES", "Испания");
+        europe.put("GB", "Великобритания");
+        europe.put("DK", "Дания");
+        europe.put("DE", "Германия");
+        europe.put("CZ", "Чехия");
+        europe.put("CH", "Швейцария");
+        europe.put("BY", "Беларусь");
+        europe.put("BA", "Босния и Герцеговина");
+        europe.put("BG", "Болгария");
+        europe.put("BE", "Бельгия");
+        europe.put("AZ", "Азербайджан");
+        europe.put("AT", "Австрия");
+        europe.put("AM", "Армения");
+        //europe.put("AX", "Аландские острова");
+        europe.put("AL", "Албания");
+        europe.put("IT", "Италия");
+        europe.put("KZ", "Казахстан");
+        europe.put("AD", "Андорра");
+        //europe.put("MT", "Мальта");
+        //europe.put("MC", "Монако");
+        //europe.put("SM", "Сан-Марино");
+        //europe.put("GI", "Гибралтар");
+        //europe.put("VA", "Ватикан");
+    }
+
+    public void createRussia() {
+        russia.put("RU-AD", "Республика Адыгея");
+        russia.put("RU-ALT", "Алтайский край");
+        russia.put("RU-AMU", "Амурская область");
+        russia.put("RU-ARK", "Архангельская область");
+        russia.put("RU-AST", "Астраханская область");
+        russia.put("RU-BA", "Республика Башкортостан");
+        russia.put("RU-BEL", "Белгородская область");
+        russia.put("RU-BRY", "Брянская область");
+        russia.put("RU-BU", "Республика Бурятия");
+        russia.put("RU-CE", "Чеченская Республика");
+        russia.put("RU-CHE", "Челябинская область");
+        russia.put("RU-CHU", "Чукотский автономный округ");
+        russia.put("RU-CU", "Чувашская Республика");
+        russia.put("RU-DA", "Республика Дагестан");
+        russia.put("RU-AL", "Республика Алтай");
+        russia.put("RU-IN", "Республика Ингушетия");
+        russia.put("RU-IRK", "Иркутская область");
+        russia.put("RU-IVA", "Ивановская область");
+        russia.put("RU-KB", "Кабардино-Балкарская Республика");
+        russia.put("RU-KC", "Карачаево-Черкесская Республика");
+        russia.put("RU-KDA", "Краснодарский край");
+        russia.put("RU-KEM", "Кемеровская область");
+        russia.put("RU-KLU", "Калужская область");
+        russia.put("RU-KHA", "Хабаровский край");
+        russia.put("RU-KR", "Республика Карелия");
+        russia.put("RU-KK", "Республика Хакасия");
+        russia.put("RU-KL", "Республика Калмыкия"); // Исправлено с Калининградской на Калмыкию
+        russia.put("RU-KHM", "Ханты-Мансийский автономный округ — Югра");
+        russia.put("RU-KGD", "Калининградская область");
+        russia.put("RU-KO", "Республика Коми");
+        russia.put("RU-KAM", "Камчатский край");
+        russia.put("RU-KRS", "Курская область");
+        russia.put("RU-KOS", "Костромская область");
+        russia.put("RU-KGN", "Курганская область");
+        russia.put("RU-KIR", "Кировская область");
+        russia.put("RU-KYA", "Красноярский край");
+        russia.put("RU-LEN", "Ленинградская область");
+        russia.put("RU-LIP", "Липецкая область");
+        russia.put("RU-MOW", "Москва");
+        russia.put("RU-ME", "Республика Марий Эл");
+        russia.put("RU-MAG", "Магаданская область");
+        russia.put("RU-MUR", "Мурманская область");
+        russia.put("RU-MO", "Республика Мордовия");
+        russia.put("RU-MOS", "Московская область");
+        russia.put("RU-NGR", "Новгородская область");
+        russia.put("RU-NEN", "Ненецкий автономный округ");
+        russia.put("RU-SE", "Республика Северная Осетия — Алания");
+        russia.put("RU-NVS", "Новосибирская область");
+        russia.put("RU-NIZ", "Нижегородская область");
+        russia.put("RU-ORE", "Оренбургская область");
+        russia.put("RU-ORL", "Орловская область");
+        russia.put("RU-OMS", "Омская область");
+        russia.put("RU-PER", "Пермский край");
+        russia.put("RU-PRI", "Приморский край");
+        russia.put("RU-PSK", "Псковская область");
+        russia.put("RU-PNZ", "Пензенская область");
+        russia.put("RU-ROS", "Ростовская область");
+        russia.put("RU-RYA", "Рязанская область");
+        russia.put("RU-SAM", "Самарская область");
+        russia.put("RU-SA", "Республика Саха (Якутия)");
+        russia.put("RU-SAK", "Сахалинская область");
+        russia.put("RU-SMO", "Смоленская область");
+        russia.put("RU-SPE", "Санкт-Петербург");
+        russia.put("RU-SAR", "Саратовская область");
+        russia.put("RU-STA", "Ставропольский край");
+        russia.put("RU-SVE", "Свердловская область");
+        russia.put("RU-TAM", "Тамбовская область");
+        russia.put("RU-TOM", "Томская область");
+        russia.put("RU-TUL", "Тульская область");
+        russia.put("RU-TA", "Республика Татарстан");
+        russia.put("RU-TY", "Республика Тыва");
+        russia.put("RU-TVE", "Тверская область");
+        russia.put("RU-TYU", "Тюменская область");
+        russia.put("RU-UD", "Удмуртская Республика");
+        russia.put("RU-ULY", "Ульяновская область");
+        russia.put("RU-VGG", "Волгоградская область");
+        russia.put("RU-VLA", "Владимирская область");
+        russia.put("RU-YAN", "Ямало-Ненецкий автономный округ");
+        russia.put("RU-VLG", "Вологодская область");
+        russia.put("RU-VOR", "Воронежская область");
+        russia.put("RU-YAR", "Ярославская область");
+        russia.put("RU-YEV", "Еврейская автономная область");
+        russia.put("RU-ZAB", "Забайкальский край");
+    }
+
+    public void createAfrica(){
+        africa.put("AO", "Ангола");
+        africa.put("BF", "Буркина-Фасо");
+        africa.put("BI", "Бурунди");
+        africa.put("BJ", "Бенин");
+        africa.put("BW", "Ботсвана");
+        africa.put("CD", "Демократическая Республика Конго");
+        africa.put("CF", "Центральноафриканская Республика");
+        africa.put("CG", "Республика Конго");
+        africa.put("CI", "Кот-д’Ивуар");
+        africa.put("CM", "Камерун");
+        africa.put("DJ", "Джибути");
+        africa.put("DZ", "Алжир");
+        africa.put("EG", "Египет");
+        africa.put("ER", "Эритрея");
+        africa.put("ET", "Эфиопия");
+        africa.put("GA", "Габон");
+        africa.put("GH", "Гана");
+        africa.put("GM", "Гамбия");
+        africa.put("GN", "Гвинея");
+        africa.put("GQ", "Экваториальная Гвинея");
+        africa.put("GW", "Гвинея-Бисау");
+        africa.put("KE", "Кения");
+        africa.put("LR", "Либерия");
+        africa.put("LS", "Лесото");
+        africa.put("LY", "Ливия");
+        africa.put("MA", "Марокко");
+        africa.put("MG", "Мадагаскар");
+        africa.put("ML", "Мали");
+        africa.put("MR", "Мавритания");
+        africa.put("MW", "Малави");
+        africa.put("MZ", "Мозамбик");
+        africa.put("NA", "Намибия");
+        africa.put("NE", "Нигер");
+        africa.put("NG", "Нигерия");
+        africa.put("RW", "Руанда");
+        africa.put("SD", "Судан");
+        africa.put("SL", "Сьерра-Леоне");
+        africa.put("SN", "Сенегал");
+        africa.put("SO", "Сомали");
+        africa.put("SS", "Южный Судан");
+        africa.put("SZ", "Эсватини");
+        africa.put("TD", "Чад");
+        africa.put("TG", "Того");
+        africa.put("TN", "Тунис");
+        africa.put("TZ", "Танзания");
+        africa.put("UG", "Уганда");
+        africa.put("ZA", "Южно-Африканская Республика");
+        africa.put("ZM", "Замбия");
+        africa.put("ZW", "Зимбабве");
+    }
+
     public void createAllGames(){
         allGamesList.put("worldIndiaLow", countryCodes);
         allGamesList.put("belarusLow", belarus);
+        allGamesList.put("russiaHigh", russia);
+        allGamesList.put("europeLow", europe);
+        allGamesList.put("africaLow", africa);
+        allGamesList.put("northAmericaLow", northAmerica);
     }
 
 

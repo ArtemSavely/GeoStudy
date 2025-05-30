@@ -3,13 +3,50 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:orientation="horizontal">
+    android:orientation="horizontal"
+    android:layout_gravity="center_vertical">
 
-    <TextView
-        android:id="@+id/game_name"
-        android:layout_width="wrap_content"
+    <ImageView
+        android:layout_width="40sp"
+        android:layout_height="40sp"
+        android:id="@+id/flag_icon"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginStart="5dp"/>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        style="@style/MyText"
-        android:textSize="30sp"/>
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/game_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/MyText"
+            android:textSize="20sp"/>
+        
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:layout_width="150dp"
+            android:layout_height="10dp"
+            android:background="@drawable/bar_background"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:id="@+id/percent_bar"
+                android:layout_width="wrap_content"
+                android:layout_height="10dp"
+                android:background="@drawable/percent_background"/>
+        </LinearLayout>
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/record_percent"
+            style="@style/MyText"
+            android:textSize="16sp"/>
+        
+    </LinearLayout>
+
 
 </LinearLayout>

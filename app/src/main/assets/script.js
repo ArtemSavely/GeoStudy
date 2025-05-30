@@ -13,10 +13,11 @@ function flash(element, counter){
 
 
 document.querySelectorAll('#regions path').forEach(function(path) {
-//    console.log(path.id);
+    console.log(path.id);
+    const array = ["BY-HM", "SJ", "LI", "JE", "IM", "GG", "FO", "AX", "MT", "MC", "SM", "GI", "VA"]
     let clicked = false;
     path.addEventListener('click', function(event) {
-        if(!clicked && event.target.id != "BY-HM"){
+        if(!clicked && !array.includes(event.target.id)){
             var result = Android.check(event.target.id);
             if (result) {
                 event.target.style.fill = '#ac60f2';

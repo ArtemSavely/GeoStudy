@@ -23,6 +23,8 @@ import java.io.InputStreamReader;
 public class MainActivity extends AppCompatActivity {
     Button worldButton;
     Button europeButton;
+    Button africaButton;
+    Button americaButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,18 +33,35 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         worldButton = findViewById(R.id.world_button);
         europeButton = findViewById(R.id.europe_button);
+        africaButton = findViewById(R.id.africa_button);
+        americaButton = findViewById(R.id.america_button);
         Intent intent = new Intent(MainActivity.this, WorldActivity.class);
         worldButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                intent.putExtra("gameClass", "world");
+                //intent.putExtra("gameClass", "world");
+                intent.putExtra("gameClass", new String[] {"world", "Мир"});
                 startActivity(intent);
             }
         });
         europeButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                intent.putExtra("gameClass", "europe");
+                intent.putExtra("gameClass", new String[] {"europe", "Европа"});
+                startActivity(intent);
+            }
+        });
+        africaButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                intent.putExtra("gameClass", new String[] {"africa", "Африка"});
+                startActivity(intent);
+            }
+        });
+        americaButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                intent.putExtra("gameClass", new String[] {"america", "Америка"});
                 startActivity(intent);
             }
         });

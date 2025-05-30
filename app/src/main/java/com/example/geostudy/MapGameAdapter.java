@@ -1,10 +1,13 @@
 package com.example.geostudy;
 
 import android.content.Context;
+import android.util.TypedValue;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
+import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
 
@@ -36,8 +39,27 @@ public class MapGameAdapter extends BaseAdapter {
             convertView = LayoutInflater.from(context).inflate(R.layout.adapter_map_game_item, parent, false);
         }
         TextView gameName = convertView.findViewById(R.id.game_name);
+        ImageView flagIcon = convertView.findViewById(R.id.flag_icon);
+        LinearLayout percentBar = convertView.findViewById(R.id.percent_bar);
+        TextView percent = convertView.findViewById(R.id.record_percent);
         MapGameItem item = mapGames[position];
         gameName.setText(item.itemName);
+        percent.setText(String.valueOf(item.percent) + "%");
+        LinearLayout.LayoutParams params = (LinearLayout.LayoutParams) percentBar.getLayoutParams();
+        params.width = convertDpToPx((float) item.percent / 100 * 150);
+        percentBar.setLayoutParams(params);
+        System.out.println(percent.getText().toString());
+        int iconID = context.getResources().getIdentifier(item.name.toLowerCase(), "drawable", context.getPackageName());
+        if (iconID != 0){
+            flagIcon.setImageResource(iconID);
+        }
         return convertView;
+    }
+
+    private int convertDpToPx(float dpValue) {
+        return Math.round(TypedValue.applyDimension(
+                TypedValue.COMPLEX_UNIT_DIP,
+                dpValue,
+                context.getResources().getDisplayMetrics()));
     }
 }

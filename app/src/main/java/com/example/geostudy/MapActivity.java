@@ -28,6 +28,7 @@ public class MapActivity extends AppCompatActivity {
     WebView webView;
     TextView currentRegion;
     TextView percent;
+    TextView title;
     AllGamesList allGamesList;
     List<String> regionNames;
     ListView answers;
@@ -44,7 +45,8 @@ public class MapActivity extends AppCompatActivity {
         setContentView(R.layout.activity_map);
         currentRegion = findViewById(R.id.current_region_text);
         percent = findViewById(R.id.perc);
-        gameName = getIntent().getStringExtra("gameName");
+        String[] intentList = getIntent().getStringArrayExtra("gameName");
+        gameName = intentList[0];
         webView = findViewById(R.id.web_view);
         webView.getSettings().setJavaScriptEnabled(true);
         webView.loadUrl("file:///android_asset/" + gameName + ".svg");
@@ -55,6 +57,8 @@ public class MapActivity extends AppCompatActivity {
 
 
         allGamesList = new AllGamesList();
+        System.out.println(gameName);
+        allGamesList.createMapGame(gameName);
         Map<String, String> allRegions = allGamesList.getRegionsMap(gameName);
         System.out.println(allRegions.values());
         regionNames = new ArrayList<>(allRegions.values());
@@ -62,6 +66,8 @@ public class MapActivity extends AppCompatActivity {
         game = new CurrentMapGame(allRegions, this);
         webView.addJavascriptInterface(game, "Android");
         answers = findViewById(R.id.answers_list);
+        title = findViewById(R.id.map_tool_bar_title );
+        title.setText(intentList[1]);
         answerItems = new ArrayList<>();
         answerListAdapter = new AnswerListAdapter(this, answerItems, answers);
         answers.setAdapter(answerListAdapter);

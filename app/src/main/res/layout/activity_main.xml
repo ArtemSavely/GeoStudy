@@ -8,6 +8,26 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/blue">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/MyText"
+                android:textSize="30sp"
+                android:text="GeoStudy"
+                android:layout_marginTop="25dp"
+                android:layout_marginBottom="10dp"
+                android:layout_gravity="center"/>
+        </androidx.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
@@ -34,6 +54,20 @@
             style="@style/MyButton"
             android:background="@drawable/button_background"
             android:text="Европа"
+            android:textSize="30sp"/>
+
+        <Button
+            android:id="@+id/africa_button"
+            style="@style/MyButton"
+            android:background="@drawable/button_background"
+            android:text="Африка"
+            android:textSize="30sp"/>
+
+        <Button
+            android:id="@+id/america_button"
+            style="@style/MyButton"
+            android:background="@drawable/button_background"
+            android:text="Америка"
             android:textSize="30sp"/>
 
 
