@@ -3,8 +3,8 @@ function flash(element, counter){
     element.style.fill = ''
     element.setAttribute('fill', '');
     setTimeout(() => {
-        element.style.fill = '#f8604a'
-        element.setAttribute('fill', '#f8604a');
+        element.style.fill = '#da0019'
+        element.setAttribute('fill', '#da0019');
             setTimeout(() => {
                 flash(element, counter - 1);
             }, 500);
@@ -20,14 +20,14 @@ document.querySelectorAll('#regions path').forEach(function(path) {
         if(!clicked && !array.includes(event.target.id)){
             var result = Android.check(event.target.id);
             if (result) {
-                event.target.style.fill = '#ac60f2';
+                event.target.style.fill = '#337CD3';
                 clicked = true;
             } else {
                 var currentRegion = Android.getCurrentRegion();
                 console.log(currentRegion)
                 var correctPath = document.getElementById(currentRegion);
                 flash(correctPath, 3);
-                correctPath.style.fill = '#f8604a'
+                correctPath.style.fill = '#da0019'
                 correctPath.setAttribute('fill', '#ff0000');
                 Android.showIncorrectToast(event.target.id);
             }

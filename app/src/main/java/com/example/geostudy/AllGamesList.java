@@ -11,6 +11,11 @@ public class AllGamesList {
     public Map<String, String> europe = new HashMap<>();
     public Map<String, String> africa = new HashMap<>();
     public Map<String, String> northAmerica = new HashMap<>();
+    public Map<String, String> centralAmerica = new HashMap<>();
+    public Map<String, String> latinAmerica = new HashMap<>();
+    public Map<String, String> usa = new HashMap<>();
+    public Map<String, String> asia = new HashMap<>();
+    public Map<String, String> china = new HashMap<>();
 
     public AllGamesList(){
 //        createWorldIndia();
@@ -45,6 +50,21 @@ public class AllGamesList {
                 break;
             case "northAmericaLow":
                 createNorthAmerica();
+                break;
+            case "centralAmericaLow":
+                createCentralAmerica();
+                break;
+            case "latinAmericaLow":
+                createLatinAmerica();
+                break;
+            case "usaLow":
+                createUSA();
+                break;
+            case "asiaLow":
+                createAsia();
+                break;
+            case "chinaLow":
+                createChina();
                 break;
         }
         createAllGames();
@@ -245,6 +265,106 @@ public class AllGamesList {
         northAmerica.put("PR", "Пуэрто-Рико");
         northAmerica.put("SV", "Сальвадор");
         northAmerica.put("US", "США");
+    }
+    
+    public void createCentralAmerica(){
+        centralAmerica.put("BZ", "Белиз");
+        centralAmerica.put("CR", "Коста-Рика");
+        centralAmerica.put("GT", "Гватемала");
+        centralAmerica.put("HN", "Гондурас");
+        centralAmerica.put("MX", "Мексика");
+        centralAmerica.put("NI", "Никарагуа");
+        centralAmerica.put("PA", "Панама");
+        centralAmerica.put("SV", "Сальвадор");
+    }
+    
+    public void createLatinAmerica(){
+        latinAmerica.put("AR", "Аргентина");
+        latinAmerica.put("BO", "Боливия");
+        latinAmerica.put("BR", "Бразилия");
+        latinAmerica.put("CL", "Чили");
+        latinAmerica.put("CO", "Колумбия");
+        latinAmerica.put("EC", "Эквадор");
+        latinAmerica.put("FK", "Фолклендские острова");
+        latinAmerica.put("GF", "Французская Гвиана");
+        latinAmerica.put("GY", "Гайана");
+        latinAmerica.put("PE", "Перу");
+        latinAmerica.put("PY", "Парагвай");
+        latinAmerica.put("SR", "Суринам");
+        latinAmerica.put("UY", "Уругвай");
+        latinAmerica.put("VE", "Венесуэла");
+
+        // Центральная Америка
+        latinAmerica.put("BZ", "Белиз");
+        latinAmerica.put("CR", "Коста-Рика");
+        latinAmerica.put("GT", "Гватемала");
+        latinAmerica.put("HN", "Гондурас");
+        latinAmerica.put("MX", "Мексика");
+        latinAmerica.put("NI", "Никарагуа");
+        latinAmerica.put("PA", "Панама");
+        latinAmerica.put("SV", "Сальвадор");
+
+        // Карибский бассейн
+        latinAmerica.put("BS", "Багамские Острова");
+        latinAmerica.put("CU", "Куба");
+        latinAmerica.put("DO", "Доминиканская Республика");
+        latinAmerica.put("HT", "Гаити");
+        latinAmerica.put("JM", "Ямайка");
+        latinAmerica.put("PR", "Пуэрто-Рико");
+        latinAmerica.put("TT", "Тринидад и Тобаго");
+    }
+    public void createUSA(){
+        usa.put("US-AK", "Аляска");
+        usa.put("US-AL", "Алабама");
+        usa.put("US-AR", "Арканзас");
+        usa.put("US-AZ", "Аризона");
+        usa.put("US-CA", "Калифорния");
+        usa.put("US-CO", "Колорадо");
+        usa.put("US-CT", "Коннектикут");
+        //usa.put("US-DC", "Округ Колумбия");
+        usa.put("US-DE", "Делавэр");
+        usa.put("US-FL", "Флорида");
+        usa.put("US-GA", "Джорджия");
+        usa.put("US-HI", "Гавайи");
+        usa.put("US-IA", "Айова");
+        usa.put("US-ID", "Айдахо");
+        usa.put("US-IL", "Иллинойс");
+        usa.put("US-IN", "Индиана");
+        usa.put("US-KS", "Канзас");
+        usa.put("US-KY", "Кентукки");
+        usa.put("US-LA", "Луизиана");
+        usa.put("US-MA", "Массачусетс");
+        usa.put("US-MD", "Мэриленд");
+        usa.put("US-ME", "Мэн");
+        usa.put("US-MI", "Мичиган");
+        usa.put("US-MN", "Миннесота");
+        usa.put("US-MO", "Миссури");
+        usa.put("US-MS", "Миссисипи");
+        usa.put("US-MT", "Монтана");
+        usa.put("US-NC", "Северная Каролина");
+        usa.put("US-ND", "Северная Дакота");
+        usa.put("US-NE", "Небраска");
+        usa.put("US-NH", "Нью-Гэмпшир");
+        usa.put("US-NJ", "Нью-Джерси");
+        usa.put("US-NM", "Нью-Мексико");
+        usa.put("US-NV", "Невада");
+        usa.put("US-NY", "Нью-Йорк");
+        usa.put("US-OH", "Огайо");
+        usa.put("US-OK", "Оклахома");
+        usa.put("US-OR", "Орегон");
+        usa.put("US-PA", "Пенсильвания");
+        usa.put("US-RI", "Род-Айленд");
+        usa.put("US-SC", "Южная Каролина");
+        usa.put("US-SD", "Южная Дакота");
+        usa.put("US-TN", "Теннесси");
+        usa.put("US-TX", "Техас");
+        usa.put("US-UT", "Юта");
+        usa.put("US-VA", "Вирджиния");
+        usa.put("US-VT", "Вермонт");
+        usa.put("US-WA", "Вашингтон");
+        usa.put("US-WI", "Висконсин");
+        usa.put("US-WV", "Западная Вирджиния");
+        usa.put("US-WY", "Вайоминг");
     }
 
     public void createBelarus() {
@@ -456,6 +576,109 @@ public class AllGamesList {
         africa.put("ZW", "Зимбабве");
     }
 
+    public void createAsia(){
+        asia.put("AE", "ОАЭ");
+        asia.put("AF", "Афганистан");
+        asia.put("IQ", "Ирак");
+        asia.put("IR", "Иран");
+        asia.put("IL", "Израиль");
+        asia.put("JO", "Иордания");
+        asia.put("KW", "Кувейт");
+        asia.put("LB", "Ливан");
+        asia.put("OM", "Оман");
+        asia.put("PS", "Палестина");
+        asia.put("QA", "Катар");
+        asia.put("SA", "Саудовская Аравия");
+        asia.put("SY", "Сирия");
+        asia.put("YE", "Йемен");
+
+        // Южная Азия
+        asia.put("BD", "Бангладеш");
+        asia.put("BT", "Бутан");
+        asia.put("IN", "Индия");
+        asia.put("LK", "Шри-Ланка");
+        //asia.put("MV", "Мальдивы");
+        asia.put("NP", "Непал");
+        asia.put("PK", "Пакистан");
+
+        // Восточная Азия
+        asia.put("CN", "Китай");
+        //asia.put("HK", "Гонконг (КНР)");
+        asia.put("JP", "Япония");
+        asia.put("KP", "КНДР");
+        asia.put("KR", "Республика Корея");
+        asia.put("MN", "Монголия");
+        asia.put("TW", "Тайвань");
+
+        // Юго-Восточная Азия
+        asia.put("BN", "Бруней");
+        asia.put("ID", "Индонезия");
+        asia.put("KH", "Камбоджа");
+        asia.put("LA", "Лаос");
+        asia.put("MM", "Мьянма");
+        asia.put("MY", "Малайзия");
+        asia.put("PH", "Филиппины");
+        //asia.put("SG", "Сингапур");
+        asia.put("TH", "Таиланд");
+        asia.put("TL", "Восточный Тимор");
+        asia.put("VN", "Вьетнам");
+
+        // Центральная Азия
+        asia.put("KZ", "Казахстан");
+        asia.put("KG", "Киргизия");
+        asia.put("TJ", "Таджикистан");
+        asia.put("TM", "Туркменистан");
+        asia.put("UZ", "Узбекистан");
+
+        // Россия (азиатская часть)
+        asia.put("RU", "Россия");
+    }
+    
+    public void createChina(){
+        china.put("CN-34", "Аньхой");
+        china.put("CN-35", "Фуцзянь");
+        china.put("CN-62", "Ганьсу");
+        china.put("CN-44", "Гуандун");
+        china.put("CN-52", "Гуйчжоу");
+        china.put("CN-46", "Хайнань");
+        china.put("CN-13", "Хэбэй");
+        china.put("CN-41", "Хэнань");
+        china.put("CN-23", "Хэйлунцзян");
+        china.put("CN-43", "Хунань");
+        china.put("CN-42", "Хубэй");
+        china.put("CN-32", "Цзянсу");
+        china.put("CN-36", "Цзянси");
+        china.put("CN-22", "Цзилинь");
+        china.put("CN-21", "Ляонин");
+        china.put("CN-63", "Цинхай");
+        china.put("CN-61", "Шэньси");
+        china.put("CN-37", "Шаньдун");
+        china.put("CN-14", "Шаньси");
+        china.put("CN-51", "Сычуань");
+        china.put("CN-71", "Тайвань (провинция КНР)*");
+        china.put("CN-53", "Юньнань");
+        china.put("CN-33", "Чжэцзян");
+        china.put("CN-YN", "Юньнань (альтернативный код)");
+        china.put("CN-ZJ", "Чжэцзян (альтернативный код)");
+
+        // Автономные районы
+        china.put("CN-45", "Гуанси-Чжуанский автономный район");
+        china.put("CN-15", "Внутренняя Монголия");
+        china.put("CN-64", "Нинся-Хуэйский автономный район");
+        china.put("CN-65", "Синьцзян-Уйгурский автономный район");
+        china.put("CN-54", "Тибетский автономный район");
+
+        // Города центрального подчинения
+        china.put("CN-11", "Пекин");
+        china.put("CN-50", "Чунцин");
+        china.put("CN-31", "Шанхай");
+        china.put("CN-12", "Тяньцзинь");
+
+        // Специальные административные регионы
+        china.put("CN-91", "Гонконг (Сянган)");
+        china.put("CN-92", "Макао (Аомынь)");
+    }
+
     public void createAllGames(){
         allGamesList.put("worldIndiaLow", countryCodes);
         allGamesList.put("belarusLow", belarus);
@@ -463,6 +686,11 @@ public class AllGamesList {
         allGamesList.put("europeLow", europe);
         allGamesList.put("africaLow", africa);
         allGamesList.put("northAmericaLow", northAmerica);
+        allGamesList.put("centralAmericaLow", centralAmerica);
+        allGamesList.put("latinAmericaLow", latinAmerica);
+        allGamesList.put("usaLow", usa);
+        allGamesList.put("asiaLow", asia);
+        allGamesList.put("chinaLow", china);
     }
 
 

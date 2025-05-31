@@ -1,6 +1,7 @@
 package com.example.geostudy;
 
 import android.content.Context;
+import android.content.res.Resources;
 import android.util.TypedValue;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -48,10 +49,18 @@ public class MapGameAdapter extends BaseAdapter {
         LinearLayout.LayoutParams params = (LinearLayout.LayoutParams) percentBar.getLayoutParams();
         params.width = convertDpToPx((float) item.percent / 100 * 150);
         percentBar.setLayoutParams(params);
-        System.out.println(percent.getText().toString());
+        System.out.println(item.name);
         int iconID = context.getResources().getIdentifier(item.name.toLowerCase(), "drawable", context.getPackageName());
-        if (iconID != 0){
-            flagIcon.setImageResource(iconID);
+        String resourceName;
+        try {
+            resourceName = context.getResources().getResourceEntryName(iconID);
+            if (iconID != 0 && resourceName.equals(item.name.toLowerCase())){
+                System.out.println(iconID);
+                flagIcon.setImageResource(iconID);
+            }
+            System.out.println("Имя ресурса: " + resourceName); // Вернет имя ресурса, присвоенное в проекте
+        } catch (Resources.NotFoundException e) {
+            e.printStackTrace();
         }
         return convertView;
     }

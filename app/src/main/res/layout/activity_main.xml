@@ -6,69 +6,109 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@color/dark_blue"
     tools:context=".MainActivity">
 
-    <com.google.android.material.appbar.AppBarLayout
+<!--    <com.google.android.material.appbar.AppBarLayout-->
+<!--        android:id="@+id/main_app_bar"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        tools:ignore="MissingConstraints">-->
+<!--        <androidx.appcompat.widget.Toolbar-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:background="@color/blue">-->
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                style="@style/MyText"-->
+<!--                android:textSize="30sp"-->
+<!--                android:text="GeoStudy"-->
+<!--                android:layout_marginTop="25dp"-->
+<!--                android:layout_marginBottom="10dp"-->
+<!--                android:layout_gravity="center"/>-->
+<!--        </androidx.appcompat.widget.Toolbar>-->
+<!--    </com.google.android.material.appbar.AppBarLayout>-->
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        tools:ignore="MissingConstraints">
-        <androidx.appcompat.widget.Toolbar
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@color/blue">
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                style="@style/MyText"
-                android:textSize="30sp"
-                android:text="GeoStudy"
-                android:layout_marginTop="25dp"
-                android:layout_marginBottom="10dp"
-                android:layout_gravity="center"/>
-        </androidx.appcompat.widget.Toolbar>
-    </com.google.android.material.appbar.AppBarLayout>
+        app:layout_constraintTop_toTopOf="parent"
+        android:id="@+id/earth_layout"
+        android:gravity="end"
+        android:layout_marginTop="-60dp"
+        android:translationX="100dp"
+        android:layout_marginEnd="-60dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="370dp"
+            android:src="@drawable/earth" />
+    </LinearLayout>
 
     <LinearLayout
-        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@+id/earth_layout"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:gravity="center"
-        >
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20sp"
+        android:layout_marginTop="-30dp"
+        android:gravity="center_vertical">
 
         <TextView
             style="@style/MyText"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Добро пожаловать в GeoStudy"
-            android:textSize="30sp" />
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="start"
+            android:text="Добро\nпожаловать\nв GeoStudy"
+            android:textSize="35sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10sp"
+        android:gravity="center"
+        >
 
         <Button
             android:id="@+id/world_button"
             style="@style/MyButton"
             android:background="@drawable/button_background"
             android:text="@string/world"
-            android:textSize="30sp"/>
+            android:layout_marginBottom="-10dp"
+            android:textSize="24sp"/>
 
         <Button
             android:id="@+id/europe_button"
             style="@style/MyButton"
             android:background="@drawable/button_background"
             android:text="Европа"
-            android:textSize="30sp"/>
+            android:layout_marginBottom="-10dp"
+            android:textSize="24sp"/>
 
         <Button
             android:id="@+id/africa_button"
             style="@style/MyButton"
             android:background="@drawable/button_background"
             android:text="Африка"
-            android:textSize="30sp"/>
+            android:layout_marginBottom="-10dp"
+            android:textSize="24sp"/>
 
         <Button
             android:id="@+id/america_button"
             style="@style/MyButton"
             android:background="@drawable/button_background"
             android:text="Америка"
-            android:textSize="30sp"/>
+            android:layout_marginBottom="-10dp"
+            android:textSize="24sp"/>
+        <Button
+            android:id="@+id/asia_button"
+            style="@style/MyButton"
+            android:background="@drawable/button_background"
+            android:text="Азия"
+            android:layout_marginBottom="10dp"
+            android:textSize="24sp"/>
 
 
 

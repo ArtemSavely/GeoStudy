@@ -11,9 +11,11 @@ public class MapGamesLists {
     public String[] europeItems = {"Европа: страны", "Беларусь: регионы", "Россия: субъекты"};
     public String[] africa = {"africaLow"};
     public String[] africaItems = {"Африка: страны"};
-    public String[] america = {"northAmericaLow"};
-    public String[] americaItems = {"Северная Америка: страны"};
+    public String[] america = {"northAmericaLow", "centralAmericaLow", "latinAmericaLow", "usaLow"};
+    public String[] americaItems = {"Северная Америка: страны", "Центральная Америка: страны", "Латинская Америка: страны", "США: штаты"};
 
+    public String[] asia = {"asiaLow", "chinaLow"};
+    public String[] asiaItems = {"Азия: страны", "Китай: регионы"};
     public Map<String, String> itemsNames = new HashMap<>();
 
     public MapGamesLists() {
@@ -21,6 +23,7 @@ public class MapGamesLists {
         mapGames.put("europe", europe);
         mapGames.put("africa", africa);
         mapGames.put("america", america);
+        mapGames.put("asia", asia);
         for (int i = 0; i < world.length; i++) {
             itemsNames.put(world[i], worldItems[i]);
         }
@@ -32,6 +35,9 @@ public class MapGamesLists {
         }
         for (int i = 0; i < america.length; i++) {
             itemsNames.put(america[i], americaItems[i]);
+        }
+        for (int i = 0; i < asia.length; i++) {
+            itemsNames.put(asia[i], asiaItems[i]);
         }
     }
 
