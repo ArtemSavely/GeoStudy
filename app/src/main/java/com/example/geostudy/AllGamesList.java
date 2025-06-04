@@ -16,15 +16,9 @@ public class AllGamesList {
     public Map<String, String> usa = new HashMap<>();
     public Map<String, String> asia = new HashMap<>();
     public Map<String, String> china = new HashMap<>();
+    public Map<String, String> australia = new HashMap<>();
 
-    public AllGamesList(){
-//        createWorldIndia();
-//        createBelarus();
-//        createAllGames();
-//        createRussia();
-//        createEurope();
-//        System.out.println(allGamesList.get("belarusLow").values());
-    }
+    public AllGamesList(){}
 
     public Map<String, String> getRegionsMap(String key) {
         return allGamesList.get(key);
@@ -65,6 +59,9 @@ public class AllGamesList {
                 break;
             case "chinaLow":
                 createChina();
+                break;
+            case "australiaLow":
+                createAustralia();
                 break;
         }
         createAllGames();
@@ -293,8 +290,6 @@ public class AllGamesList {
         latinAmerica.put("SR", "Суринам");
         latinAmerica.put("UY", "Уругвай");
         latinAmerica.put("VE", "Венесуэла");
-
-        // Центральная Америка
         latinAmerica.put("BZ", "Белиз");
         latinAmerica.put("CR", "Коста-Рика");
         latinAmerica.put("GT", "Гватемала");
@@ -303,8 +298,6 @@ public class AllGamesList {
         latinAmerica.put("NI", "Никарагуа");
         latinAmerica.put("PA", "Панама");
         latinAmerica.put("SV", "Сальвадор");
-
-        // Карибский бассейн
         latinAmerica.put("BS", "Багамские Острова");
         latinAmerica.put("CU", "Куба");
         latinAmerica.put("DO", "Доминиканская Республика");
@@ -321,7 +314,6 @@ public class AllGamesList {
         usa.put("US-CA", "Калифорния");
         usa.put("US-CO", "Колорадо");
         usa.put("US-CT", "Коннектикут");
-        //usa.put("US-DC", "Округ Колумбия");
         usa.put("US-DE", "Делавэр");
         usa.put("US-FL", "Флорида");
         usa.put("US-GA", "Джорджия");
@@ -370,7 +362,6 @@ public class AllGamesList {
     public void createBelarus() {
         belarus.put("BY-BR", "Брестская область");
         belarus.put("BY-HO", "Гомельская область");
-//        belarus.put("BY-HM", "Город Минск");
         belarus.put("BY-HR", "Гродненская область");
         belarus.put("BY-MA", "Могилевская область");
         belarus.put("BY-MI", "Минская область");
@@ -660,23 +651,28 @@ public class AllGamesList {
         china.put("CN-33", "Чжэцзян");
         china.put("CN-YN", "Юньнань (альтернативный код)");
         china.put("CN-ZJ", "Чжэцзян (альтернативный код)");
-
-        // Автономные районы
         china.put("CN-45", "Гуанси-Чжуанский автономный район");
         china.put("CN-15", "Внутренняя Монголия");
         china.put("CN-64", "Нинся-Хуэйский автономный район");
         china.put("CN-65", "Синьцзян-Уйгурский автономный район");
         china.put("CN-54", "Тибетский автономный район");
-
-        // Города центрального подчинения
         china.put("CN-11", "Пекин");
         china.put("CN-50", "Чунцин");
         china.put("CN-31", "Шанхай");
         china.put("CN-12", "Тяньцзинь");
-
-        // Специальные административные регионы
         china.put("CN-91", "Гонконг (Сянган)");
         china.put("CN-92", "Макао (Аомынь)");
+    }
+
+    public void createAustralia(){
+        australia.put("AU-NT", "Северная территория");
+        australia.put("AU-WA", "Западная Австралия");
+        australia.put("AU-ACT", "Австралийская столичная территория");
+        australia.put("AU-NSW", "Новый Южный Уэльс");
+        australia.put("AU-SA", "Южная Австралия");
+        australia.put("AU-VIC", "Виктория");
+        australia.put("AU-QLD", "Квинсленд");
+        australia.put("AU-TAS", "Тасмания");
     }
 
     public void createAllGames(){
@@ -691,6 +687,7 @@ public class AllGamesList {
         allGamesList.put("usaLow", usa);
         allGamesList.put("asiaLow", asia);
         allGamesList.put("chinaLow", china);
+        allGamesList.put("australiaLow", australia);
     }
 
 

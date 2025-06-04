@@ -8,6 +8,7 @@ import android.util.Log;
 import android.view.View;
 import android.webkit.WebView;
 import android.widget.Button;
+import android.widget.FrameLayout;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -21,11 +22,12 @@ import java.io.InputStream;
 import java.io.InputStreamReader;
 
 public class MainActivity extends AppCompatActivity {
-    Button worldButton;
-    Button europeButton;
-    Button africaButton;
-    Button americaButton;
-    Button asiaButton;
+    FrameLayout worldButton;
+    FrameLayout europeButton;
+    FrameLayout africaButton;
+    FrameLayout americaButton;
+    FrameLayout asiaButton;
+    FrameLayout oceaniaButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,6 +39,7 @@ public class MainActivity extends AppCompatActivity {
         africaButton = findViewById(R.id.africa_button);
         americaButton = findViewById(R.id.america_button);
         asiaButton = findViewById(R.id.asia_button);
+        oceaniaButton = findViewById(R.id.oceania_button);
         Intent intent = new Intent(MainActivity.this, WorldActivity.class);
         worldButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -74,6 +77,12 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-
+        oceaniaButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                intent.putExtra("gameClass", new String[] {"oceania", "Океания"});
+                startActivity(intent);
+            }
+        });
     }
 }
