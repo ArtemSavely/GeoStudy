@@ -44,7 +44,6 @@ public class MainActivity extends AppCompatActivity {
         worldButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //intent.putExtra("gameClass", "world");
                 intent.putExtra("gameClass", new String[] {"world", "Мир"});
                 startActivity(intent);
             }

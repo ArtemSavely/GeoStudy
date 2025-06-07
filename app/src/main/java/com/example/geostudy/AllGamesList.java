@@ -31,6 +31,11 @@ public class AllGamesList {
     public Map<String, String> poland = new HashMap<>();
     public Map<String, String> switzerland = new HashMap<>();
     public Map<String, String> uk = new HashMap<>();
+    public Map<String, String> argentina = new HashMap<>();
+    public Map<String, String> brazil = new HashMap<>();
+    public Map<String, String> canada = new HashMap<>();
+    public Map<String, String> caribbean = new HashMap<>();
+    public Map<String, String> mexico = new HashMap<>();
 
     public AllGamesList(){}
 
@@ -118,8 +123,162 @@ public class AllGamesList {
             case "ukLow":
                 createUk();
                 break;
+            case "argentinaLow":
+                createArgentina();
+                break;
+            case "brazilLow":
+                createBrazil();
+                break;
+            case "canadaLow":
+                createCanada();
+                break;
+            case "caribbeanLow":
+                createCaribbean();
+                break;
+            case "mexicoLow":
+                createMexico();
+                break;
         }
         createAllGames();
+    }
+
+    public void createMexico(){
+        mexico.put("MX-AGU", "Агуаскальентес");
+        mexico.put("MX-BCN", "Нижняя Калифорния");
+        mexico.put("MX-BCS", "Южная Нижняя Калифорния");
+        mexico.put("MX-CAM", "Кампече");
+        mexico.put("MX-CHP", "Чьяпас");
+        mexico.put("MX-CHH", "Чиуауа");
+        mexico.put("MX-COA", "Коауила");
+        mexico.put("MX-COL", "Колима");
+        mexico.put("MX-DIF", "Федеральный округ (Мехико)");
+        mexico.put("MX-DUR", "Дуранго");
+        mexico.put("MX-GUA", "Гуанахуато");
+        mexico.put("MX-GRO", "Герреро");
+        mexico.put("MX-HID", "Идальго");
+        mexico.put("MX-JAL", "Халиско");
+        mexico.put("MX-MEX", "Мехико");
+        mexico.put("MX-MIC", "Мичоакан");
+        mexico.put("MX-MOR", "Морелос");
+        mexico.put("MX-NAY", "Наярит");
+        mexico.put("MX-NLE", "Нуэво-Леон");
+        mexico.put("MX-OAX", "Оахака");
+        mexico.put("MX-PUE", "Пуэбла");
+        mexico.put("MX-QUE", "Керетаро");
+        mexico.put("MX-ROO", "Кинтана-Роо");
+        mexico.put("MX-SLP", "Сан-Луис-Потоси");
+        mexico.put("MX-SIN", "Синалоа");
+        mexico.put("MX-SON", "Сонора");
+        mexico.put("MX-TAB", "Табаско");
+        mexico.put("MX-TAM", "Тамаулипас");
+        mexico.put("MX-TLA", "Тласкала");
+        mexico.put("MX-VER", "Веракрус");
+        mexico.put("MX-YUC", "Юкатан");
+        mexico.put("MX-ZAC", "Сакатекас");
+    }
+
+    public void createCaribbean(){
+        caribbean.put("AG", "Антигуа и Барбуда");
+        caribbean.put("BS", "Багамские Острова");
+        caribbean.put("BB", "Барбадос");
+        caribbean.put("CU", "Куба");
+        caribbean.put("DM", "Доминика");
+        caribbean.put("DO", "Доминиканская Республика");
+        caribbean.put("GD", "Гренада");
+        caribbean.put("HT", "Гаити");
+        caribbean.put("JM", "Ямайка");
+        caribbean.put("KN", "Сент-Китс и Невис");
+        caribbean.put("LC", "Сент-Люсия");
+        caribbean.put("TT", "Тринидад и Тобаго");
+        caribbean.put("VC", "Сент-Винсент и Гренадины");
+        caribbean.put("AI", "Ангилья (Великобритания)");
+        caribbean.put("AW", "Аруба (Нидерланды)");
+        caribbean.put("BL", "Сен-Бартелеми (Франция)");
+        caribbean.put("BQ", "Карибские Нидерланды");
+        caribbean.put("CW", "Кюрасао (Нидерланды)");
+        caribbean.put("GP", "Гваделупа (Франция)");
+        caribbean.put("KY", "Каймановы Острова (Великобритания)");
+        caribbean.put("MF", "Сен-Мартен (Франция)");
+        caribbean.put("MQ", "Мартиника (Франция)");
+        caribbean.put("MS", "Монтсеррат (Великобритания)");
+        caribbean.put("PR", "Пуэрто-Рико (США)");
+        caribbean.put("SX", "Синт-Мартен (Нидерланды)");
+        caribbean.put("TC", "Острова Тёркс и Кайкос (Великобритания)");
+        caribbean.put("VG", "Виргинские Острова (Великобритания)");
+        caribbean.put("VI", "Виргинские Острова (США)");
+    }
+
+    public void createCanada(){
+        canada.put("CA-AB", "Альберта");
+        canada.put("CA-BC", "Британская Колумбия");
+        canada.put("CA-MB", "Манитоба");
+        canada.put("CA-NB", "Нью-Брансуик");
+        canada.put("CA-NL", "Ньюфаундленд и Лабрадор");
+        canada.put("CA-NS", "Новая Шотландия");
+        canada.put("CA-ON", "Онтарио");
+        canada.put("CA-PE", "Остров Принца Эдуарда");
+        canada.put("CA-QC", "Квебек");
+        canada.put("CA-SK", "Саскачеван");
+        canada.put("CA-NT", "Северо-Западные территории");
+        canada.put("CA-NU", "Нунавут");
+        canada.put("CA-YT", "Юкон");
+    }
+
+    public void createBrazil(){
+        brazil.put("BR-AC", "Акри");
+        brazil.put("BR-AL", "Алагоас");
+        brazil.put("BR-AM", "Амазонас");
+        brazil.put("BR-AP", "Амапа");
+        brazil.put("BR-BA", "Баия");
+        brazil.put("BR-CE", "Сеара");
+        brazil.put("BR-DF", "Федеральный округ");
+        brazil.put("BR-ES", "Эспириту-Санту");
+        brazil.put("BR-GO", "Гояс");
+        brazil.put("BR-MA", "Мараньян");
+        brazil.put("BR-MG", "Минас-Жерайс");
+        brazil.put("BR-MS", "Мату-Гросу-ду-Сул");
+        brazil.put("BR-MT", "Мату-Гросу");
+        brazil.put("BR-PA", "Пара");
+        brazil.put("BR-PB", "Параиба");
+        brazil.put("BR-PE", "Пернамбуку");
+        brazil.put("BR-PI", "Пиауи");
+        brazil.put("BR-PR", "Парана");
+        brazil.put("BR-RJ", "Рио-де-Жанейро");
+        brazil.put("BR-RN", "Риу-Гранди-ду-Норти");
+        brazil.put("BR-RO", "Рондония");
+        brazil.put("BR-RR", "Рорайма");
+        brazil.put("BR-RS", "Риу-Гранди-ду-Сул");
+        brazil.put("BR-SC", "Санта-Катарина");
+        brazil.put("BR-SE", "Сержипи");
+        brazil.put("BR-SP", "Сан-Паулу");
+        brazil.put("BR-TO", "Токантинс");
+    }
+
+    public void createArgentina(){
+        argentina.put("AR-B", "Буэнос-Айрес");
+        argentina.put("AR-K", "Катамарка");
+        argentina.put("AR-H", "Чако");
+        argentina.put("AR-U", "Чубут");
+        argentina.put("AR-C", "Сьюдад-де-Буэнос-Айрес");
+        argentina.put("AR-X", "Кордова");
+        argentina.put("AR-W", "Корриентес");
+        argentina.put("AR-E", "Энтре-Риос");
+        argentina.put("AR-P", "Формоса");
+        argentina.put("AR-Y", "Жужуй");
+        argentina.put("AR-L", "Ла-Пампа");
+        argentina.put("AR-F", "Ла-Риоха");
+        argentina.put("AR-M", "Мендоса");
+        argentina.put("AR-N", "Мисьонес");
+        argentina.put("AR-Q", "Неукен");
+        argentina.put("AR-R", "Рио-Негро");
+        argentina.put("AR-A", "Сальта");
+        argentina.put("AR-Z", "Санта-Крус");
+        argentina.put("AR-G", "Сантьяго-дель-Эстеро");
+        argentina.put("AR-S", "Санта-Фе");
+        argentina.put("AR-J", "Сан-Хуан");
+        argentina.put("AR-D", "Сан-Луис");
+        argentina.put("AR-V", "Тьерра-дель-Фуэго");
+        argentina.put("AR-T", "Тукуман");
     }
 
     public void createUk(){
@@ -1008,8 +1167,6 @@ public class AllGamesList {
         china.put("CN-71", "Тайвань");
         china.put("CN-53", "Юньнань");
         china.put("CN-33", "Чжэцзян");
-//        china.put("CN-YN", "Юньнань (альтернативный код)");
-//        china.put("CN-ZJ", "Чжэцзян (альтернативный код)");
         china.put("CN-45", "Гуанси-Чжуанский автономный район");
         china.put("CN-15", "Внутренняя Монголия");
         china.put("CN-64", "Нинся-Хуэйский автономный район");
@@ -1020,7 +1177,6 @@ public class AllGamesList {
         china.put("CN-31", "Шанхай");
         china.put("CN-12", "Тяньцзинь");
         china.put("CN-91", "Гонконг (Сянган)");
-//        china.put("CN-92", "Макао (Аомынь)");
     }
 
     public void createAustralia(){
@@ -1061,6 +1217,11 @@ public class AllGamesList {
         allGamesList.put("polandLow", poland);
         allGamesList.put("switzerlandLow", switzerland);
         allGamesList.put("ukLow", uk);
+        allGamesList.put("argentinaLow", argentina);
+        allGamesList.put("brazilLow", brazil);
+        allGamesList.put("canadaLow", canada);
+        allGamesList.put("caribbeanLow", caribbean);
+        allGamesList.put("mexicoLow", mexico);
     }
 
 

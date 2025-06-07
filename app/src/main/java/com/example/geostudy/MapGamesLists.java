@@ -11,8 +11,8 @@ public class MapGamesLists {
     public String[] europeItems = {"Европа: страны", "Беларусь: регионы", "Болгария: регионы", "Венгрия: медье", "Великобритания: регионы + Ирландия", "Германия: федеральные земли", "Греция: регионы", "Дания: регионы", "Италия: регионы", "Нидерланды: провинции", "Польша: воеводства", "Россия: субъекты", "Финляндия: области", "Франция: регионы", "Чехия: края", "Швейцария: кантоны", "Эстония: уезды"};
     public String[] africa = {"africaLow"};
     public String[] africaItems = {"Африка: страны"};
-    public String[] america = {"northAmericaLow", "centralAmericaLow", "latinAmericaLow", "usaLow"};
-    public String[] americaItems = {"Северная Америка: страны", "Центральная Америка: страны", "Латинская Америка: страны", "США: штаты"};
+    public String[] america = {"northAmericaLow", "centralAmericaLow", "latinAmericaLow", "caribbeanLow", "canadaLow", "usaLow", "mexicoLow", "argentinaLow", "brazilLow"};
+    public String[] americaItems = {"Северная Америка: страны", "Центральная Америка: страны", "Латинская Америка: страны", "Страны Карибского бассейна", "Канада: штаты", "США: штаты", "Мексика: штаты", "Аргентина: провинции", "Бразилия: штаты"};
     public String[] asia = {"asiaLow", "chinaLow"};
     public String[] asiaItems = {"Азия: страны", "Китай: регионы"};
     public String[] oceania = {"australiaLow"};
