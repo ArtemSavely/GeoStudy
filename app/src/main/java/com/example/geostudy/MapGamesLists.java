@@ -7,8 +7,8 @@ public class MapGamesLists {
     public Map<String, String[]> mapGames = new HashMap<>();
     public String[] world = {"worldIndiaLow"};
     public String[] worldItems = {"Мир: все страны"};
-    public String[] europe = {"europeLow", "belarusLow", "russiaHigh"};
-    public String[] europeItems = {"Европа: страны", "Беларусь: регионы", "Россия: субъекты"};
+    public String[] europe = {"europeLow", "belarusLow", "bulgariaLow", "hungaryLow", "ukLow", "germanyLow", "greeceLow", "denmarkLow", "italyLow", "netherlandsLow", "polandLow", "russiaHigh", "finlandLow", "franceLow", "czechLow", "switzerlandLow", "estoniaLow"};
+    public String[] europeItems = {"Европа: страны", "Беларусь: регионы", "Болгария: регионы", "Венгрия: медье", "Великобритания: регионы + Ирландия", "Германия: федеральные земли", "Греция: регионы", "Дания: регионы", "Италия: регионы", "Нидерланды: провинции", "Польша: воеводства", "Россия: субъекты", "Финляндия: области", "Франция: регионы", "Чехия: края", "Швейцария: кантоны", "Эстония: уезды"};
     public String[] africa = {"africaLow"};
     public String[] africaItems = {"Африка: страны"};
     public String[] america = {"northAmericaLow", "centralAmericaLow", "latinAmericaLow", "usaLow"};

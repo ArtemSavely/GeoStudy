@@ -17,6 +17,20 @@ public class AllGamesList {
     public Map<String, String> asia = new HashMap<>();
     public Map<String, String> china = new HashMap<>();
     public Map<String, String> australia = new HashMap<>();
+    public Map<String, String> bulgaria = new HashMap<>();
+    public Map<String, String> czech = new HashMap<>();
+    public Map<String, String> denmark = new HashMap<>();
+    public Map<String, String> estonia = new HashMap<>();
+    public Map<String, String> finland = new HashMap<>();
+    public Map<String, String> france = new HashMap<>();
+    public Map<String, String> germany = new HashMap<>();
+    public Map<String, String> greece = new HashMap<>();
+    public Map<String, String> hungary = new HashMap<>();
+    public Map<String, String> italy = new HashMap<>();
+    public Map<String, String> netherlands = new HashMap<>();
+    public Map<String, String> poland = new HashMap<>();
+    public Map<String, String> switzerland = new HashMap<>();
+    public Map<String, String> uk = new HashMap<>();
 
     public AllGamesList(){}
 
@@ -40,7 +54,6 @@ public class AllGamesList {
                 break;
             case "africaLow":
                 createAfrica();
-                System.out.println(africa);
                 break;
             case "northAmericaLow":
                 createNorthAmerica();
@@ -63,8 +76,323 @@ public class AllGamesList {
             case "australiaLow":
                 createAustralia();
                 break;
+            case "bulgariaLow":
+                createBulgaria();
+                break;
+            case "czechLow":
+                createCzech();
+                break;
+            case "denmarkLow":
+                createDenmark();
+                break;
+            case "estoniaLow":
+                createEstonia();
+                break;
+            case "finlandLow":
+                createFinland();
+                break;
+            case "franceLow":
+                createFrance();
+                break;
+            case "germanyLow":
+                createGermany();
+                break;
+            case "greeceLow":
+                createGreece();
+                break;
+            case "hungaryLow":
+                createHungary();
+                break;
+            case "italyLow":
+                createItaly();
+                break;
+            case "netherlandsLow":
+                createNetherlands();
+                break;
+            case "polandLow":
+                createPoland();
+                break;
+            case "switzerlandLow":
+                createSwitzerland();
+                break;
+            case "ukLow":
+                createUk();
+                break;
         }
         createAllGames();
+    }
+
+    public void createUk(){
+        uk.put("GB-BD", "Бедфордшир");
+        uk.put("GB-BK", "Беркшир");
+        uk.put("GB-BU", "Бэкингемшир");
+        uk.put("GB-CH", "Чешир");
+        uk.put("GB-CM", "Камбриджшир");
+        uk.put("GB-CO", "Корнуолл");
+        uk.put("GB-CU", "Камбрия");
+        uk.put("GB-DB", "Дербишир");
+        uk.put("GB-DH", "Дарэм");
+        uk.put("GB-DS", "Дорсет");
+        uk.put("GB-DV", "Девон");
+        uk.put("GB-EX", "Эссекс");
+        uk.put("GB-GC", "Глостершир");
+        uk.put("GB-GL", "Большой Лондон");
+        uk.put("GB-HA", "Хэмпшир");
+        uk.put("GB-HD", "Хартфордшир");
+        uk.put("GB-HT", "Херефордшир");
+        uk.put("GB-KE", "Кент");
+        uk.put("GB-LA", "Ланкашир");
+        uk.put("GB-LE", "Лестершир");
+        uk.put("GB-LI", "Линкольншир");
+        uk.put("GB-NA", "Нортгемптоншир");
+        uk.put("GB-NB", "Нортумберленд");
+        uk.put("GB-NF", "Норфолк");
+        uk.put("GB-NI", "Северный Йоркшир");
+        uk.put("GB-NT", "Ноттингемшир");
+        uk.put("GB-OX", "Оксфордшир");
+        uk.put("GB-RT", "Ратленд");
+        uk.put("GB-SC", "Стаффордшир");
+        uk.put("GB-SF", "Саффолк");
+        uk.put("GB-SM", "Сомерсет");
+        uk.put("GB-SP", "Шропшир");
+        uk.put("GB-SR", "Суррей");
+        uk.put("GB-ST", "Восточный Суссекс");
+        uk.put("GB-SX", "Западный Суссекс");
+        uk.put("GB-WA", "Уорикшир");
+        uk.put("GB-WL", "Уилтшир");
+        uk.put("GB-WO", "Вустершир");
+        uk.put("GB-WR", "Йоркшир");
+        uk.put("GB-YK", "Восточный райдинг Йоркшира");
+        uk.put("IE", "Ирландия");
+    }
+
+    public void createSwitzerland(){
+        switzerland.put("CH-AG", "Аргау");
+        switzerland.put("CH-AI", "Аппенцелль-Иннерроден");
+        switzerland.put("CH-AR", "Аппенцелль-Ауссерроден");
+        switzerland.put("CH-BE", "Берн");
+        switzerland.put("CH-BL", "Базель-Ланд");
+        switzerland.put("CH-BS", "Базель-Штадт");
+        switzerland.put("CH-FR", "Фрибур");
+        switzerland.put("CH-GE", "Женева");
+        switzerland.put("CH-GL", "Гларус");
+        switzerland.put("CH-GR", "Граубюнден");
+        switzerland.put("CH-JU", "Юра");
+        switzerland.put("CH-LU", "Люцерн");
+        switzerland.put("CH-NE", "Невшатель");
+        switzerland.put("CH-NW", "Нидвальден");
+        switzerland.put("CH-OW", "Обвальден");
+        switzerland.put("CH-SG", "Санкт-Галлен");
+        switzerland.put("CH-SH", "Шаффхаузен");
+        switzerland.put("CH-SO", "Золотурн");
+        switzerland.put("CH-SZ", "Швиц");
+        switzerland.put("CH-TG", "Тургау");
+        switzerland.put("CH-TI", "Тичино");
+        switzerland.put("CH-UR", "Ури");
+        switzerland.put("CH-VD", "Во");
+        switzerland.put("CH-VS", "Вале");
+        switzerland.put("CH-ZG", "Цуг");
+        switzerland.put("CH-ZH", "Цюрих");
+    }
+
+    public void createPoland(){
+        poland.put("PL-DS", "Нижнесилезское");
+        poland.put("PL-KP", "Куявско-Поморское");
+        poland.put("PL-LD", "Лодзинское");
+        poland.put("PL-LU", "Люблинское");
+        poland.put("PL-LB", "Любушское");
+        poland.put("PL-MA", "Малопольское");
+        poland.put("PL-MZ", "Мазовецкое");
+        poland.put("PL-OP", "Опольское");
+        poland.put("PL-PK", "Подкарпатское");
+        poland.put("PL-PD", "Подляское");
+        poland.put("PL-PM", "Поморское");
+        poland.put("PL-SL", "Силезское");
+        poland.put("PL-SK", "Свентокшиское");
+        poland.put("PL-WN", "Варминьско-Мазурское");
+        poland.put("PL-WP", "Великопольское");
+        poland.put("PL-ZP", "Западно-Поморское");
+    }
+
+    public void createNetherlands(){
+        netherlands.put("NL-DR", "Дренте");
+        netherlands.put("NL-FL", "Флеволанд");
+        netherlands.put("NL-FR", "Фрисландия");
+        netherlands.put("NL-GE", "Гелдерланд");
+        netherlands.put("NL-GR", "Гронинген");
+        netherlands.put("NL-LI", "Лимбург");
+        netherlands.put("NL-NB", "Северный Брабант");
+        netherlands.put("NL-NH", "Северная Голландия");
+        netherlands.put("NL-OV", "Оверэйссел");
+        netherlands.put("NL-UT", "Утрехт");
+        netherlands.put("NL-ZE", "Зеландия");
+        netherlands.put("NL-ZH", "Южная Голландия");
+    }
+
+    public void createItaly(){
+        italy.put("IT-65", "Абруццо");
+        italy.put("IT-77", "Базиликата");
+        italy.put("IT-78", "Калабрия");
+        italy.put("IT-72", "Кампания");
+        italy.put("IT-45", "Эмилия-Романья");
+        italy.put("IT-36", "Фриули-Венеция-Джулия");
+        italy.put("IT-62", "Лацио");
+        italy.put("IT-42", "Лигурия");
+        italy.put("IT-25", "Ломбардия");
+        italy.put("IT-57", "Марке");
+        italy.put("IT-67", "Молизе");
+        italy.put("IT-21", "Пьемонт");
+        italy.put("IT-75", "Апулия");
+        italy.put("IT-88", "Сардиния");
+        italy.put("IT-82", "Сицилия");
+        italy.put("IT-52", "Тоскана");
+        italy.put("IT-32", "Трентино-Альто-Адидже");
+        italy.put("IT-55", "Умбрия");
+        italy.put("IT-23", "Валле-д'Аоста");
+        italy.put("IT-34", "Венето");
+    }
+
+    public void createHungary(){
+        hungary.put("HU-BK", "Бач-Кишкун");
+        hungary.put("HU-BA", "Баранья");
+        hungary.put("HU-BE", "Бекеш");
+        hungary.put("HU-BC", "Бекешчаба");
+        hungary.put("HU-BZ", "Боршод-Абауй-Земплен");
+        hungary.put("HU-BU", "Будапешт");
+        hungary.put("HU-CS", "Чонград-Чанад");
+        hungary.put("HU-DE", "Дебрецен");
+        hungary.put("HU-DU", "Дунауйварош");
+        hungary.put("HU-EG", "Эгер");
+        hungary.put("HU-FE", "Фейер");
+        hungary.put("HU-GY", "Дьёр");
+        hungary.put("HU-GS", "Дьёр-Мошон-Шопрон");
+        hungary.put("HU-HB", "Хайду-Бихар");
+        hungary.put("HU-HE", "Хевеш");
+        hungary.put("HU-HV", "Ходмезёвашархей");
+        hungary.put("HU-JN", "Яс-Надькун-Сольнок");
+        hungary.put("HU-KV", "Капошвар");
+        hungary.put("HU-KM", "Кечкемет");
+        hungary.put("HU-KE", "Комаром-Эстергом");
+        hungary.put("HU-MI", "Мишкольц");
+        hungary.put("HU-NK", "Надьканижа");
+        hungary.put("HU-NO", "Ноград");
+        hungary.put("HU-NY", "Ньиредьхаза");
+        hungary.put("HU-PS", "Печ");
+        hungary.put("HU-PE", "Пешт");
+        hungary.put("HU-SO", "Шомодь");
+        hungary.put("HU-SN", "Шопрон");
+        hungary.put("HU-SZ", "Сабольч-Сатмар-Берег");
+        hungary.put("HU-SD", "Сегед");
+        hungary.put("HU-SF", "Секешфехервар");
+        hungary.put("HU-SK", "Сольнок");
+        hungary.put("HU-SH", "Сомбатхей");
+        hungary.put("HU-TB", "Татабанья");
+        hungary.put("HU-TO", "Тольна");
+        hungary.put("HU-VA", "Ваш");
+        hungary.put("HU-VE", "Веспрем (медье)");
+        hungary.put("HU-VM", "Веспрем (город)");
+        hungary.put("HU-ZA", "Зала");
+        hungary.put("HU-ZE", "Залаэгерсег");
+    }
+
+    public void createGreece(){
+        greece.put("GR-A", "Аттика");
+        greece.put("GR-B", "Центральная Греция");
+        greece.put("GR-C", "Центральная Македония");
+        greece.put("GR-D", "Крит");
+        greece.put("GR-E", "Македония и Фракия");
+        greece.put("GR-F", "Эпир");
+        greece.put("GR-G", "Ионические острова");
+        greece.put("GR-H", "Северные Эгейские острова");
+        greece.put("GR-I", "Пелопоннес");
+        greece.put("GR-J", "Южные Эгейские острова");
+        greece.put("GR-K", "Фессалия");
+        greece.put("GR-L", "Западная Греция");
+        greece.put("GR-M", "Западная Македония");
+        greece.put("GR-69", "Афон");
+    }
+
+    public void createGermany(){
+        germany.put("DE-BW", "Баден-Вюртемберг");
+        germany.put("DE-BY", "Бавария");
+        germany.put("DE-BE", "Берлин");
+        germany.put("DE-BB", "Бранденбург");
+        germany.put("DE-HB", "Бремен");
+        germany.put("DE-HH", "Гамбург");
+        germany.put("DE-HE", "Гессен");
+        germany.put("DE-MV", "Мекленбург — Передняя Померания");
+        germany.put("DE-NI", "Нижняя Саксония");
+        germany.put("DE-NW", "Северный Рейн-Вестфалия");
+        germany.put("DE-RP", "Рейнланд-Пфальц");
+        germany.put("DE-SL", "Саар");
+        germany.put("DE-SN", "Саксония");
+        germany.put("DE-ST", "Саксония-Анхальт");
+        germany.put("DE-SH", "Шлезвиг-Гольштейн");
+        germany.put("DE-TH", "Тюрингия");
+    }
+
+    public void createFrance(){
+        france.put("FR-ARA", "Овернь — Рона — Альпы");
+        france.put("FR-BFC", "Бургундия — Франш-Конте");
+        france.put("FR-BRE", "Бретань");
+        france.put("FR-CVL", "Центр — Долина Луары");
+        france.put("FR-COR", "Корсика");
+        france.put("FR-GES", "Гранд-Эст");
+        france.put("FR-HDF", "О-де-Франс");
+        france.put("FR-IDF", "Иль-де-Франс");
+        france.put("FR-NOR", "Нормандия");
+        france.put("FR-NAQ", "Новая Аквитания");
+        france.put("FR-OCC", "Окситания");
+        france.put("FR-PDL", "Пеи-де-ла-Луар");
+        france.put("FR-PAC", "Прованс — Альпы — Лазурный Берег");
+    }
+
+    public void createFinland(){
+        finland.put("FI-01", "Аландские острова");
+        finland.put("FI-02", "Южная Карелия");
+        finland.put("FI-03", "Южная Похьянмаа");
+        finland.put("FI-04", "Южная Савония");
+        finland.put("FI-05", "Канта-Хяме");
+        finland.put("FI-06", "Кайнуу");
+        finland.put("FI-07", "Кюменлааксо");
+        finland.put("FI-08", "Лапландия");
+        finland.put("FI-09", "Пирканмаа");
+        finland.put("FI-10", "Похьянмаа");
+        finland.put("FI-11", "Пяйят-Хяме");
+        finland.put("FI-12", "Сатакунта");
+        finland.put("FI-13", "Северная Карелия");
+        finland.put("FI-14", "Северная Похьянмаа");
+        finland.put("FI-15", "Северная Савония");
+        finland.put("FI-16", "Уусимаа");
+        finland.put("FI-17", "Центральная Похьянмаа");
+        finland.put("FI-18", "Центральная Финляндия");
+        finland.put("FI-19", "Варсинайс-Суоми");
+    }
+
+    public void createEstonia(){
+        estonia.put("EE-37", "Харьюмаа");
+        estonia.put("EE-39", "Хийумаа");
+        estonia.put("EE-44", "Ида-Вирумаа");
+        estonia.put("EE-49", "Йыгевамаа");
+        estonia.put("EE-51", "Ярвамаа");
+        estonia.put("EE-57", "Ляэне-Вирумаа");
+        estonia.put("EE-59", "Ляэнемаа");
+        estonia.put("EE-65", "Пылвамаа");
+        estonia.put("EE-67", "Пярнумаа");
+        estonia.put("EE-70", "Рапламаа");
+        estonia.put("EE-74", "Сааремаа");
+        estonia.put("EE-78", "Тартумаа");
+        estonia.put("EE-82", "Валгамаа");
+        estonia.put("EE-84", "Вильяндимаа");
+        estonia.put("EE-86", "Вырумаа");
+    }
+
+    public void createDenmark(){
+        denmark.put("DK-84", "Столичный регион");
+        denmark.put("DK-82", "Центральная Ютландия");
+        denmark.put("DK-81", "Северная Ютландия");
+        denmark.put("DK-85", "Зеландия");
+        denmark.put("DK-83", "Южная Дания");
     }
 
     public void createWorldIndia(){
@@ -391,17 +719,13 @@ public class AllGamesList {
         europe.put("LT", "Литва");
         //europe.put("LI", "Лихтенштейн");
         europe.put("KV", "Косово");
-        //europe.put("JE", "Джерси");
         europe.put("IS", "Исландия");
         europe.put("IE", "Ирландия");
-        //europe.put("IM", "Остров Мэн");
         europe.put("HU", "Венгрия");
         europe.put("HR", "Хорватия");
         europe.put("GR", "Греция");
-        //europe.put("GG", "Гернси");
         europe.put("GE", "Грузия");
         europe.put("FR", "Франция");
-        //europe.put("FO", "Фарерские острова");
         europe.put("FI", "Финляндия");
         europe.put("EE", "Эстония");
         europe.put("ES", "Испания");
@@ -417,16 +741,58 @@ public class AllGamesList {
         europe.put("AZ", "Азербайджан");
         europe.put("AT", "Австрия");
         europe.put("AM", "Армения");
-        //europe.put("AX", "Аландские острова");
         europe.put("AL", "Албания");
         europe.put("IT", "Италия");
         europe.put("KZ", "Казахстан");
         europe.put("AD", "Андорра");
-        //europe.put("MT", "Мальта");
-        //europe.put("MC", "Монако");
-        //europe.put("SM", "Сан-Марино");
-        //europe.put("GI", "Гибралтар");
-        //europe.put("VA", "Ватикан");
+    }
+
+    public void createBulgaria(){
+        bulgaria.put("BG-01", "Благоевград");
+        bulgaria.put("BG-02", "Бургас");
+        bulgaria.put("BG-03", "Варна");
+        bulgaria.put("BG-04", "Велико-Тырново");
+        bulgaria.put("BG-05", "Видин");
+        bulgaria.put("BG-06", "Враца");
+        bulgaria.put("BG-07", "Габрово");
+        bulgaria.put("BG-08", "Добрич");
+        bulgaria.put("BG-09", "Кырджали");
+        bulgaria.put("BG-10", "Кюстендил");
+        bulgaria.put("BG-11", "Ловеч");
+        bulgaria.put("BG-12", "Монтана");
+        bulgaria.put("BG-13", "Пазарджик");
+        bulgaria.put("BG-14", "Перник");
+        bulgaria.put("BG-15", "Плевен");
+        bulgaria.put("BG-16", "Пловдив");
+        bulgaria.put("BG-17", "Разград");
+        bulgaria.put("BG-18", "Русе");
+        bulgaria.put("BG-19", "Силистра");
+        bulgaria.put("BG-20", "Сливен");
+        bulgaria.put("BG-21", "Смолян");
+        bulgaria.put("BG-22", "София-град");
+        bulgaria.put("BG-23", "София");
+        bulgaria.put("BG-24", "Стара-Загора");
+        bulgaria.put("BG-25", "Тырговиште");
+        bulgaria.put("BG-26", "Хасково");
+        bulgaria.put("BG-27", "Шумен");
+        bulgaria.put("BG-28", "Ямбол");
+    }
+
+    public void createCzech(){
+        czech.put("CZ-JC", "Южночешский край");
+        czech.put("CZ-JM", "Южноморавский край");
+        czech.put("CZ-KA", "Карловарский край");
+        czech.put("CZ-KR", "Краловеградецкий край");
+        czech.put("CZ-LI", "Либерецкий край");
+        czech.put("CZ-MO", "Моравскосилезский край");
+        czech.put("CZ-OL", "Оломоуцкий край");
+        czech.put("CZ-PA", "Пардубицкий край");
+        czech.put("CZ-PL", "Пльзеньский край");
+        czech.put("CZ-PR", "Прага");
+        czech.put("CZ-ST", "Среднечешский край");
+        czech.put("CZ-US", "Устецкий край");
+        czech.put("CZ-VY", "Высочина");
+        czech.put("CZ-ZL", "Злинский край");
     }
 
     public void createRussia() {
@@ -513,6 +879,12 @@ public class AllGamesList {
         russia.put("RU-YAR", "Ярославская область");
         russia.put("RU-YEV", "Еврейская автономная область");
         russia.put("RU-ZAB", "Забайкальский край");
+        russia.put("RU-LUG", "Луганская Народная Республика");
+        russia.put("RU-DON", "Донецкая Народная Республика");
+        russia.put("RU-ZP", "Запорожская область");
+        russia.put("RU-HR", "Херсонская область");
+        russia.put("RU-CR", "Республика Крым");
+        russia.put("RU-SEV", "Севастополь");
     }
 
     public void createAfrica(){
@@ -582,26 +954,18 @@ public class AllGamesList {
         asia.put("SA", "Саудовская Аравия");
         asia.put("SY", "Сирия");
         asia.put("YE", "Йемен");
-
-        // Южная Азия
         asia.put("BD", "Бангладеш");
         asia.put("BT", "Бутан");
         asia.put("IN", "Индия");
         asia.put("LK", "Шри-Ланка");
-        //asia.put("MV", "Мальдивы");
         asia.put("NP", "Непал");
         asia.put("PK", "Пакистан");
-
-        // Восточная Азия
         asia.put("CN", "Китай");
-        //asia.put("HK", "Гонконг (КНР)");
         asia.put("JP", "Япония");
         asia.put("KP", "КНДР");
         asia.put("KR", "Республика Корея");
         asia.put("MN", "Монголия");
         asia.put("TW", "Тайвань");
-
-        // Юго-Восточная Азия
         asia.put("BN", "Бруней");
         asia.put("ID", "Индонезия");
         asia.put("KH", "Камбоджа");
@@ -609,19 +973,14 @@ public class AllGamesList {
         asia.put("MM", "Мьянма");
         asia.put("MY", "Малайзия");
         asia.put("PH", "Филиппины");
-        //asia.put("SG", "Сингапур");
         asia.put("TH", "Таиланд");
         asia.put("TL", "Восточный Тимор");
         asia.put("VN", "Вьетнам");
-
-        // Центральная Азия
         asia.put("KZ", "Казахстан");
         asia.put("KG", "Киргизия");
         asia.put("TJ", "Таджикистан");
         asia.put("TM", "Туркменистан");
         asia.put("UZ", "Узбекистан");
-
-        // Россия (азиатская часть)
         asia.put("RU", "Россия");
     }
     
@@ -646,11 +1005,11 @@ public class AllGamesList {
         china.put("CN-37", "Шаньдун");
         china.put("CN-14", "Шаньси");
         china.put("CN-51", "Сычуань");
-        china.put("CN-71", "Тайвань (провинция КНР)*");
+        china.put("CN-71", "Тайвань");
         china.put("CN-53", "Юньнань");
         china.put("CN-33", "Чжэцзян");
-        china.put("CN-YN", "Юньнань (альтернативный код)");
-        china.put("CN-ZJ", "Чжэцзян (альтернативный код)");
+//        china.put("CN-YN", "Юньнань (альтернативный код)");
+//        china.put("CN-ZJ", "Чжэцзян (альтернативный код)");
         china.put("CN-45", "Гуанси-Чжуанский автономный район");
         china.put("CN-15", "Внутренняя Монголия");
         china.put("CN-64", "Нинся-Хуэйский автономный район");
@@ -661,7 +1020,7 @@ public class AllGamesList {
         china.put("CN-31", "Шанхай");
         china.put("CN-12", "Тяньцзинь");
         china.put("CN-91", "Гонконг (Сянган)");
-        china.put("CN-92", "Макао (Аомынь)");
+//        china.put("CN-92", "Макао (Аомынь)");
     }
 
     public void createAustralia(){
@@ -688,6 +1047,20 @@ public class AllGamesList {
         allGamesList.put("asiaLow", asia);
         allGamesList.put("chinaLow", china);
         allGamesList.put("australiaLow", australia);
+        allGamesList.put("bulgariaLow", bulgaria);
+        allGamesList.put("czechLow", czech);
+        allGamesList.put("denmarkLow", denmark);
+        allGamesList.put("estoniaLow", estonia);
+        allGamesList.put("finlandLow", finland);
+        allGamesList.put("franceLow", france);
+        allGamesList.put("germanyLow", germany);
+        allGamesList.put("greeceLow", greece);
+        allGamesList.put("hungaryLow", hungary);
+        allGamesList.put("italyLow", italy);
+        allGamesList.put("netherlandsLow", netherlands);
+        allGamesList.put("polandLow", poland);
+        allGamesList.put("switzerlandLow", switzerland);
+        allGamesList.put("ukLow", uk);
     }
 
 

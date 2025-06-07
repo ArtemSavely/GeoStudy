@@ -11,6 +11,9 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
+import java.util.HashMap;
+import java.util.Map;
+
 
 public class MapGameAdapter extends BaseAdapter {
     Context context;
@@ -49,18 +52,29 @@ public class MapGameAdapter extends BaseAdapter {
         LinearLayout.LayoutParams params = (LinearLayout.LayoutParams) percentBar.getLayoutParams();
         params.width = convertDpToPx((float) item.percent / 100 * 150);
         percentBar.setLayoutParams(params);
-        System.out.println(item.name);
         int iconID = context.getResources().getIdentifier(item.name.toLowerCase(), "drawable", context.getPackageName());
         String resourceName;
         try {
             resourceName = context.getResources().getResourceEntryName(iconID);
             if (iconID != 0 && resourceName.equals(item.name.toLowerCase())){
-                System.out.println(iconID);
+                System.out.println(iconID + "id");
                 flagIcon.setImageResource(iconID);
             }
-            System.out.println("Имя ресурса: " + resourceName); // Вернет имя ресурса, присвоенное в проекте
+            System.out.println("Имя ресурса: " + resourceName);
         } catch (Resources.NotFoundException e) {
-            e.printStackTrace();
+            Map<String, Integer> maps = new HashMap<>();
+            maps.put("africaLow", R.drawable.africa_button_icon);
+            maps.put("worldIndiaLow", R.drawable.world_button_icon);
+            maps.put("northAmericaLow", R.drawable.america_button_icon);
+            maps.put("latinAmericaLow", R.drawable.america_button_icon);
+            maps.put("centralAmericaLow", R.drawable.america_button_icon);
+            maps.put("asiaLow", R.drawable.asia_button_icon);
+            if (maps.containsKey(item.name)){
+                flagIcon.setImageResource(maps.get(item.name));
+                flagIcon.setMaxHeight(40);
+            } else{
+                e.printStackTrace();
+            }
         }
         return convertView;
     }
