@@ -3,6 +3,7 @@ package com.example.geostudy;
 import android.app.ListActivity;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -15,6 +16,8 @@ public class WorldActivity extends ListActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        getWindow().setStatusBarColor(Color.TRANSPARENT);
+        getWindow().getDecorView().setSystemUiVisibility(View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN);
         setContentView(R.layout.activity_world);
         listView = (ListView) findViewById(android.R.id.list);
         toolBarTextView = findViewById(R.id.tool_bar_text_view);

@@ -70,6 +70,7 @@ public class MapGameAdapter extends BaseAdapter {
             maps.put("centralAmericaLow", R.drawable.america_button_icon);
             maps.put("caribbeanLow", R.drawable.america_button_icon);
             maps.put("asiaLow", R.drawable.asia_button_icon);
+            maps.put("oceaniaHigh", R.drawable.oceania_button_icon);
             if (maps.containsKey(item.name)){
                 flagIcon.setImageResource(maps.get(item.name));
                 flagIcon.setMaxHeight(40);

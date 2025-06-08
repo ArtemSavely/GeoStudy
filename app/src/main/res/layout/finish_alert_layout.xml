@@ -26,7 +26,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="20dp"
-        android:layout_margin="20sp"
+        android:layout_margin="30sp"
         android:textAlignment="center"
         android:id="@+id/finish_alert_message"
         app:layout_constraintTop_toBottomOf="@id/congrats_text"
@@ -36,13 +36,26 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:id="@+id/finish_alert_restart_button"
+        android:text="Сыграть снова"
+        android:layout_margin="20dp"
+        android:textSize="30dp"
+        style="@style/MyOutlinedButton"
+        android:background="@drawable/outlined_button_background"
+        app:layout_constraintTop_toBottomOf="@id/finish_alert_message"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:layout_margin="20dp"
         android:id="@+id/finish_alert_button"
         android:background="@drawable/button_background"
         style="@style/MyButton"
         android:textSize="30dp"
-        android:text="Продолжить"
-        app:layout_constraintTop_toBottomOf="@id/finish_alert_message"
+        android:text="Главное меню"
+        app:layout_constraintTop_toBottomOf="@id/finish_alert_restart_button"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"/>
 

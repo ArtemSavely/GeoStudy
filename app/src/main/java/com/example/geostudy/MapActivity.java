@@ -34,6 +34,7 @@ public class MapActivity extends AppCompatActivity {
     ListView answers;
     int gameIndex = -1;
     String gameName;
+    String[] intentList;
 
     ArrayList<AnswerItem> answerItems;
     AnswerListAdapter answerListAdapter;
@@ -45,7 +46,7 @@ public class MapActivity extends AppCompatActivity {
         setContentView(R.layout.activity_map);
         currentRegion = findViewById(R.id.current_region_text);
         percent = findViewById(R.id.perc);
-        String[] intentList = getIntent().getStringArrayExtra("gameName");
+        intentList = getIntent().getStringArrayExtra("gameName");
         gameName = intentList[0];
         webView = findViewById(R.id.web_view);
         webView.getSettings().setJavaScriptEnabled(true);
@@ -111,6 +112,7 @@ public class MapActivity extends AppCompatActivity {
         TextView message = customView.findViewById(R.id.finish_alert_message);
         message.setText("Вы ответиили верно на " + strPer + " вопросов.");
         Button finishButton = customView.findViewById(R.id.finish_alert_button);
+        Button restartButton = customView.findViewById(R.id.finish_alert_restart_button);
         finishButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -118,7 +120,15 @@ public class MapActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        restartButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MapActivity.this, MapActivity.class).putExtra("gameName", intentList);
+                startActivity(intent);
+            }
+        });
         builder.setView(customView);
+        builder.setCancelable(false);
         AlertDialog finishAlert = builder.create();
         finishAlert.show();
     }
