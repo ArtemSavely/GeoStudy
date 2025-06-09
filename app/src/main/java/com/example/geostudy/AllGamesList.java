@@ -1103,7 +1103,7 @@ public class AllGamesList {
         countryCodes.put("SD", "Судан");
         countryCodes.put("SE", "Швеция");
         countryCodes.put("SI", "Словения");
-        countryCodes.put("SJ", "Шпицберген и Ян-Майен");
+//        countryCodes.put("SJ", "Шпицберген и Ян-Майен");
         countryCodes.put("SK", "Словакия");
         countryCodes.put("SL", "Сьерра-Леоне");
         countryCodes.put("SN", "Сенегал");

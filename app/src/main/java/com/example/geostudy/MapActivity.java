@@ -78,7 +78,8 @@ public class MapActivity extends AppCompatActivity {
 
     public void nextQuestion() {
         gameIndex ++;
-        currentRegion.setText(regionNames.get(gameIndex));
+        String currentRegionText = "Нажмите на: " + regionNames.get(gameIndex);
+        currentRegion.setText(currentRegionText);
         int intPer = game.coins * 100 / game.regions.size();
         String strPer = String.valueOf(intPer) + "%";
         percent.setText(String.valueOf(intPer) + "%");
