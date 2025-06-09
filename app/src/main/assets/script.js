@@ -20,8 +20,8 @@ document.querySelectorAll('#regions path').forEach(function(path) {
         if(!clicked && !array.includes(event.target.id)){
             var result = Android.check(event.target.id);
             if (result) {
-//                event.target.style.fill = '#337CD3';
-                event.target.style.fill = '#FFFFFF';
+                event.target.style.fill = '#337CD3';
+                //event.target.style.fill = '#FFFFFF';
                 clicked = true;
             } else {
                 var currentRegion = Android.getCurrentRegion();

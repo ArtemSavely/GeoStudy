@@ -1,5 +1,7 @@
 package com.example.geostudy;
 
+import android.content.Context;
+
 import java.util.HashMap;
 import java.util.Map;
 
@@ -184,6 +186,10 @@ public class AllGamesList {
                 break;
         }
         createAllGames();
+    }
+
+    Map<String, String> create(String mapName, Context context) {
+        context.getResources().getR
     }
 
     public void createSouthAfrica(){

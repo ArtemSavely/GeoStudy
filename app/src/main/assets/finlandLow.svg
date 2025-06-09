@@ -5,19 +5,19 @@
 		<style type="text/css">
 			.land
 			{
-				fill: #8dbc42;
+				fill: #CCCCCC;
 				fill-opacity: 1;
-				stroke: #001D3F;
+				stroke:white;
 				stroke-opacity: 1;
-				stroke-width:0.5;
+				stroke-width:1.0;
 			}
 		</style>
 		<style type="text/css">
 			.sea
 			{
-			fill: #337CD3;
+			fill: white;
 			fill-opacity: 1;
-			stroke:black;
+			stroke:white;
 			stroke-opacity: 1;
 			stroke-width:1;
 			}
