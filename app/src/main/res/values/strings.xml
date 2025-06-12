@@ -1,4 +1,71 @@
 <resources>
     <string name="app_name">GeoStudy</string>
     <string name="world">Мир</string>
+    <string name="your_answers">Ваши ответы</string>
+    <string name="europe">Европа</string>
+    <string name="africa">Африка</string>
+    <string name="america">Америка</string>
+    <string name="asia">Азия</string>
+    <string name="oceania">Океания</string>
+    <string name="welcome_to_geostudy">Добро\nпожаловать\nв GeoStudy!</string>
+    <string name="correct_answers_info">"Вы ответиили верно на %s вопросов."</string>
+    <string name="percentage">Правильность: %s</string>
+    <string name="press_on">Нажмите на: %s</string>
+    <string name="congrats">Поздравляем!</string>
+    <string name="restart">Сыграть снова</string>
+    <string name="main_menu">Главное меню</string>
+    <string-array name="world_regions">
+        <item>Мир: все страны</item>
+    </string-array>
+    <string-array name="european_regions">
+        <item>Европа: страны</item>
+        <item>Беларусь: регионы</item>
+        <item>Болгария: регионы</item>
+        <item>Венгрия: медье</item>
+        <item>Великобритания: регионы + Ирландия</item>
+        <item>Германия: федеральные земли</item>
+        <item>Греция: регионы</item>
+        <item>Дания: регионы</item>
+        <item>Италия: регионы</item>
+        <item>Нидерланды: провинции</item>
+        <item>Польша: воеводства</item>
+        <item>Россия: субъекты</item>
+        <item>Финляндия: области</item>
+        <item>Франция: регионы</item>
+        <item>Чехия: края</item>
+        <item>Швейцария: кантоны</item>
+        <item>Эстония: уезды</item>
+    </string-array>
+    <string-array name="african_regions">
+        <item>Африка: страны</item>
+        <item>ЮАР: провинции + Лесото</item>
+        <item>Египет: провинции</item>
+    </string-array>
+    <string-array name="americas_regions">
+        <item>Северная Америка: страны</item>
+        <item>Центральная Америка: страны</item>
+        <item>Латинская Америка: страны</item>
+        <item>Страны Карибского бассейна</item>
+        <item>Канада: провинции и территории</item>
+        <item>США: штаты</item>
+        <item>Мексика: штаты</item>
+        <item>Аргентина: провинции</item>
+        <item>Бразилия: штаты</item>
+    </string-array>
+    <string-array name="asia_regions">
+        <item>Азия: страны</item>
+        <item>Китай: регионы</item>
+        <item>Япония: префектуры</item>
+        <item>Южная Корея: провинции</item>
+        <item>Индонезия: провинции</item>
+        <item>ОАЭ: эмираты</item>
+        <item>Турция: илы</item>
+        <item>Индия: штаты</item>
+    </string-array>
+    <string-array name="australia_oceania_regions">
+        <item>Австралия и Океания: страны</item>
+        <item>Австралия: штаты и территории</item>
+        <item>Новая Зеландия: регионы</item>
+        <item>Новая Каледония: провинции</item>
+    </string-array>
 </resources>

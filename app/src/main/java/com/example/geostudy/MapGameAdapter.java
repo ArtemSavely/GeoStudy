@@ -6,6 +6,8 @@ import android.util.TypedValue;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.animation.AccelerateDecelerateInterpolator;
+import android.view.animation.PathInterpolator;
 import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
@@ -51,7 +53,17 @@ public class MapGameAdapter extends BaseAdapter {
         percent.setText(String.valueOf(item.percent) + "%");
         LinearLayout.LayoutParams params = (LinearLayout.LayoutParams) percentBar.getLayoutParams();
         params.width = convertDpToPx((float) item.percent / 100 * 150);
+        PathInterpolator pathInterpolator = new PathInterpolator(0.2f, 0.8f, 0.6f, 1f);
         percentBar.setLayoutParams(params);
+        percentBar.setScaleX(0f);
+        percentBar.setPivotX(0f);
+        percentBar.setAlpha(0f);
+        percentBar.animate()
+                .scaleX(1f)
+                .alpha(1f)
+                .setDuration(1000)
+                .setInterpolator(pathInterpolator)
+                .start();
         int iconID = context.getResources().getIdentifier(item.name.toLowerCase(), "drawable", context.getPackageName());
         String resourceName;
         try {
@@ -70,7 +82,7 @@ public class MapGameAdapter extends BaseAdapter {
             maps.put("centralAmericaLow", R.drawable.america_button_icon);
             maps.put("caribbeanLow", R.drawable.america_button_icon);
             maps.put("asiaLow", R.drawable.asia_button_icon);
-            maps.put("oceaniaHigh", R.drawable.oceania_button_icon);
+            maps.put("oceaniaLow", R.drawable.oceania_button_icon);
             if (maps.containsKey(item.name)){
                 flagIcon.setImageResource(maps.get(item.name));
                 flagIcon.setMaxHeight(40);

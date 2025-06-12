@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GeoStudy</string>
+    <string name="world">World</string>
+    <string name="your_answers">Your answers</string>
+    <string name="europe">Europe</string>
+    <string name="africa">Africa</string>
+    <string name="america">America</string>
+    <string name="asia">Asia</string>
+    <string name="oceania">Oceania</string>
+    <string name="welcome_to_geostudy">Welcome to\nGeoStudy!</string>
+    <string name="correct_answers_info">"You answered %s questions correctly."</string>
+    <string name="percentage">Right: %s</string>
+    <string name="press_on">Click on: %s</string>
+    <string name="congrats">Congratulations!</string>
+    <string name="restart">Play again</string>
+    <string name="main_menu">Main menu</string>
+    <string-array name="world_regions">
+        <item>World: all countries</item>
+    </string-array>
+    <string-array name="european_regions">
+        <item>Europe: countries</item>
+        <item>Belarus: regions</item>
+        <item>Bulgaria: regions</item>
+        <item>Hungary: counties</item>
+        <item>United Kingdom: regions + Ireland</item>
+        <item>Germany: federal states</item>
+        <item>Greece: regions</item>
+        <item>Denmark: regions</item>
+        <item>Italy: regions</item>
+        <item>Netherlands: provinces</item>
+        <item>Poland: voivodeships</item>
+        <item>Russia: federal subjects</item>
+        <item>Finland: regions</item>
+        <item>France: regions</item>
+        <item>Czech Republic: regions</item>
+        <item>Switzerland: cantons</item>
+        <item>Estonia: counties</item>
+    </string-array>
+    <string-array name="african_regions">
+        <item>Africa: countries</item>
+        <item>South Africa: provinces + Lesotho</item>
+        <item>Egypt: governorates</item>
+    </string-array>
+    <string-array name="americas_regions">
+        <item>North America: countries</item>
+        <item>Central America: countries</item>
+        <item>Latin America: countries</item>
+        <item>Caribbean countries</item>
+        <item>Canada: provinces and territories</item>
+        <item>USA: states</item>
+        <item>Mexico: states</item>
+        <item>Argentina: provinces</item>
+        <item>Brazil: states</item>
+    </string-array>
+    <string-array name="asia_regions">
+        <item>Asia: countries</item>
+        <item>China: regions</item>
+        <item>Japan: prefectures</item>
+        <item>South Korea: provinces</item>
+        <item>Indonesia: provinces</item>
+        <item>UAE: emirates</item>
+        <item>Turkey: provinces</item>
+        <item>India: states</item>
+    </string-array>
+    <string-array name="australia_oceania_regions">
+        <item>Australia and Oceania: countries</item>
+        <item>Australia: states and territories</item>
+        <item>New Zealand: regions</item>
+        <item>New Caledonia: provinces</item>
+    </string-array>
+</resources>

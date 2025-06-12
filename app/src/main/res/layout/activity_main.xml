@@ -9,7 +9,7 @@
         xmlns:tools="http://schemas.android.com/tools"
         android:id="@+id/main"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:orientation="vertical"
         tools:context=".MainActivity">
 
@@ -26,6 +26,7 @@
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="370dp"
+                android:id="@+id/globe"
                 android:src="@drawable/earth" />
         </LinearLayout>
 
@@ -44,7 +45,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="start"
-                android:text="Добро\nпожаловать\nв GeoStudy!"
+                 android:text="@string/welcome_to_geostudy"
                 android:textSize="35sp" />
         </LinearLayout>
 
@@ -101,7 +102,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Европа"
+                        android:text="@string/europe"
                         android:textSize="24sp"
                         style="@style/MyText"
                         android:layout_gravity="left|top"/>
@@ -134,7 +135,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Африка"
+                        android:text="@string/africa"
                         android:textSize="24sp"
                         style="@style/MyText"
                         android:layout_gravity="left|top"/>
@@ -160,7 +161,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Америка"
+                        android:text="@string/america"
                         android:textSize="24sp"
                         style="@style/MyText"
                         android:layout_gravity="left|top"/>
@@ -193,7 +194,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Азия"
+                        android:text="@string/asia"
                         android:textSize="24sp"
                         style="@style/MyText"
                         android:layout_gravity="left|top"/>
@@ -219,7 +220,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Океания"
+                        android:text="@string/oceania"
                         android:textSize="24sp"
                         style="@style/MyText"
                         android:layout_gravity="left|top"/>

@@ -9,22 +9,24 @@ import java.util.Map;
 
 
 public class CurrentMapGame {
-    public Map<String, String> regions;
+    public Map<String, Map<String, String>> regions;
 
     public Map<String, String> reversedRegions;
 
     public String currentRegion;
     public MapActivity activity;
+    public AllGamesList allGamesList;
     public int coins;
 
-    public CurrentMapGame(Map<String, String> regions, MapActivity activity) {
+    public CurrentMapGame(Map<String, Map<String, String>> regions, MapActivity activity, AllGamesList allGamesList) {
         this.regions = regions;
         this.currentRegion = "";
         this.coins = 0;
         this.activity = activity;
         this.reversedRegions = new HashMap<>();
-        for (Map.Entry<String, String> entry : regions.entrySet()) {
-            reversedRegions.put(entry.getValue(), entry.getKey());
+        this.allGamesList = allGamesList;
+        for (Map.Entry<String, Map<String, String>> entry : regions.entrySet()) {
+            reversedRegions.put(entry.getValue().get(allGamesList.getCurrentLanguage()), entry.getKey());
         }
     }
     @JavascriptInterface
@@ -58,15 +60,16 @@ public class CurrentMapGame {
 
     @JavascriptInterface
     public void showIncorrectToast(String regionId){
-        Toast toast = Toast.makeText(activity, regions.get(regionId), Toast.LENGTH_SHORT);
-        toast.setView(activity.createCustomToast(regions.get(regionId)));
+        String regionName = regions.get(regionId).get(allGamesList.getCurrentLanguage());
+        Toast toast = Toast.makeText(activity, regionName, Toast.LENGTH_SHORT);
+        toast.setView(activity.createCustomToast(regionName));
         toast.setGravity(Gravity.TOP, 0,1200);
         toast.show();
     }
 
     @JavascriptInterface
     public boolean check(String id){
-        boolean flag = regions.get(id).equals(currentRegion) ? true : false;
+        boolean flag = regions.get(id).get(allGamesList.getCurrentLanguage()).equals(currentRegion) ? true : false;
         if (flag) {coins ++;}
         activity.answerListAdapter.insert(new AnswerItem(currentRegion, flag));
         activity.answerListAdapter.animateFirstItem(activity.answers);

@@ -1,0 +1,5112 @@
+{
+  "regions": {
+    "southAfrica" : {
+      "LS": {
+        "ru": "Лесото",
+        "en": "Lesotho"
+      },
+      "ZA-EC": {
+        "ru": "Восточно-Капская провинция",
+        "en": "Eastern Cape"
+      },
+      "ZA-FS": {
+        "ru": "Свободное Государство",
+        "en": "Free State"
+      },
+      "ZA-GT": {
+        "ru": "Гаутенг",
+        "en": "Gauteng"
+      },
+      "ZA-LP": {
+        "ru": "Лимпопо",
+        "en": "Limpopo"
+      },
+      "ZA-MP": {
+        "ru": "Мпумаланга",
+        "en": "Mpumalanga"
+      },
+      "ZA-NC": {
+        "ru": "Северо-Западная Капская провинция",
+        "en": "Northern Cape"
+      },
+      "ZA-NL": {
+        "ru": "Квазулу-Натал",
+        "en": "KwaZulu-Natal"
+      },
+      "ZA-NW": {
+        "ru": "Северо-Западная провинция",
+        "en": "North West"
+      },
+      "ZA-WC": {
+        "ru": "Западно-Капская провинция",
+        "en": "Western Cape"
+      }
+    },
+    "egypt": {
+      "EG-ASN": {
+        "ru": "Асьют",
+        "en": "Asyut"
+      },
+      "EG-AST": {
+        "ru": "Асуан",
+        "en": "Aswan"
+      },
+      "EG-BNS": {
+        "ru": "Бени-Суэйф",
+        "en": "Beni Suef"
+      },
+      "EG-FYM": {
+        "ru": "Файюм",
+        "en": "Faiyum"
+      },
+      "EG-KN": {
+        "ru": "Кена",
+        "en": "Qena"
+      },
+      "EG-MN": {
+        "ru": "Эль-Минья",
+        "en": "Minya"
+      },
+      "EG-LX": {
+        "ru": "Луксор",
+        "en": "Luxor"
+      },
+      "EG-WAD": {
+        "ru": "Новая Долина",
+        "en": "New Valley"
+      },
+      "EG-SHG": {
+        "ru": "Сохаг",
+        "en": "Sohag"
+      },
+      "EG-SUZ": {
+        "ru": "Суэц",
+        "en": "Suez"
+      },
+      "EG-ALX": {
+        "ru": "Александрия",
+        "en": "Alexandria"
+      },
+      "EG-DK": {
+        "ru": "Дакахлия",
+        "en": "Dakahlia"
+      },
+      "EG-BH": {
+        "ru": "Бехера",
+        "en": "Beheira"
+      },
+      "EG-GH": {
+        "ru": "Гарбия",
+        "en": "Gharbia"
+      },
+      "EG-KB": {
+        "ru": "Кальюбия",
+        "en": "Qalyubia"
+      },
+      "EG-MNF": {
+        "ru": "Менуфия",
+        "en": "Monufia"
+      },
+      "EG-IS": {
+        "ru": "Исмаилия",
+        "en": "Ismailia"
+      },
+      "EG-SHR": {
+        "ru": "Шаркия",
+        "en": "Sharqia"
+      },
+      "EG-PTS": {
+        "ru": "Порт-Саид",
+        "en": "Port Said"
+      },
+      "EG-DT": {
+        "ru": "Думьят",
+        "en": "Damietta"
+      },
+      "EG-GZ": {
+        "ru": "Гиза",
+        "en": "Giza"
+      },
+      "EG-HT": {
+        "ru": "Хелуан",
+        "en": "Helwan"
+      },
+      "EG-JS": {
+        "ru": "Южный Синай",
+        "en": "South Sinai"
+      },
+      "EG-SIN": {
+        "ru": "Северный Синай",
+        "en": "North Sinai"
+      },
+      "EG-BA": {
+        "ru": "Красное Море",
+        "en": "Red Sea"
+      },
+      "EG-C": {
+        "ru": "Каир",
+        "en": "Cairo"
+      },
+      "EG-KFS": {
+        "ru": "Кафр-эш-Шейх",
+        "en": "Kafr el-Sheikh"
+      },
+      "EG-MT": {
+        "ru": "Матрух",
+        "en": "Matrouh"
+      },
+      "EG-TER": {
+        "ru": "6 октября",
+        "en": "6th of October"
+      }
+    },
+    "newZealand": {
+      "NZ-AUK": {
+        "ru": "Окленд",
+        "en": "Auckland"
+      },
+      "NZ-BOP": {
+        "ru": "Бей-оф-Пленти",
+        "en": "Bay of Plenty"
+      },
+      "NZ-GIS": {
+        "ru": "Гисборн",
+        "en": "Gisborne"
+      },
+      "NZ-HKB": {
+        "ru": "Хокс-Бей",
+        "en": "Hawke's Bay"
+      },
+      "NZ-MWT": {
+        "ru": "Манавату-Уангануи",
+        "en": "Manawatu-Wanganui"
+      },
+      "NZ-NTL": {
+        "ru": "Нортленд",
+        "en": "Northland"
+      },
+      "NZ-TKI": {
+        "ru": "Таранаки",
+        "en": "Taranaki"
+      },
+      "NZ-WKO": {
+        "ru": "Уаикато",
+        "en": "Waikato"
+      },
+      "NZ-WGN": {
+        "ru": "Веллингтон",
+        "en": "Wellington"
+      },
+      "NZ-CAN": {
+        "ru": "Кентербери",
+        "en": "Canterbury"
+      },
+      "NZ-MBH": {
+        "ru": "Марлборо",
+        "en": "Marlborough"
+      },
+      "NZ-NSN": {
+        "ru": "Нельсон",
+        "en": "Nelson"
+      },
+      "NZ-OTA": {
+        "ru": "Отаго",
+        "en": "Otago"
+      },
+      "NZ-STL": {
+        "ru": "Саутленд",
+        "en": "Southland"
+      },
+      "NZ-TAS": {
+        "ru": "Тасман",
+        "en": "Tasman"
+      },
+      "NZ-WTC": {
+        "ru": "Уэст-Кост",
+        "en": "West Coast"
+      },
+      "NZ-CIT": {
+        "ru": "Острова Чатем",
+        "en": "Chatham Islands"
+      }
+    },
+    "newCaledonia": {
+      "NC-NO": {
+        "ru": "Северная провинция",
+        "en": "North Province"
+      },
+      "NC-SU": {
+        "ru": "Южная провинция",
+        "en": "South Province"
+      },
+      "NC-IL": {
+        "ru": "Провинция Луайоте",
+        "en": "Loyalty Islands Province"
+      }
+    },
+    "oceania": {
+      "AU": {
+        "ru": "Австралия",
+        "en": "Australia"
+      },
+      "BN": {
+        "ru": "Бруней",
+        "en": "Brunei"
+      },
+      "FJ": {
+        "ru": "Фиджи",
+        "en": "Fiji"
+      },
+      "ID": {
+        "ru": "Индонезия",
+        "en": "Indonesia"
+      },
+      "KI": {
+        "ru": "Кирибати",
+        "en": "Kiribati"
+      },
+      "MP": {
+        "ru": "Северные Марианские острова",
+        "en": "Northern Mariana Islands"
+      },
+      "NC": {
+        "ru": "Новая Каледония",
+        "en": "New Caledonia"
+      },
+      "NZ": {
+        "ru": "Новая Зеландия",
+        "en": "New Zealand"
+      },
+      "PG": {
+        "ru": "Папуа — Новая Гвинея",
+        "en": "Papua New Guinea"
+      },
+      "PH": {
+        "ru": "Филиппины",
+        "en": "Philippines"
+      },
+      "RE": {
+        "ru": "Реюньон",
+        "en": "Réunion"
+      },
+      "SB": {
+        "ru": "Соломоновы острова",
+        "en": "Solomon Islands"
+      },
+      "TF": {
+        "ru": "Французские Южные Территории",
+        "en": "French Southern Territories"
+      },
+      "TL": {
+        "ru": "Восточный Тимор",
+        "en": "Timor-Leste"
+      },
+      "VU": {
+        "ru": "Вануату",
+        "en": "Vanuatu"
+      }
+    },
+    "unitedArabianEmirates": {
+      "AE-AJ": {
+        "ru": "Аджман",
+        "en": "Ajman"
+      },
+      "AE-AZ": {
+        "ru": "Абу-Даби",
+        "en": "Abu Dhabi"
+      },
+      "AE-DU": {
+        "ru": "Дубай",
+        "en": "Dubai"
+      },
+      "AE-FU": {
+        "ru": "Фуджейра",
+        "en": "Fujairah"
+      },
+      "AE-RK": {
+        "ru": "Рас-эль-Хайма",
+        "en": "Ras al-Khaimah"
+      },
+      "AE-SH": {
+        "ru": "Шарджа",
+        "en": "Sharjah"
+      },
+      "AE-UQ": {
+        "ru": "Ум-эль-Кайвайн",
+        "en": "Umm al-Quwain"
+      },
+      "OM-MU": {
+        "ru": "Мусандам",
+        "en": "Musandam"
+      },
+      "AE-X1": {
+        "ru": "Нассибат-Заират-1",
+        "en": "Nassibat Zayrat-1"
+      },
+      "AE-X2": {
+        "ru": "Нассибат-Заират-2",
+        "en": "Nassibat Zayrat-2"
+      }
+    },
+    "turkey": {
+      "TR-01": {
+        "ru": "Адана",
+        "en": "Adana"
+      },
+      "TR-02": {
+        "ru": "Адыяман",
+        "en": "Adıyaman"
+      },
+      "TR-03": {
+        "ru": "Афьонкарахисар",
+        "en": "Afyonkarahisar"
+      },
+      "TR-04": {
+        "ru": "Агры",
+        "en": "Ağrı"
+      },
+      "TR-05": {
+        "ru": "Амасья",
+        "en": "Amasya"
+      },
+      "TR-06": {
+        "ru": "Анкара",
+        "en": "Ankara"
+      },
+      "TR-07": {
+        "ru": "Анталья",
+        "en": "Antalya"
+      },
+      "TR-08": {
+        "ru": "Артвин",
+        "en": "Artvin"
+      },
+      "TR-09": {
+        "ru": "Айдын",
+        "en": "Aydın"
+      },
+      "TR-10": {
+        "ru": "Балыкесир",
+        "en": "Balıkesir"
+      },
+      "TR-11": {
+        "ru": "Биледжик",
+        "en": "Bilecik"
+      },
+      "TR-12": {
+        "ru": "Бингёль",
+        "en": "Bingöl"
+      },
+      "TR-13": {
+        "ru": "Битлис",
+        "en": "Bitlis"
+      },
+      "TR-14": {
+        "ru": "Болу",
+        "en": "Bolu"
+      },
+      "TR-15": {
+        "ru": "Бурдур",
+        "en": "Burdur"
+      },
+      "TR-16": {
+        "ru": "Бурса",
+        "en": "Bursa"
+      },
+      "TR-17": {
+        "ru": "Чанаккале",
+        "en": "Çanakkale"
+      },
+      "TR-18": {
+        "ru": "Чанкыры",
+        "en": "Çankırı"
+      },
+      "TR-19": {
+        "ru": "Чорум",
+        "en": "Çorum"
+      },
+      "TR-20": {
+        "ru": "Денизли",
+        "en": "Denizli"
+      },
+      "TR-21": {
+        "ru": "Диярбакыр",
+        "en": "Diyarbakır"
+      },
+      "TR-22": {
+        "ru": "Эдирне",
+        "en": "Edirne"
+      },
+      "TR-23": {
+        "ru": "Элязыг",
+        "en": "Elazığ"
+      },
+      "TR-24": {
+        "ru": "Эрзинджан",
+        "en": "Erzincan"
+      },
+      "TR-25": {
+        "ru": "Эрзурум",
+        "en": "Erzurum"
+      },
+      "TR-26": {
+        "ru": "Эскишехир",
+        "en": "Eskişehir"
+      },
+      "TR-27": {
+        "ru": "Газиантеп",
+        "en": "Gaziantep"
+      },
+      "TR-28": {
+        "ru": "Гиресун",
+        "en": "Giresun"
+      },
+      "TR-29": {
+        "ru": "Гюмюшхане",
+        "en": "Gümüşhane"
+      },
+      "TR-30": {
+        "ru": "Хаккяри",
+        "en": "Hakkâri"
+      },
+      "TR-31": {
+        "ru": "Хатай",
+        "en": "Hatay"
+      },
+      "TR-32": {
+        "ru": "Ичель",
+        "en": "Isparta"
+      },
+      "TR-33": {
+        "ru": "Мерсин",
+        "en": "Mersin"
+      },
+      "TR-34": {
+        "ru": "Стамбул",
+        "en": "Istanbul"
+      },
+      "TR-35": {
+        "ru": "Измир",
+        "en": "İzmir"
+      },
+      "TR-36": {
+        "ru": "Карс",
+        "en": "Kars"
+      },
+      "TR-37": {
+        "ru": "Кастамону",
+        "en": "Kastamonu"
+      },
+      "TR-38": {
+        "ru": "Кайсери",
+        "en": "Kayseri"
+      },
+      "TR-39": {
+        "ru": "Кыркларели",
+        "en": "Kırklareli"
+      },
+      "TR-40": {
+        "ru": "Кыршехир",
+        "en": "Kırşehir"
+      },
+      "TR-41": {
+        "ru": "Коджаэли",
+        "en": "Kocaeli"
+      },
+      "TR-42": {
+        "ru": "Конья",
+        "en": "Konya"
+      },
+      "TR-43": {
+        "ru": "Кютахья",
+        "en": "Kütahya"
+      },
+      "TR-44": {
+        "ru": "Малатья",
+        "en": "Malatya"
+      },
+      "TR-45": {
+        "ru": "Маниса",
+        "en": "Manisa"
+      },
+      "TR-46": {
+        "ru": "Кахраманмараш",
+        "en": "Kahramanmaraş"
+      },
+      "TR-47": {
+        "ru": "Мардин",
+        "en": "Mardin"
+      },
+      "TR-48": {
+        "ru": "Мугла",
+        "en": "Muğla"
+      },
+      "TR-49": {
+        "ru": "Муш",
+        "en": "Muş"
+      },
+      "TR-50": {
+        "ru": "Невшехир",
+        "en": "Nevşehir"
+      },
+      "TR-51": {
+        "ru": "Нигде",
+        "en": "Niğde"
+      },
+      "TR-52": {
+        "ru": "Орду",
+        "en": "Ordu"
+      },
+      "TR-53": {
+        "ru": "Ризе",
+        "en": "Rize"
+      },
+      "TR-54": {
+        "ru": "Сакарья",
+        "en": "Sakarya"
+      },
+      "TR-55": {
+        "ru": "Самсун",
+        "en": "Samsun"
+      },
+      "TR-56": {
+        "ru": "Сиирт",
+        "en": "Siirt"
+      },
+      "TR-57": {
+        "ru": "Синоп",
+        "en": "Sinop"
+      },
+      "TR-58": {
+        "ru": "Сивас",
+        "en": "Sivas"
+      },
+      "TR-59": {
+        "ru": "Текирдаг",
+        "en": "Tekirdağ"
+      },
+      "TR-60": {
+        "ru": "Токат",
+        "en": "Tokat"
+      },
+      "TR-61": {
+        "ru": "Трабзон",
+        "en": "Trabzon"
+      },
+      "TR-62": {
+        "ru": "Тунджели",
+        "en": "Tunceli"
+      },
+      "TR-63": {
+        "ru": "Шанлыурфа",
+        "en": "Şanlıurfa"
+      },
+      "TR-64": {
+        "ru": "Ушак",
+        "en": "Uşak"
+      },
+      "TR-65": {
+        "ru": "Ван",
+        "en": "Van"
+      },
+      "TR-66": {
+        "ru": "Йозгат",
+        "en": "Yozgat"
+      },
+      "TR-67": {
+        "ru": "Зонгулдак",
+        "en": "Zonguldak"
+      },
+      "TR-68": {
+        "ru": "Аксарай",
+        "en": "Aksaray"
+      },
+      "TR-69": {
+        "ru": "Байбурт",
+        "en": "Bayburt"
+      },
+      "TR-70": {
+        "ru": "Караман",
+        "en": "Karaman"
+      },
+      "TR-71": {
+        "ru": "Кырыккале",
+        "en": "Kırıkkale"
+      },
+      "TR-72": {
+        "ru": "Батман",
+        "en": "Batman"
+      },
+      "TR-73": {
+        "ru": "Ширнак",
+        "en": "Şırnak"
+      },
+      "TR-74": {
+        "ru": "Бартын",
+        "en": "Bartın"
+      },
+      "TR-75": {
+        "ru": "Ардахан",
+        "en": "Ardahan"
+      },
+      "TR-76": {
+        "ru": "Игдыр",
+        "en": "Iğdır"
+      },
+      "TR-77": {
+        "ru": "Ялова",
+        "en": "Yalova"
+      },
+      "TR-78": {
+        "ru": "Карабюк",
+        "en": "Karabük"
+      },
+      "TR-79": {
+        "ru": "Килис",
+        "en": "Kilis"
+      },
+      "TR-80": {
+        "ru": "Османие",
+        "en": "Osmaniye"
+      },
+      "TR-81": {
+        "ru": "Дюздже",
+        "en": "Düzce"
+      }
+    },
+    "southKorea": {
+      "KR-11": {
+        "ru": "Сеул",
+        "en": "Seoul"
+      },
+      "KR-26": {
+        "ru": "Бучеон",
+        "en": "Bucheon"
+      },
+      "KR-27": {
+        "ru": "Чеджу",
+        "en": "Jeju"
+      },
+      "KR-28": {
+        "ru": "Инчхон",
+        "en": "Incheon"
+      },
+      "KR-29": {
+        "ru": "Кванджоу",
+        "en": "Gwangju"
+      },
+      "KR-30": {
+        "ru": "Соннам",
+        "en": "Seongnam"
+      },
+      "KR-31": {
+        "ru": "Суон",
+        "en": "Suwon"
+      },
+      "KR-41": {
+        "ru": "Кёнгидо",
+        "en": "Gyeonggi"
+      },
+      "KR-42": {
+        "ru": "Канвондо",
+        "en": "Gangwon"
+      },
+      "KR-43": {
+        "ru": "Чхунчхон-Намдо",
+        "en": "South Chungcheong"
+      },
+      "KR-44": {
+        "ru": "Чхунчхон-Пукто",
+        "en": "North Chungcheong"
+      },
+      "KR-45": {
+        "ru": "Чолла-Намдо",
+        "en": "South Jeolla"
+      },
+      "KR-46": {
+        "ru": "Чолла-Пукто",
+        "en": "North Jeolla"
+      },
+      "KR-47": {
+        "ru": "Кёнсан-Намдо",
+        "en": "South Gyeongsang"
+      },
+      "KR-48": {
+        "ru": "Кёнсан-Пукто",
+        "en": "North Gyeongsang"
+      },
+      "KR-49": {
+        "ru": "Дэгу",
+        "en": "Daegu"
+      },
+      "KR-50": {
+        "ru": "Тэджон",
+        "en": "Daejeon"
+      }
+    },
+    "japan": {
+      "JP-01": {
+        "ru": "Хоккайдо",
+        "en": "Hokkaido"
+      },
+      "JP-02": {
+        "ru": "Аомори",
+        "en": "Aomori"
+      },
+      "JP-03": {
+        "ru": "Иватэ",
+        "en": "Iwate"
+      },
+      "JP-04": {
+        "ru": "Мияги",
+        "en": "Miyagi"
+      },
+      "JP-05": {
+        "ru": "Акита",
+        "en": "Akita"
+      },
+      "JP-06": {
+        "ru": "Ямагата",
+        "en": "Yamagata"
+      },
+      "JP-07": {
+        "ru": "Фукусима",
+        "en": "Fukushima"
+      },
+      "JP-08": {
+        "ru": "Ибараки",
+        "en": "Ibaraki"
+      },
+      "JP-09": {
+        "ru": "Тотиги",
+        "en": "Tochigi"
+      },
+      "JP-10": {
+        "ru": "Гумма",
+        "en": "Gunma"
+      },
+      "JP-11": {
+        "ru": "Сайтама",
+        "en": "Saitama"
+      },
+      "JP-12": {
+        "ru": "Тиба",
+        "en": "Chiba"
+      },
+      "JP-13": {
+        "ru": "Токио",
+        "en": "Tokyo"
+      },
+      "JP-14": {
+        "ru": "Канагава",
+        "en": "Kanagawa"
+      },
+      "JP-15": {
+        "ru": "Ниигата",
+        "en": "Niigata"
+      },
+      "JP-16": {
+        "ru": "Тояма",
+        "en": "Toyama"
+      },
+      "JP-17": {
+        "ru": "Исикава",
+        "en": "Ishikawa"
+      },
+      "JP-18": {
+        "ru": "Фукуи",
+        "en": "Fukui"
+      },
+      "JP-19": {
+        "ru": "Яманаси",
+        "en": "Yamanashi"
+      },
+      "JP-20": {
+        "ru": "Нагано",
+        "en": "Nagano"
+      },
+      "JP-21": {
+        "ru": "Гифу",
+        "en": "Gifu"
+      },
+      "JP-22": {
+        "ru": "Сидзуока",
+        "en": "Shizuoka"
+      },
+      "JP-23": {
+        "ru": "Айти",
+        "en": "Aichi"
+      },
+      "JP-24": {
+        "ru": "Миэ",
+        "en": "Mie"
+      },
+      "JP-25": {
+        "ru": "Сига",
+        "en": "Shiga"
+      },
+      "JP-26": {
+        "ru": "Киото",
+        "en": "Kyoto"
+      },
+      "JP-27": {
+        "ru": "Осака",
+        "en": "Osaka"
+      },
+      "JP-28": {
+        "ru": "Хёго",
+        "en": "Hyogo"
+      },
+      "JP-29": {
+        "ru": "Нара",
+        "en": "Nara"
+      },
+      "JP-30": {
+        "ru": "Вакаяма",
+        "en": "Wakayama"
+      },
+      "JP-31": {
+        "ru": "Тоттори",
+        "en": "Tottori"
+      },
+      "JP-32": {
+        "ru": "Симанэ",
+        "en": "Shimane"
+      },
+      "JP-33": {
+        "ru": "Окаяма",
+        "en": "Okayama"
+      },
+      "JP-34": {
+        "ru": "Хиросима",
+        "en": "Hiroshima"
+      },
+      "JP-35": {
+        "ru": "Ямагути",
+        "en": "Yamaguchi"
+      },
+      "JP-36": {
+        "ru": "Токусима",
+        "en": "Tokushima"
+      },
+      "JP-37": {
+        "ru": "Кагава",
+        "en": "Kagawa"
+      },
+      "JP-38": {
+        "ru": "Эхимэ",
+        "en": "Ehime"
+      },
+      "JP-39": {
+        "ru": "Коти",
+        "en": "Kochi"
+      },
+      "JP-40": {
+        "ru": "Фукуока",
+        "en": "Fukuoka"
+      },
+      "JP-41": {
+        "ru": "Сага",
+        "en": "Saga"
+      },
+      "JP-42": {
+        "ru": "Нагасаки",
+        "en": "Nagasaki"
+      },
+      "JP-43": {
+        "ru": "Кумамото",
+        "en": "Kumamoto"
+      },
+      "JP-44": {
+        "ru": "Оита",
+        "en": "Oita"
+      },
+      "JP-45": {
+        "ru": "Миядзаки",
+        "en": "Miyazaki"
+      },
+      "JP-46": {
+        "ru": "Кагосима",
+        "en": "Kagoshima"
+      },
+      "JP-47": {
+        "ru": "Окинава",
+        "en": "Okinawa"
+      }
+    },
+    "indonesia": {
+      "ID-AC": {
+        "ru": "Ачех",
+        "en": "Aceh"
+      },
+      "ID-BA": {
+        "ru": "Бали",
+        "en": "Bali"
+      },
+      "ID-BB": {
+        "ru": "Банка-Белитунг",
+        "en": "Bangka Belitung"
+      },
+      "ID-BE": {
+        "ru": "Бенкулу",
+        "en": "Bengkulu"
+      },
+      "ID-BT": {
+        "ru": "Бантен",
+        "en": "Banten"
+      },
+      "ID-GO": {
+        "ru": "Горонтало",
+        "en": "Gorontalo"
+      },
+      "ID-JA": {
+        "ru": "Джамби",
+        "en": "Jambi"
+      },
+      "ID-JB": {
+        "ru": "Западная Ява",
+        "en": "West Java"
+      },
+      "ID-JI": {
+        "ru": "Восточная Ява",
+        "en": "East Java"
+      },
+      "ID-JK": {
+        "ru": "Джакарта",
+        "en": "Jakarta"
+      },
+      "ID-JT": {
+        "ru": "Центральная Ява",
+        "en": "Central Java"
+      },
+      "ID-KB": {
+        "ru": "Западный Калимантан",
+        "en": "West Kalimantan"
+      },
+      "ID-KI": {
+        "ru": "Восточный Калимантан",
+        "en": "East Kalimantan"
+      },
+      "ID-KR": {
+        "ru": "Острова Риау",
+        "en": "Riau Islands"
+      },
+      "ID-KS": {
+        "ru": "Южный Калимантан",
+        "en": "South Kalimantan"
+      },
+      "ID-KT": {
+        "ru": "Центральный Калимантан",
+        "en": "Central Kalimantan"
+      },
+      "ID-KU": {
+        "ru": "Северный Калимантан",
+        "en": "North Kalimantan"
+      },
+      "ID-LA": {
+        "ru": "Лампунг",
+        "en": "Lampung"
+      },
+      "ID-MA": {
+        "ru": "Молуккские острова",
+        "en": "Maluku"
+      },
+      "ID-MU": {
+        "ru": "Северное Малуку",
+        "en": "North Maluku"
+      },
+      "ID-NB": {
+        "ru": "Западные Малые Зондские острова",
+        "en": "West Nusa Tenggara"
+      },
+      "ID-NT": {
+        "ru": "Восточные Малые Зондские острова",
+        "en": "East Nusa Tenggara"
+      },
+      "ID-PA": {
+        "ru": "Папуа",
+        "en": "Papua"
+      },
+      "ID-PB": {
+        "ru": "Западное Папуа",
+        "en": "West Papua"
+      },
+      "ID-RI": {
+        "ru": "Риау",
+        "en": "Riau"
+      },
+      "ID-SA": {
+        "ru": "Северный Сулавеси",
+        "en": "North Sulawesi"
+      },
+      "ID-SB": {
+        "ru": "Западный Суматра",
+        "en": "West Sumatra"
+      },
+      "ID-SG": {
+        "ru": "Юго-Восточный Сулавеси",
+        "en": "Southeast Sulawesi"
+      },
+      "ID-SN": {
+        "ru": "Южный Сулавеси",
+        "en": "South Sulawesi"
+      },
+      "ID-SR": {
+        "ru": "Западный Сулавеси",
+        "en": "West Sulawesi"
+      },
+      "ID-SS": {
+        "ru": "Южная Суматра",
+        "en": "South Sumatra"
+      },
+      "ID-ST": {
+        "ru": "Центральный Сулавеси",
+        "en": "Central Sulawesi"
+      },
+      "ID-SU": {
+        "ru": "Северная Суматра",
+        "en": "North Sumatra"
+      },
+      "ID-YO": {
+        "ru": "Джокьякарта",
+        "en": "Yogyakarta"
+      },
+      "MY-12": {
+        "ru": "Саравак (Малайзия)",
+        "en": "Sarawak (Malaysia)"
+      },
+      "MY-13": {
+        "ru": "Сабах (Малайзия)",
+        "en": "Sabah (Malaysia)"
+      },
+      "BN": {
+        "ru": "Бруней",
+        "en": "Brunei"
+      }
+    },
+    "india": {
+      "IN-AN": {
+        "ru": "Андаманские и Никобарские острова",
+        "en": "Andaman and Nicobar Islands"
+      },
+      "IN-AP": {
+        "ru": "Андхра-Прадеш",
+        "en": "Andhra Pradesh"
+      },
+      "IN-AR": {
+        "ru": "Аруначал-Прадеш",
+        "en": "Arunachal Pradesh"
+      },
+      "IN-AS": {
+        "ru": "Ассам",
+        "en": "Assam"
+      },
+      "IN-BR": {
+        "ru": "Бихар",
+        "en": "Bihar"
+      },
+      "IN-CH": {
+        "ru": "Чандигарх",
+        "en": "Chandigarh"
+      },
+      "IN-CT": {
+        "ru": "Чхаттисгарх",
+        "en": "Chhattisgarh"
+      },
+      "IN-DD": {
+        "ru": "Дадра и Нагар-Хавели и Даман и Диу",
+        "en": "Dadra and Nagar Haveli and Daman and Diu"
+      },
+      "IN-DL": {
+        "ru": "Делийский национальный столичный округ",
+        "en": "National Capital Territory of Delhi"
+      },
+      "IN-DN": {
+        "ru": "Дадра и Нагар Хавели",
+        "en": "Dadra and Nagar Haveli"
+      },
+      "IN-GA": {
+        "ru": "Гоа",
+        "en": "Goa"
+      },
+      "IN-GJ": {
+        "ru": "Гуджарат",
+        "en": "Gujarat"
+      },
+      "IN-HP": {
+        "ru": "Химачал-Прадеш",
+        "en": "Himachal Pradesh"
+      },
+      "IN-HR": {
+        "ru": "Харьяна",
+        "en": "Haryana"
+      },
+      "IN-JH": {
+        "ru": "Джаркханд",
+        "en": "Jharkhand"
+      },
+      "IN-LK": {
+        "ru": "Лакшадвип",
+        "en": "Lakshadweep"
+      },
+      "IN-KA": {
+        "ru": "Карнатака",
+        "en": "Karnataka"
+      },
+      "IN-KL": {
+        "ru": "Керала",
+        "en": "Kerala"
+      },
+      "IN-LD": {
+        "ru": "Ладакх",
+        "en": "Ladakh"
+      },
+      "IN-MH": {
+        "ru": "Махараштра",
+        "en": "Maharashtra"
+      },
+      "IN-ML": {
+        "ru": "Мегхалая",
+        "en": "Meghalaya"
+      },
+      "IN-MN": {
+        "ru": "Манипур",
+        "en": "Manipur"
+      },
+      "IN-MP": {
+        "ru": "Мадхья-Прадеш",
+        "en": "Madhya Pradesh"
+      },
+      "IN-MZ": {
+        "ru": "Мизорам",
+        "en": "Mizoram"
+      },
+      "IN-NL": {
+        "ru": "Нагаленд",
+        "en": "Nagaland"
+      },
+      "IN-OR": {
+        "ru": "Одиша",
+        "en": "Odisha"
+      },
+      "IN-PB": {
+        "ru": "Пенджаб",
+        "en": "Punjab"
+      },
+      "IN-PY": {
+        "ru": "Пудучерри",
+        "en": "Puducherry"
+      },
+      "IN-RJ": {
+        "ru": "Раджастхан",
+        "en": "Rajasthan"
+      },
+      "IN-SK": {
+        "ru": "Сикким",
+        "en": "Sikkim"
+      },
+      "IN-TG": {
+        "ru": "Телангана",
+        "en": "Telangana"
+      },
+      "IN-TN": {
+        "ru": "Тамилнад",
+        "en": "Tamil Nadu"
+      },
+      "IN-TR": {
+        "ru": "Трипура",
+        "en": "Tripura"
+      },
+      "IN-UP": {
+        "ru": "Уттар-Прадеш",
+        "en": "Uttar Pradesh"
+      },
+      "IN-UT": {
+        "ru": "Уттаракханд",
+        "en": "Uttarakhand"
+      },
+      "IN-WB": {
+        "ru": "Западная Бенгалия",
+        "en": "West Bengal"
+      },
+      "IN-JK": {
+        "ru": "Джамму и Кашмир",
+        "en": "Jammu and Kashmir"
+      }
+    },
+    "caribbean": {
+      "AG": {
+        "ru": "Антигуа и Барбуда",
+        "en": "Antigua and Barbuda"
+      },
+      "BS": {
+        "ru": "Багамские Острова",
+        "en": "Bahamas"
+      },
+      "BB": {
+        "ru": "Барбадос",
+        "en": "Barbados"
+      },
+      "CU": {
+        "ru": "Куба",
+        "en": "Cuba"
+      },
+      "DM": {
+        "ru": "Доминика",
+        "en": "Dominica"
+      },
+      "DO": {
+        "ru": "Доминиканская Республика",
+        "en": "Dominican Republic"
+      },
+      "GD": {
+        "ru": "Гренада",
+        "en": "Grenada"
+      },
+      "HT": {
+        "ru": "Гаити",
+        "en": "Haiti"
+      },
+      "JM": {
+        "ru": "Ямайка",
+        "en": "Jamaica"
+      },
+      "KN": {
+        "ru": "Сент-Китс и Невис",
+        "en": "Saint Kitts and Nevis"
+      },
+      "LC": {
+        "ru": "Сент-Люсия",
+        "en": "Saint Lucia"
+      },
+      "TT": {
+        "ru": "Тринидад и Тобаго",
+        "en": "Trinidad and Tobago"
+      },
+      "VC": {
+        "ru": "Сент-Винсент и Гренадины",
+        "en": "Saint Vincent and the Grenadines"
+      },
+      "AI": {
+        "ru": "Ангилья (Великобритания)",
+        "en": "Anguilla (United Kingdom)"
+      },
+      "AW": {
+        "ru": "Аруба (Нидерланды)",
+        "en": "Aruba (Netherlands)"
+      },
+      "BL": {
+        "ru": "Сен-Бартелеми (Франция)",
+        "en": "Saint Barthélemy (France)"
+      },
+      "BQ": {
+        "ru": "Карибские Нидерланды",
+        "en": "Caribbean Netherlands"
+      },
+      "CW": {
+        "ru": "Кюрасао (Нидерланды)",
+        "en": "Curaçao (Netherlands)"
+      },
+      "GP": {
+        "ru": "Гваделупа (Франция)",
+        "en": "Guadeloupe (France)"
+      },
+      "KY": {
+        "ru": "Каймановы Острова (Великобритания)",
+        "en": "Cayman Islands (United Kingdom)"
+      },
+      "MF": {
+        "ru": "Сен-Мартен (Франция)",
+        "en": "Saint Martin (France)"
+      },
+      "MQ": {
+        "ru": "Мартиника (Франция)",
+        "en": "Martinique (France)"
+      },
+      "MS": {
+        "ru": "Монтсеррат (Великобритания)",
+        "en": "Montserrat (United Kingdom)"
+      },
+      "PR": {
+        "ru": "Пуэрто-Рико (США)",
+        "en": "Puerto Rico (USA)"
+      },
+      "SX": {
+        "ru": "Синт-Мартен (Нидерланды)",
+        "en": "Sint Maarten (Netherlands)"
+      },
+      "TC": {
+        "ru": "Острова Тёркс и Кайкос (Великобритания)",
+        "en": "Turks and Caicos Islands (United Kingdom)"
+      },
+      "VG": {
+        "ru": "Виргинские Острова (Великобритания)",
+        "en": "British Virgin Islands (United Kingdom)"
+      },
+      "VI": {
+        "ru": "Виргинские Острова (США)",
+        "en": "U.S. Virgin Islands (USA)"
+      }
+    },
+    "mexico": {
+      "MX-AGU": {
+        "ru": "Агуаскальентес",
+        "en": "Aguascalientes"
+      },
+      "MX-BCN": {
+        "ru": "Нижняя Калифорния",
+        "en": "Baja California"
+      },
+      "MX-BCS": {
+        "ru": "Южная Нижняя Калифорния",
+        "en": "Baja California Sur"
+      },
+      "MX-CAM": {
+        "ru": "Кампече",
+        "en": "Campeche"
+      },
+      "MX-CHP": {
+        "ru": "Чьяпас",
+        "en": "Chiapas"
+      },
+      "MX-CHH": {
+        "ru": "Чиуауа",
+        "en": "Chihuahua"
+      },
+      "MX-COA": {
+        "ru": "Коауила",
+        "en": "Coahuila"
+      },
+      "MX-COL": {
+        "ru": "Колима",
+        "en": "Colima"
+      },
+      "MX-DIF": {
+        "ru": "Федеральный округ (Мехико)",
+        "en": "Federal District (Mexico City)"
+      },
+      "MX-DUR": {
+        "ru": "Дуранго",
+        "en": "Durango"
+      },
+      "MX-GUA": {
+        "ru": "Гуанахуато",
+        "en": "Guanajuato"
+      },
+      "MX-GRO": {
+        "ru": "Герреро",
+        "en": "Guerrero"
+      },
+      "MX-HID": {
+        "ru": "Идальго",
+        "en": "Hidalgo"
+      },
+      "MX-JAL": {
+        "ru": "Халиско",
+        "en": "Jalisco"
+      },
+      "MX-MEX": {
+        "ru": "Мехико",
+        "en": "Mexico State"
+      },
+      "MX-MIC": {
+        "ru": "Мичоакан",
+        "en": "Michoacán"
+      },
+      "MX-MOR": {
+        "ru": "Морелос",
+        "en": "Morelos"
+      },
+      "MX-NAY": {
+        "ru": "Наярит",
+        "en": "Nayarit"
+      },
+      "MX-NLE": {
+        "ru": "Нуэво-Леон",
+        "en": "Nuevo León"
+      },
+      "MX-OAX": {
+        "ru": "Оахака",
+        "en": "Oaxaca"
+      },
+      "MX-PUE": {
+        "ru": "Пуэбла",
+        "en": "Puebla"
+      },
+      "MX-QUE": {
+        "ru": "Керетаро",
+        "en": "Querétaro"
+      },
+      "MX-ROO": {
+        "ru": "Кинтана-Роо",
+        "en": "Quintana Roo"
+      },
+      "MX-SLP": {
+        "ru": "Сан-Луис-Потоси",
+        "en": "San Luis Potosí"
+      },
+      "MX-SIN": {
+        "ru": "Синалоа",
+        "en": "Sinaloa"
+      },
+      "MX-SON": {
+        "ru": "Сонора",
+        "en": "Sonora"
+      },
+      "MX-TAB": {
+        "ru": "Табаско",
+        "en": "Tabasco"
+      },
+      "MX-TAM": {
+        "ru": "Тамаулипас",
+        "en": "Tamaulipas"
+      },
+      "MX-TLA": {
+        "ru": "Тласкала",
+        "en": "Tlaxcala"
+      },
+      "MX-VER": {
+        "ru": "Веракрус",
+        "en": "Veracruz"
+      },
+      "MX-YUC": {
+        "ru": "Юкатан",
+        "en": "Yucatán"
+      },
+      "MX-ZAC": {
+        "ru": "Сакатекас",
+        "en": "Zacatecas"
+      }
+    },
+    "canada": {
+      "CA-AB": {
+        "ru": "Альберта",
+        "en": "Alberta"
+      },
+      "CA-BC": {
+        "ru": "Британская Колумбия",
+        "en": "British Columbia"
+      },
+      "CA-MB": {
+        "ru": "Манитоба",
+        "en": "Manitoba"
+      },
+      "CA-NB": {
+        "ru": "Нью-Брансуик",
+        "en": "New Brunswick"
+      },
+      "CA-NL": {
+        "ru": "Ньюфаундленд и Лабрадор",
+        "en": "Newfoundland and Labrador"
+      },
+      "CA-NS": {
+        "ru": "Новая Шотландия",
+        "en": "Nova Scotia"
+      },
+      "CA-ON": {
+        "ru": "Онтарио",
+        "en": "Ontario"
+      },
+      "CA-PE": {
+        "ru": "Остров Принца Эдуарда",
+        "en": "Prince Edward Island"
+      },
+      "CA-QC": {
+        "ru": "Квебек",
+        "en": "Quebec"
+      },
+      "CA-SK": {
+        "ru": "Саскачеван",
+        "en": "Saskatchewan"
+      },
+      "CA-NT": {
+        "ru": "Северо-Западные территории",
+        "en": "Northwest Territories"
+      },
+      "CA-NU": {
+        "ru": "Нунавут",
+        "en": "Nunavut"
+      },
+      "CA-YT": {
+        "ru": "Юкон",
+        "en": "Yukon"
+      }
+    },
+    "brazil": {
+      "BR-AC": {
+        "ru": "Акри",
+        "en": "Acre"
+      },
+      "BR-AL": {
+        "ru": "Алагоас",
+        "en": "Alagoas"
+      },
+      "BR-AM": {
+        "ru": "Амазонас",
+        "en": "Amazonas"
+      },
+      "BR-AP": {
+        "ru": "Амапа",
+        "en": "Amapá"
+      },
+      "BR-BA": {
+        "ru": "Баия",
+        "en": "Bahia"
+      },
+      "BR-CE": {
+        "ru": "Сеара",
+        "en": "Ceará"
+      },
+      "BR-DF": {
+        "ru": "Федеральный округ",
+        "en": "Distrito Federal"
+      },
+      "BR-ES": {
+        "ru": "Эспириту-Санту",
+        "en": "Espírito Santo"
+      },
+      "BR-GO": {
+        "ru": "Гояс",
+        "en": "Goiás"
+      },
+      "BR-MA": {
+        "ru": "Мараньян",
+        "en": "Maranhão"
+      },
+      "BR-MG": {
+        "ru": "Минас-Жерайс",
+        "en": "Minas Gerais"
+      },
+      "BR-MS": {
+        "ru": "Мату-Гросу-ду-Сул",
+        "en": "Mato Grosso do Sul"
+      },
+      "BR-MT": {
+        "ru": "Мату-Гросу",
+        "en": "Mato Grosso"
+      },
+      "BR-PA": {
+        "ru": "Пара",
+        "en": "Pará"
+      },
+      "BR-PB": {
+        "ru": "Параиба",
+        "en": "Paraíba"
+      },
+      "BR-PE": {
+        "ru": "Пернамбуку",
+        "en": "Pernambuco"
+      },
+      "BR-PI": {
+        "ru": "Пиауи",
+        "en": "Piauí"
+      },
+      "BR-PR": {
+        "ru": "Парана",
+        "en": "Paraná"
+      },
+      "BR-RJ": {
+        "ru": "Рио-де-Жанейро",
+        "en": "Rio de Janeiro"
+      },
+      "BR-RN": {
+        "ru": "Риу-Гранди-ду-Норти",
+        "en": "Rio Grande do Norte"
+      },
+      "BR-RO": {
+        "ru": "Рондония",
+        "en": "Rondônia"
+      },
+      "BR-RR": {
+        "ru": "Рорайма",
+        "en": "Roraima"
+      },
+      "BR-RS": {
+        "ru": "Риу-Гранди-ду-Сул",
+        "en": "Rio Grande do Sul"
+      },
+      "BR-SC": {
+        "ru": "Санта-Катарина",
+        "en": "Santa Catarina"
+      },
+      "BR-SE": {
+        "ru": "Сержипи",
+        "en": "Sergipe"
+      },
+      "BR-SP": {
+        "ru": "Сан-Паулу",
+        "en": "São Paulo"
+      },
+      "BR-TO": {
+        "ru": "Токантинс",
+        "en": "Tocantins"
+      }
+    },
+    "argentina": {
+      "AR-B": {
+        "ru": "Буэнос-Айрес",
+        "en": "Buenos Aires Province"
+      },
+      "AR-K": {
+        "ru": "Катамарка",
+        "en": "Catamarca"
+      },
+      "AR-H": {
+        "ru": "Чако",
+        "en": "Chaco"
+      },
+      "AR-U": {
+        "ru": "Чубут",
+        "en": "Chubut"
+      },
+      "AR-C": {
+        "ru": "Сьюдад-де-Буэнос-Айрес",
+        "en": "Autonomous City of Buenos Aires"
+      },
+      "AR-X": {
+        "ru": "Кордова",
+        "en": "Córdoba"
+      },
+      "AR-W": {
+        "ru": "Корриентес",
+        "en": "Corrientes"
+      },
+      "AR-E": {
+        "ru": "Энтре-Риос",
+        "en": "Entre Ríos"
+      },
+      "AR-P": {
+        "ru": "Формоса",
+        "en": "Formosa"
+      },
+      "AR-Y": {
+        "ru": "Жужуй",
+        "en": "Jujuy"
+      },
+      "AR-L": {
+        "ru": "Ла-Пампа",
+        "en": "La Pampa"
+      },
+      "AR-F": {
+        "ru": "Ла-Риоха",
+        "en": "La Rioja"
+      },
+      "AR-M": {
+        "ru": "Мендоса",
+        "en": "Mendoza"
+      },
+      "AR-N": {
+        "ru": "Мисьонес",
+        "en": "Misiones"
+      },
+      "AR-Q": {
+        "ru": "Неукен",
+        "en": "Neuquén"
+      },
+      "AR-R": {
+        "ru": "Рио-Негро",
+        "en": "Río Negro"
+      },
+      "AR-A": {
+        "ru": "Сальта",
+        "en": "Salta"
+      },
+      "AR-Z": {
+        "ru": "Санта-Крус",
+        "en": "Santa Cruz"
+      },
+      "AR-G": {
+        "ru": "Сантьяго-дель-Эстеро",
+        "en": "Santiago del Estero"
+      },
+      "AR-S": {
+        "ru": "Санта-Фе",
+        "en": "Santa Fe"
+      },
+      "AR-J": {
+        "ru": "Сан-Хуан",
+        "en": "San Juan"
+      },
+      "AR-D": {
+        "ru": "Сан-Луис",
+        "en": "San Luis"
+      },
+      "AR-V": {
+        "ru": "Тьерра-дель-Фуэго",
+        "en": "Tierra del Fuego"
+      },
+      "AR-T": {
+        "ru": "Тукуман",
+        "en": "Tucumán"
+      }
+    },
+    "uk": {
+      "GB-BD": {
+        "ru": "Бедфордшир",
+        "en": "Bedfordshire"
+      },
+      "GB-BK": {
+        "ru": "Беркшир",
+        "en": "Berkshire"
+      },
+      "GB-BU": {
+        "ru": "Бэкингемшир",
+        "en": "Buckinghamshire"
+      },
+      "GB-CH": {
+        "ru": "Чешир",
+        "en": "Cheshire"
+      },
+      "GB-CM": {
+        "ru": "Камбриджшир",
+        "en": "Cambridgeshire"
+      },
+      "GB-CO": {
+        "ru": "Корнуолл",
+        "en": "Cornwall"
+      },
+      "GB-CU": {
+        "ru": "Камбрия",
+        "en": "Cumbria"
+      },
+      "GB-DB": {
+        "ru": "Дербишир",
+        "en": "Derbyshire"
+      },
+      "GB-DH": {
+        "ru": "Дарэм",
+        "en": "Durham"
+      },
+      "GB-DS": {
+        "ru": "Дорсет",
+        "en": "Dorset"
+      },
+      "GB-DV": {
+        "ru": "Девон",
+        "en": "Devon"
+      },
+      "GB-EX": {
+        "ru": "Эссекс",
+        "en": "Essex"
+      },
+      "GB-GC": {
+        "ru": "Глостершир",
+        "en": "Gloucestershire"
+      },
+      "GB-GL": {
+        "ru": "Большой Лондон",
+        "en": "Greater London"
+      },
+      "GB-HA": {
+        "ru": "Хэмпшир",
+        "en": "Hampshire"
+      },
+      "GB-HD": {
+        "ru": "Хартфордшир",
+        "en": "Hertfordshire"
+      },
+      "GB-HT": {
+        "ru": "Херефордшир",
+        "en": "Herefordshire"
+      },
+      "GB-KE": {
+        "ru": "Кент",
+        "en": "Kent"
+      },
+      "GB-LA": {
+        "ru": "Ланкашир",
+        "en": "Lancashire"
+      },
+      "GB-LE": {
+        "ru": "Лестершир",
+        "en": "Leicestershire"
+      },
+      "GB-LI": {
+        "ru": "Линкольншир",
+        "en": "Lincolnshire"
+      },
+      "GB-NA": {
+        "ru": "Нортгемптоншир",
+        "en": "Northamptonshire"
+      },
+      "GB-NB": {
+        "ru": "Нортумберленд",
+        "en": "Northumberland"
+      },
+      "GB-NF": {
+        "ru": "Норфолк",
+        "en": "Norfolk"
+      },
+      "GB-NI": {
+        "ru": "Северный Йоркшир",
+        "en": "North Yorkshire"
+      },
+      "GB-NT": {
+        "ru": "Ноттингемшир",
+        "en": "Nottinghamshire"
+      },
+      "GB-OX": {
+        "ru": "Оксфордшир",
+        "en": "Oxfordshire"
+      },
+      "GB-RT": {
+        "ru": "Ратленд",
+        "en": "Rutland"
+      },
+      "GB-SC": {
+        "ru": "Стаффордшир",
+        "en": "Staffordshire"
+      },
+      "GB-SF": {
+        "ru": "Саффолк",
+        "en": "Suffolk"
+      },
+      "GB-SM": {
+        "ru": "Сомерсет",
+        "en": "Somerset"
+      },
+      "GB-SP": {
+        "ru": "Шропшир",
+        "en": "Shropshire"
+      },
+      "GB-SR": {
+        "ru": "Суррей",
+        "en": "Surrey"
+      },
+      "GB-ST": {
+        "ru": "Восточный Суссекс",
+        "en": "East Sussex"
+      },
+      "GB-SX": {
+        "ru": "Западный Суссекс",
+        "en": "West Sussex"
+      },
+      "GB-WA": {
+        "ru": "Уорикшир",
+        "en": "Warwickshire"
+      },
+      "GB-WL": {
+        "ru": "Уилтшир",
+        "en": "Wiltshire"
+      },
+      "GB-WO": {
+        "ru": "Вустершир",
+        "en": "Worcestershire"
+      },
+      "GB-WR": {
+        "ru": "Йоркшир",
+        "en": "Yorkshire"
+      },
+      "GB-YK": {
+        "ru": "Восточный райдинг Йоркшира",
+        "en": "East Riding of Yorkshire"
+      },
+      "IE": {
+        "ru": "Ирландия",
+        "en": "Ireland"
+      }
+    },
+    "switzerland": {
+      "CH-AG": {
+        "ru": "Аргау",
+        "en": "Aargau"
+      },
+      "CH-AI": {
+        "ru": "Аппенцелль-Иннерроден",
+        "en": "Appenzell Innerrhoden"
+      },
+      "CH-AR": {
+        "ru": "Аппенцелль-Ауссерроден",
+        "en": "Appenzell Ausserrhoden"
+      },
+      "CH-BE": {
+        "ru": "Берн",
+        "en": "Bern"
+      },
+      "CH-BL": {
+        "ru": "Базель-Ланд",
+        "en": "Basel-Landschaft"
+      },
+      "CH-BS": {
+        "ru": "Базель-Штадт",
+        "en": "Basel-Stadt"
+      },
+      "CH-FR": {
+        "ru": "Фрибур",
+        "en": "Fribourg"
+      },
+      "CH-GE": {
+        "ru": "Женева",
+        "en": "Geneva"
+      },
+      "CH-GL": {
+        "ru": "Гларус",
+        "en": "Glarus"
+      },
+      "CH-GR": {
+        "ru": "Граубюнден",
+        "en": "Graubünden"
+      },
+      "CH-JU": {
+        "ru": "Юра",
+        "en": "Jura"
+      },
+      "CH-LU": {
+        "ru": "Люцерн",
+        "en": "Lucerne"
+      },
+      "CH-NE": {
+        "ru": "Невшатель",
+        "en": "Neuchâtel"
+      },
+      "CH-NW": {
+        "ru": "Нидвальден",
+        "en": "Nidwalden"
+      },
+      "CH-OW": {
+        "ru": "Обвальден",
+        "en": "Obwalden"
+      },
+      "CH-SG": {
+        "ru": "Санкт-Галлен",
+        "en": "St. Gallen"
+      },
+      "CH-SH": {
+        "ru": "Шаффхаузен",
+        "en": "Schaffhausen"
+      },
+      "CH-SO": {
+        "ru": "Золотурн",
+        "en": "Solothurn"
+      },
+      "CH-SZ": {
+        "ru": "Швиц",
+        "en": "Schwyz"
+      },
+      "CH-TG": {
+        "ru": "Тургау",
+        "en": "Thurgau"
+      },
+      "CH-TI": {
+        "ru": "Тичино",
+        "en": "Ticino"
+      },
+      "CH-UR": {
+        "ru": "Ури",
+        "en": "Uri"
+      },
+      "CH-VD": {
+        "ru": "Во",
+        "en": "Vaud"
+      },
+      "CH-VS": {
+        "ru": "Вале",
+        "en": "Valais"
+      },
+      "CH-ZG": {
+        "ru": "Цуг",
+        "en": "Zug"
+      },
+      "CH-ZH": {
+        "ru": "Цюрих",
+        "en": "Zürich"
+      }
+    },
+    "poland": {
+      "PL-DS": {
+        "ru": "Нижнесилезское",
+        "en": "Lower Silesian Voivodeship"
+      },
+      "PL-KP": {
+        "ru": "Куявско-Поморское",
+        "en": "Kuyavian-Pomeranian Voivodeship"
+      },
+      "PL-LD": {
+        "ru": "Лодзинское",
+        "en": "Łódź Voivodeship"
+      },
+      "PL-LU": {
+        "ru": "Люблинское",
+        "en": "Lublin Voivodeship"
+      },
+      "PL-LB": {
+        "ru": "Любушское",
+        "en": "Lubusz Voivodeship"
+      },
+      "PL-MA": {
+        "ru": "Малопольское",
+        "en": "Lesser Poland Voivodeship"
+      },
+      "PL-MZ": {
+        "ru": "Мазовецкое",
+        "en": "Masovian Voivodeship"
+      },
+      "PL-OP": {
+        "ru": "Опольское",
+        "en": "Opole Voivodeship"
+      },
+      "PL-PK": {
+        "ru": "Подкарпатское",
+        "en": "Subcarpathian Voivodeship"
+      },
+      "PL-PD": {
+        "ru": "Подляское",
+        "en": "Podlaskie Voivodeship"
+      },
+      "PL-PM": {
+        "ru": "Поморское",
+        "en": "Pomeranian Voivodeship"
+      },
+      "PL-SL": {
+        "ru": "Силезское",
+        "en": "Silesian Voivodeship"
+      },
+      "PL-SK": {
+        "ru": "Свентокшиское",
+        "en": "Свентокшиского Voivodeship"
+      },
+      "PL-WN": {
+        "ru": "Варминьско-Мазурское",
+        "en": "Warmian-Masurian Voivodeship"
+      },
+      "PL-WP": {
+        "ru": "Великопольское",
+        "en": "Greater Poland Voivodeship"
+      },
+      "PL-ZP": {
+        "ru": "Западно-Поморское",
+        "en": "West Pomeranian Voivodeship"
+      }
+    },
+    "netherlands": {
+      "NL-DR": {
+        "ru": "Дренте",
+        "en": "Drenthe"
+      },
+      "NL-FL": {
+        "ru": "Флеволанд",
+        "en": "Flevoland"
+      },
+      "NL-FR": {
+        "ru": "Фрисландия",
+        "en": "Friesland"
+      },
+      "NL-GE": {
+        "ru": "Гелдерланд",
+        "en": "Gelderland"
+      },
+      "NL-GR": {
+        "ru": "Гронинген",
+        "en": "Groningen"
+      },
+      "NL-LI": {
+        "ru": "Лимбург",
+        "en": "Limburg"
+      },
+      "NL-NB": {
+        "ru": "Северный Брабант",
+        "en": "North Brabant"
+      },
+      "NL-NH": {
+        "ru": "Северная Голландия",
+        "en": "North Holland"
+      },
+      "NL-OV": {
+        "ru": "Оверэйссел",
+        "en": "Overijssel"
+      },
+      "NL-UT": {
+        "ru": "Утрехт",
+        "en": "Utrecht"
+      },
+      "NL-ZE": {
+        "ru": "Зеландия",
+        "en": "Zeeland"
+      },
+      "NL-ZH": {
+        "ru": "Южная Голландия",
+        "en": "South Holland"
+      }
+    },
+    "italy": {
+      "IT-65": {
+        "ru": "Абруццо",
+        "en": "Abruzzo"
+      },
+      "IT-77": {
+        "ru": "Базиликата",
+        "en": "Basilicata"
+      },
+      "IT-78": {
+        "ru": "Калабрия",
+        "en": "Calabria"
+      },
+      "IT-72": {
+        "ru": "Кампания",
+        "en": "Campania"
+      },
+      "IT-45": {
+        "ru": "Эмилия-Романья",
+        "en": "Emilia-Romagna"
+      },
+      "IT-36": {
+        "ru": "Фриули-Венеция-Джулия",
+        "en": "Friuli Venezia Giulia"
+      },
+      "IT-62": {
+        "ru": "Лацио",
+        "en": "Lazio"
+      },
+      "IT-42": {
+        "ru": "Лигурия",
+        "en": "Liguria"
+      },
+      "IT-25": {
+        "ru": "Ломбардия",
+        "en": "Lombardia"
+      },
+      "IT-57": {
+        "ru": "Марке",
+        "en": "Marche"
+      },
+      "IT-67": {
+        "ru": "Молизе",
+        "en": "Molise"
+      },
+      "IT-21": {
+        "ru": "Пьемонт",
+        "en": "Piemonte"
+      },
+      "IT-75": {
+        "ru": "Апулия",
+        "en": "Puglia"
+      },
+      "IT-88": {
+        "ru": "Сардиния",
+        "en": "Sardegna"
+      },
+      "IT-82": {
+        "ru": "Сицилия",
+        "en": "Sicilia"
+      },
+      "IT-52": {
+        "ru": "Тоскана",
+        "en": "Toscana"
+      },
+      "IT-32": {
+        "ru": "Трентино-Альто-Адидже",
+        "en": "Trentino-Alto Adige/Südtirol"
+      },
+      "IT-55": {
+        "ru": "Умбрия",
+        "en": "Umbria"
+      },
+      "IT-23": {
+        "ru": "Валле-д'Аоста",
+        "en": "Valle d'Aosta/Vallée d'Aoste"
+      },
+      "IT-34": {
+        "ru": "Венето",
+        "en": "Veneto"
+      }
+    },
+    "hungary": {
+      "HU-BK": {
+        "ru": "Бач-Кишкун",
+        "en": "Bács-Kiskun"
+      },
+      "HU-BA": {
+        "ru": "Баранья",
+        "en": "Baranya"
+      },
+      "HU-BE": {
+        "ru": "Бекеш",
+        "en": "Békés"
+      },
+      "HU-BC": {
+        "ru": "Бекешчаба",
+        "en": "Békéscsaba"
+      },
+      "HU-BZ": {
+        "ru": "Боршод-Абауй-Земплен",
+        "en": "Borsod-Abaúj-Zemplén"
+      },
+      "HU-BU": {
+        "ru": "Будапешт",
+        "en": "Budapest"
+      },
+      "HU-CS": {
+        "ru": "Чонград-Чанад",
+        "en": "Csongrád-Csanád"
+      },
+      "HU-DE": {
+        "ru": "Дебрецен",
+        "en": "Debrecen"
+      },
+      "HU-DU": {
+        "ru": "Дунауйварош",
+        "en": "Dunaújváros"
+      },
+      "HU-EG": {
+        "ru": "Эгер",
+        "en": "Eger"
+      },
+      "HU-FE": {
+        "ru": "Фейер",
+        "en": "Fejér"
+      },
+      "HU-GY": {
+        "ru": "Дьёр",
+        "en": "Győr"
+      },
+      "HU-GS": {
+        "ru": "Дьёр-Мошон-Шопрон",
+        "en": "Győr-Moson-Sopron"
+      },
+      "HU-HB": {
+        "ru": "Хайду-Бихар",
+        "en": "Hajdú-Bihar"
+      },
+      "HU-HE": {
+        "ru": "Хевеш",
+        "en": "Heves"
+      },
+      "HU-HV": {
+        "ru": "Ходмезёвашархей",
+        "en": "Hódmezővásárhely"
+      },
+      "HU-JN": {
+        "ru": "Яс-Надькун-Сольнок",
+        "en": "Jász-Nagykun-Szolnok"
+      },
+      "HU-KV": {
+        "ru": "Капошвар",
+        "en": "Kaposvár"
+      },
+      "HU-KM": {
+        "ru": "Кечкемет",
+        "en": "Kecskemét"
+      },
+      "HU-KE": {
+        "ru": "Комаром-Эстергом",
+        "en": "Komárom-Esztergom"
+      },
+      "HU-MI": {
+        "ru": "Мишкольц",
+        "en": "Miskolc"
+      },
+      "HU-NK": {
+        "ru": "Надьканижа",
+        "en": "Nagykanizsa"
+      },
+      "HU-NO": {
+        "ru": "Ноград",
+        "en": "Nógrád"
+      },
+      "HU-NY": {
+        "ru": "Ньиредьхаза",
+        "en": "Nyíregyháza"
+      },
+      "HU-PS": {
+        "ru": "Печ",
+        "en": "Pécs"
+      },
+      "HU-PE": {
+        "ru": "Пешт",
+        "en": "Pest"
+      },
+      "HU-SO": {
+        "ru": "Шомодь",
+        "en": "Somogy"
+      },
+      "HU-SN": {
+        "ru": "Шопрон",
+        "en": "Sopron"
+      },
+      "HU-SZ": {
+        "ru": "Сабольч-Сатмар-Берег",
+        "en": "Szabolcs-Szatmár-Bereg"
+      },
+      "HU-SD": {
+        "ru": "Сегед",
+        "en": "Szeged"
+      },
+      "HU-SF": {
+        "ru": "Секешфехервар",
+        "en": "Székesfehérvár"
+      },
+      "HU-SK": {
+        "ru": "Сольнок",
+        "en": "Szolnok"
+      },
+      "HU-SH": {
+        "ru": "Сомбатхей",
+        "en": "Szombathely"
+      },
+      "HU-TB": {
+        "ru": "Татабанья",
+        "en": "Tatabánya"
+      },
+      "HU-TO": {
+        "ru": "Тольна",
+        "en": "Tolna"
+      },
+      "HU-VA": {
+        "ru": "Ваш",
+        "en": "Vas"
+      },
+      "HU-VE": {
+        "ru": "Веспрем (медье)",
+        "en": "Veszprém County"
+      },
+      "HU-VM": {
+        "ru": "Веспрем (город)",
+        "en": "Veszprém city"
+      },
+      "HU-ZA": {
+        "ru": "Зала",
+        "en": "Zala"
+      },
+      "HU-ZE": {
+        "ru": "Залаэгерсег",
+        "en": "Zalaegerszeg"
+      }
+    },
+    "greece": {
+      "GR-A": {
+        "ru": "Аттика",
+        "en": "Attica"
+      },
+      "GR-B": {
+        "ru": "Центральная Греция",
+        "en": "Central Greece"
+      },
+      "GR-C": {
+        "ru": "Центральная Македония",
+        "en": "Central Macedonia"
+      },
+      "GR-D": {
+        "ru": "Крит",
+        "en": "Crete"
+      },
+      "GR-E": {
+        "ru": "Македония и Фракия",
+        "en": "East Macedonia and Thrace"
+      },
+      "GR-F": {
+        "ru": "Эпир",
+        "en": "Epirus"
+      },
+      "GR-G": {
+        "ru": "Ионические острова",
+        "en": "Ionian Islands"
+      },
+      "GR-H": {
+        "ru": "Северные Эгейские острова",
+        "en": "North Aegean"
+      },
+      "GR-I": {
+        "ru": "Пелопоннес",
+        "en": "Peloponnese"
+      },
+      "GR-J": {
+        "ru": "Южные Эгейские острова",
+        "en": "South Aegean"
+      },
+      "GR-K": {
+        "ru": "Фессалия",
+        "en": "Thessaly"
+      },
+      "GR-L": {
+        "ru": "Западная Греция",
+        "en": "Western Greece"
+      },
+      "GR-M": {
+        "ru": "Западная Македония",
+        "en": "Western Macedonia"
+      },
+      "GR-69": {
+        "ru": "Афон",
+        "en": "Mount Athos"
+      }
+    },
+    "germany": {
+      "DE-BW": {
+        "ru": "Баден-Вюртемберг",
+        "en": "Baden-Württemberg"
+      },
+      "DE-BY": {
+        "ru": "Бавария",
+        "en": "Bavaria"
+      },
+      "DE-BE": {
+        "ru": "Берлин",
+        "en": "Berlin"
+      },
+      "DE-BB": {
+        "ru": "Бранденбург",
+        "en": "Brandenburg"
+      },
+      "DE-HB": {
+        "ru": "Бремен",
+        "en": "Bremen"
+      },
+      "DE-HH": {
+        "ru": "Гамбург",
+        "en": "Hamburg"
+      },
+      "DE-HE": {
+        "ru": "Гессен",
+        "en": "Hesse"
+      },
+      "DE-MV": {
+        "ru": "Мекленбург — Передняя Померания",
+        "en": "Mecklenburg-Western Pomerania"
+      },
+      "DE-NI": {
+        "ru": "Нижняя Саксония",
+        "en": "Lower Saxony"
+      },
+      "DE-NW": {
+        "ru": "Северный Рейн-Вестфалия",
+        "en": "North Rhine-Westphalia"
+      },
+      "DE-RP": {
+        "ru": "Рейнланд-Пфальц",
+        "en": "Rhineland-Palatinate"
+      },
+      "DE-SL": {
+        "ru": "Саар",
+        "en": "Saarland"
+      },
+      "DE-SN": {
+        "ru": "Саксония",
+        "en": "Saxony"
+      },
+      "DE-ST": {
+        "ru": "Саксония-Анхальт",
+        "en": "Saxony-Anhalt"
+      },
+      "DE-SH": {
+        "ru": "Шлезвиг-Гольштейн",
+        "en": "Schleswig-Holstein"
+      },
+      "DE-TH": {
+        "ru": "Тюрингия",
+        "en": "Thuringia"
+      }
+    },
+    "france": {
+      "FR-ARA": {
+        "ru": "Овернь — Рона — Альпы",
+        "en": "Auvergne-Rhône-Alpes"
+      },
+      "FR-BFC": {
+        "ru": "Бургундия — Франш-Конте",
+        "en": "Bourgogne-Franche-Comté"
+      },
+      "FR-BRE": {
+        "ru": "Бретань",
+        "en": "Brittany"
+      },
+      "FR-CVL": {
+        "ru": "Центр — Долина Луары",
+        "en": "Centre-Val de Loire"
+      },
+      "FR-COR": {
+        "ru": "Корсика",
+        "en": "Corsica"
+      },
+      "FR-GES": {
+        "ru": "Гранд-Эст",
+        "en": "Grand Est"
+      },
+      "FR-HDF": {
+        "ru": "О-де-Франс",
+        "en": "Hauts-de-France"
+      },
+      "FR-IDF": {
+        "ru": "Иль-де-Франс",
+        "en": "Île-de-France"
+      },
+      "FR-NOR": {
+        "ru": "Нормандия",
+        "en": "Normandy"
+      },
+      "FR-NAQ": {
+        "ru": "Новая Аквитания",
+        "en": "Nouvelle-Aquitaine"
+      },
+      "FR-OCC": {
+        "ru": "Окситания",
+        "en": "Occitanie"
+      },
+      "FR-PDL": {
+        "ru": "Пеи-де-ла-Луар",
+        "en": "Pays de la Loire"
+      },
+      "FR-PAC": {
+        "ru": "Прованс — Альпы — Лазурный Берег",
+        "en": "Provence-Alpes-Côte d'Azur"
+      }
+    },
+    "finland": {
+      "FI-01": {
+        "ru": "Аландские острова",
+        "en": "Åland Islands"
+      },
+      "FI-02": {
+        "ru": "Южная Карелия",
+        "en": "Southern Karelia"
+      },
+      "FI-03": {
+        "ru": "Южная Похьянмаа",
+        "en": "South Ostrobothnia"
+      },
+      "FI-04": {
+        "ru": "Южная Савония",
+        "en": "Southern Savonia"
+      },
+      "FI-05": {
+        "ru": "Канта-Хяме",
+        "en": "Kanta-Häme"
+      },
+      "FI-06": {
+        "ru": "Кайнуу",
+        "en": "Kainuu"
+      },
+      "FI-07": {
+        "ru": "Кюменлааксо",
+        "en": "Kymenlaakso"
+      },
+      "FI-08": {
+        "ru": "Лапландия",
+        "en": "Lapland"
+      },
+      "FI-09": {
+        "ru": "Пирканмаа",
+        "en": "Pirkanmaa"
+      },
+      "FI-10": {
+        "ru": "Похьянмаа",
+        "en": "Ostrobothnia"
+      },
+      "FI-11": {
+        "ru": "Пяйят-Хяме",
+        "en": "Päijänne Tavastia"
+      },
+      "FI-12": {
+        "ru": "Сатакунта",
+        "en": "Satakunta"
+      },
+      "FI-13": {
+        "ru": "Северная Карелия",
+        "en": "North Karelia"
+      },
+      "FI-14": {
+        "ru": "Северная Похьянмаа",
+        "en": "North Ostrobothnia"
+      },
+      "FI-15": {
+        "ru": "Северная Савония",
+        "en": "Northern Savonia"
+      },
+      "FI-16": {
+        "ru": "Уусимаа",
+        "en": "Uusimaa"
+      },
+      "FI-17": {
+        "ru": "Центральная Похьянмаа",
+        "en": "Central Ostrobothnia"
+      },
+      "FI-18": {
+        "ru": "Центральная Финляндия",
+        "en": "Central Finland"
+      },
+      "FI-19": {
+        "ru": "Варсинайс-Суоми",
+        "en": "Varsinais-Suomi"
+      }
+    },
+    "estonia": {
+      "EE-37": {
+        "ru": "Харьюмаа",
+        "en": "Harju County"
+      },
+      "EE-39": {
+        "ru": "Хийумаа",
+        "en": "Hiiumaa"
+      },
+      "EE-44": {
+        "ru": "Ида-Вирумаа",
+        "en": "Ida-Viru County"
+      },
+      "EE-49": {
+        "ru": "Йыгевамаа",
+        "en": "Jõgeva County"
+      },
+      "EE-51": {
+        "ru": "Ярвамаа",
+        "en": "Järva County"
+      },
+      "EE-57": {
+        "ru": "Ляэне-Вирумаа",
+        "en": "Lääne-Viru County"
+      },
+      "EE-59": {
+        "ru": "Ляэнемаа",
+        "en": "Lääne County"
+      },
+      "EE-65": {
+        "ru": "Пылвамаа",
+        "en": "Põlva County"
+      },
+      "EE-67": {
+        "ru": "Пярнумаа",
+        "en": "Pärnu County"
+      },
+      "EE-70": {
+        "ru": "Рапламаа",
+        "en": "Rapla County"
+      },
+      "EE-74": {
+        "ru": "Сааремаа",
+        "en": "Saare County"
+      },
+      "EE-78": {
+        "ru": "Тартумаа",
+        "en": "Tartu County"
+      },
+      "EE-82": {
+        "ru": "Валгамаа",
+        "en": "Valga County"
+      },
+      "EE-84": {
+        "ru": "Вильяндимаа",
+        "en": "Viljandi County"
+      },
+      "EE-86": {
+        "ru": "Вырумаа",
+        "en": "Võru County"
+      }
+    },
+    "denmark": {
+      "DK-84": {
+        "ru": "Столичный регион",
+        "en": "Capital Region of Denmark"
+      },
+      "DK-82": {
+        "ru": "Центральная Ютландия",
+        "en": "Central Jutland"
+      },
+      "DK-81": {
+        "ru": "Северная Ютландия",
+        "en": "North Jutland"
+      },
+      "DK-85": {
+        "ru": "Зеландия",
+        "en": "Region Zealand"
+      },
+      "DK-83": {
+        "ru": "Южная Дания",
+        "en": "Region of Southern Denmark"
+      }
+    },
+    "worldIndia": {
+      "AE": {
+        "ru": "ОАЭ",
+        "en": "United Arab Emirates"
+      },
+      "AF": {
+        "ru": "Афганистан",
+        "en": "Afghanistan"
+      },
+      "AL": {
+        "ru": "Албания",
+        "en": "Albania"
+      },
+      "AM": {
+        "ru": "Армения",
+        "en": "Armenia"
+      },
+      "AO": {
+        "ru": "Ангола",
+        "en": "Angola"
+      },
+      "AR": {
+        "ru": "Аргентина",
+        "en": "Argentina"
+      },
+      "AT": {
+        "ru": "Австрия",
+        "en": "Austria"
+      },
+      "AU": {
+        "ru": "Австралия",
+        "en": "Australia"
+      },
+      "AZ": {
+        "ru": "Азербайджан",
+        "en": "Azerbaijan"
+      },
+      "BA": {
+        "ru": "Босния и Герцеговина",
+        "en": "Bosnia and Herzegovina"
+      },
+      "BD": {
+        "ru": "Бангладеш",
+        "en": "Bangladesh"
+      },
+      "BE": {
+        "ru": "Бельгия",
+        "en": "Belgium"
+      },
+      "BF": {
+        "ru": "Буркина-Фасо",
+        "en": "Burkina Faso"
+      },
+      "BG": {
+        "ru": "Болгария",
+        "en": "Bulgaria"
+      },
+      "BI": {
+        "ru": "Бурунди",
+        "en": "Burundi"
+      },
+      "BJ": {
+        "ru": "Бенин",
+        "en": "Benin"
+      },
+      "BN": {
+        "ru": "Бруней-Даруссалам",
+        "en": "Brunei Darussalam"
+      },
+      "BO": {
+        "ru": "Боливия",
+        "en": "Bolivia"
+      },
+      "BR": {
+        "ru": "Бразилия",
+        "en": "Brazil"
+      },
+      "BS": {
+        "ru": "Багамы",
+        "en": "Bahamas"
+      },
+      "BT": {
+        "ru": "Бутан",
+        "en": "Bhutan"
+      },
+      "BW": {
+        "ru": "Ботсвана",
+        "en": "Botswana"
+      },
+      "BY": {
+        "ru": "Белоруссия",
+        "en": "Belarus"
+      },
+      "BZ": {
+        "ru": "Белиз",
+        "en": "Belize"
+      },
+      "CA": {
+        "ru": "Канада",
+        "en": "Canada"
+      },
+      "CD": {
+        "ru": "Демократическая Республика Конго",
+        "en": "Democratic Republic of Congo"
+      },
+      "CF": {
+        "ru": "Центральноафриканская Республика",
+        "en": "Central African Republic"
+      },
+      "CG": {
+        "ru": "Республика Конго",
+        "en": "Republic of Congo"
+      },
+      "CH": {
+        "ru": "Швейцария",
+        "en": "Switzerland"
+      },
+      "CI": {
+        "ru": "Кот-д'Ивуар",
+        "en": "Ivory Coast"
+      },
+      "CL": {
+        "ru": "Чили",
+        "en": "Chile"
+      },
+      "CM": {
+        "ru": "Камерун",
+        "en": "Cameroon"
+      },
+      "CN": {
+        "ru": "Китай",
+        "en": "China"
+      },
+      "CO": {
+        "ru": "Колумбия",
+        "en": "Colombia"
+      },
+      "CR": {
+        "ru": "Коста-Рика",
+        "en": "Costa Rica"
+      },
+      "CU": {
+        "ru": "Куба",
+        "en": "Cuba"
+      },
+      "CY": {
+        "ru": "Кипр",
+        "en": "Cyprus"
+      },
+      "CZ": {
+        "ru": "Чехия",
+        "en": "Czech Republic"
+      },
+      "DE": {
+        "ru": "Германия",
+        "en": "Germany"
+      },
+      "DJ": {
+        "ru": "Джибути",
+        "en": "Djibouti"
+      },
+      "DK": {
+        "ru": "Дания",
+        "en": "Denmark"
+      },
+      "DO": {
+        "ru": "Доминиканская Республика",
+        "en": "Dominican Republic"
+      },
+      "DZ": {
+        "ru": "Алжир",
+        "en": "Algeria"
+      },
+      "EC": {
+        "ru": "Эквадор",
+        "en": "Ecuador"
+      },
+      "EE": {
+        "ru": "Эстония",
+        "en": "Estonia"
+      },
+      "EG": {
+        "ru": "Египет",
+        "en": "Egypt"
+      },
+      "ER": {
+        "ru": "Эритрея",
+        "en": "Eritrea"
+      },
+      "ES": {
+        "ru": "Испания",
+        "en": "Spain"
+      },
+      "ET": {
+        "ru": "Эфиопия",
+        "en": "Ethiopia"
+      },
+      "FK": {
+        "ru": "Фолклендские острова",
+        "en": "Falkland Islands"
+      },
+      "FI": {
+        "ru": "Финляндия",
+        "en": "Finland"
+      },
+      "FJ": {
+        "ru": "Фиджи",
+        "en": "Fiji"
+      },
+      "FR": {
+        "ru": "Франция",
+        "en": "France"
+      },
+      "GA": {
+        "ru": "Габон",
+        "en": "Gabon"
+      },
+      "GB": {
+        "ru": "Великобритания",
+        "en": "United Kingdom"
+      },
+      "GE": {
+        "ru": "Грузия",
+        "en": "Georgia"
+      },
+      "GF": {
+        "ru": "Французская Гвиана",
+        "en": "French Guiana"
+      },
+      "GH": {
+        "ru": "Гана",
+        "en": "Ghana"
+      },
+      "GL": {
+        "ru": "Гренландия",
+        "en": "Greenland"
+      },
+      "GM": {
+        "ru": "Гамбия",
+        "en": "Gambia"
+      },
+      "GN": {
+        "ru": "Гвинея",
+        "en": "Guinea"
+      },
+      "GQ": {
+        "ru": "Экваториальная Гвинея",
+        "en": "Equatorial Guinea"
+      },
+      "GR": {
+        "ru": "Греция",
+        "en": "Greece"
+      },
+      "GT": {
+        "ru": "Гватемала",
+        "en": "Guatemala"
+      },
+      "GW": {
+        "ru": "Гвинея-Бисау",
+        "en": "Guinea-Bissau"
+      },
+      "GY": {
+        "ru": "Гайана",
+        "en": "Guyana"
+      },
+      "HN": {
+        "ru": "Гондурас",
+        "en": "Honduras"
+      },
+      "HR": {
+        "ru": "Хорватия",
+        "en": "Croatia"
+      },
+      "HT": {
+        "ru": "Гаити",
+        "en": "Haiti"
+      },
+      "HU": {
+        "ru": "Венгрия",
+        "en": "Hungary"
+      },
+      "ID": {
+        "ru": "Индонезия",
+        "en": "Indonesia"
+      },
+      "IE": {
+        "ru": "Ирландия",
+        "en": "Ireland"
+      },
+      "IL": {
+        "ru": "Израиль",
+        "en": "Israel"
+      },
+      "IN": {
+        "ru": "Индия",
+        "en": "India"
+      },
+      "IQ": {
+        "ru": "Ирак",
+        "en": "Iraq"
+      },
+      "IR": {
+        "ru": "Иран",
+        "en": "Iran"
+      },
+      "IS": {
+        "ru": "Исландия",
+        "en": "Iceland"
+      },
+      "IT": {
+        "ru": "Италия",
+        "en": "Italy"
+      },
+      "JM": {
+        "ru": "Ямайка",
+        "en": "Jamaica"
+      },
+      "JO": {
+        "ru": "Иордания",
+        "en": "Jordan"
+      },
+      "JP": {
+        "ru": "Япония",
+        "en": "Japan"
+      },
+      "KE": {
+        "ru": "Кения",
+        "en": "Kenya"
+      },
+      "KG": {
+        "ru": "Киргизия",
+        "en": "Kyrgyzstan"
+      },
+      "KH": {
+        "ru": "Камбоджа",
+        "en": "Cambodia"
+      },
+      "KP": {
+        "ru": "Северная Корея",
+        "en": "North Korea"
+      },
+      "KR": {
+        "ru": "Южная Корея",
+        "en": "South Korea"
+      },
+      "XK": {
+        "ru": "Косово",
+        "en": "Kosovo"
+      },
+      "KW": {
+        "ru": "Кувейт",
+        "en": "Kuwait"
+      },
+      "KZ": {
+        "ru": "Казахстан",
+        "en": "Kazakhstan"
+      },
+      "LA": {
+        "ru": "Лаос",
+        "en": "Laos"
+      },
+      "LB": {
+        "ru": "Ливан",
+        "en": "Lebanon"
+      },
+      "LK": {
+        "ru": "Шри-Ланка",
+        "en": "Sri Lanka"
+      },
+      "LR": {
+        "ru": "Либерия",
+        "en": "Liberia"
+      },
+      "LS": {
+        "ru": "Лесото",
+        "en": "Lesotho"
+      },
+      "LT": {
+        "ru": "Литва",
+        "en": "Lithuania"
+      },
+      "LU": {
+        "ru": "Люксембург",
+        "en": "Luxembourg"
+      },
+      "LV": {
+        "ru": "Латвия",
+        "en": "Latvia"
+      },
+      "LY": {
+        "ru": "Ливия",
+        "en": "Libya"
+      },
+      "MA": {
+        "ru": "Марокко",
+        "en": "Morocco"
+      },
+      "MD": {
+        "ru": "Молдова",
+        "en": "Moldova"
+      },
+      "ME": {
+        "ru": "Черногория",
+        "en": "Montenegro"
+      },
+      "MG": {
+        "ru": "Мадагаскар",
+        "en": "Madagascar"
+      },
+      "MK": {
+        "ru": "Северная Македония",
+        "en": "North Macedonia"
+      },
+      "ML": {
+        "ru": "Мали",
+        "en": "Mali"
+      },
+      "MM": {
+        "ru": "Мьянма",
+        "en": "Myanmar"
+      },
+      "MN": {
+        "ru": "Монголия",
+        "en": "Mongolia"
+      },
+      "MR": {
+        "ru": "Мавритания",
+        "en": "Mauritania"
+      },
+      "MW": {
+        "ru": "Малави",
+        "en": "Malawi"
+      },
+      "MX": {
+        "ru": "Мексика",
+        "en": "Mexico"
+      },
+      "MY": {
+        "ru": "Малайзия",
+        "en": "Malaysia"
+      },
+      "MZ": {
+        "ru": "Мозамбик",
+        "en": "Mozambique"
+      },
+      "NA": {
+        "ru": "Намибия",
+        "en": "Namibia"
+      },
+      "NC": {
+        "ru": "Новая Каледония",
+        "en": "New Caledonia"
+      },
+      "NE": {
+        "ru": "Нигер",
+        "en": "Niger"
+      },
+      "NG": {
+        "ru": "Нигерия",
+        "en": "Nigeria"
+      },
+      "NI": {
+        "ru": "Никарагуа",
+        "en": "Nicaragua"
+      },
+      "NL": {
+        "ru": "Нидерланды",
+        "en": "Netherlands"
+      },
+      "NO": {
+        "ru": "Норвегия",
+        "en": "Norway"
+      },
+      "NP": {
+        "ru": "Непал",
+        "en": "Nepal"
+      },
+      "NZ": {
+        "ru": "Новая Зеландия",
+        "en": "New Zealand"
+      },
+      "OM": {
+        "ru": "Оман",
+        "en": "Oman"
+      },
+      "PA": {
+        "ru": "Панама",
+        "en": "Panama"
+      },
+      "PE": {
+        "ru": "Перу",
+        "en": "Peru"
+      },
+      "PG": {
+        "ru": "Папуа — Новая Гвинея",
+        "en": "Papua New Guinea"
+      },
+      "PH": {
+        "ru": "Филиппины",
+        "en": "Philippines"
+      },
+      "PL": {
+        "ru": "Польша",
+        "en": "Poland"
+      },
+      "PK": {
+        "ru": "Пакистан",
+        "en": "Pakistan"
+      },
+      "PR": {
+        "ru": "Пуэрто-Рико",
+        "en": "Puerto Rico"
+      },
+      "PS": {
+        "ru": "Палестина",
+        "en": "Palestine"
+      },
+      "PT": {
+        "ru": "Португалия",
+        "en": "Portugal"
+      },
+      "PY": {
+        "ru": "Парагвай",
+        "en": "Paraguay"
+      },
+      "QA": {
+        "ru": "Катар",
+        "en": "Qatar"
+      },
+      "RO": {
+        "ru": "Румыния",
+        "en": "Romania"
+      },
+      "RS": {
+        "ru": "Сербия",
+        "en": "Serbia"
+      },
+      "RU": {
+        "ru": "Россия",
+        "en": "Russia"
+      },
+      "RW": {
+        "ru": "Руанда",
+        "en": "Rwanda"
+      },
+      "SA": {
+        "ru": "Саудовская Аравия",
+        "en": "Saudi Arabia"
+      },
+      "SB": {
+        "ru": "Соломоновы Острова",
+        "en": "Solomon Islands"
+      },
+      "SD": {
+        "ru": "Судан",
+        "en": "Sudan"
+      },
+      "SE": {
+        "ru": "Швеция",
+        "en": "Sweden"
+      },
+      "SI": {
+        "ru": "Словения",
+        "en": "Slovenia"
+      },
+      "SK": {
+        "ru": "Словакия",
+        "en": "Slovakia"
+      },
+      "SL": {
+        "ru": "Сьерра-Леоне",
+        "en": "Sierra Leone"
+      },
+      "SN": {
+        "ru": "Сенегал",
+        "en": "Senegal"
+      },
+      "SO": {
+        "ru": "Сомали",
+        "en": "Somalia"
+      },
+      "SR": {
+        "ru": "Суринам",
+        "en": "Suriname"
+      },
+      "SS": {
+        "ru": "Южный Судан",
+        "en": "South Sudan"
+      },
+      "SV": {
+        "ru": "Сальвадор",
+        "en": "El Salvador"
+      },
+      "SY": {
+        "ru": "Сирия",
+        "en": "Syria"
+      },
+      "SZ": {
+        "ru": "Эсватини",
+        "en": "Eswatini"
+      },
+      "TD": {
+        "ru": "Чад",
+        "en": "Chad"
+      },
+      "TF": {
+        "ru": "Французские Южные территории",
+        "en": "French Southern Territories"
+      },
+      "TG": {
+        "ru": "Того",
+        "en": "Togo"
+      },
+      "TH": {
+        "ru": "Таиланд",
+        "en": "Thailand"
+      },
+      "TJ": {
+        "ru": "Таджикистан",
+        "en": "Tajikistan"
+      },
+      "TL": {
+        "ru": "Восточный Тимор",
+        "en": "Timor-Leste"
+      },
+      "TM": {
+        "ru": "Туркмения",
+        "en": "Turkmenistan"
+      },
+      "TN": {
+        "ru": "Тунис",
+        "en": "Tunisia"
+      },
+      "TR": {
+        "ru": "Турция",
+        "en": "Turkey"
+      },
+      "TT": {
+        "ru": "Тринидад и Тобаго",
+        "en": "Trinidad and Tobago"
+      },
+      "TW": {
+        "ru": "Тайвань",
+        "en": "Taiwan"
+      },
+      "TZ": {
+        "ru": "Танзания",
+        "en": "Tanzania"
+      },
+      "UA": {
+        "ru": "Украина",
+        "en": "Ukraine"
+      },
+      "UG": {
+        "ru": "Уганда",
+        "en": "Uganda"
+      },
+      "US": {
+        "ru": "США",
+        "en": "United States"
+      },
+      "UY": {
+        "ru": "Уругвай",
+        "en": "Uruguay"
+      },
+      "UZ": {
+        "ru": "Узбекистан",
+        "en": "Uzbekistan"
+      },
+      "VE": {
+        "ru": "Венесуэла",
+        "en": "Venezuela"
+      },
+      "VN": {
+        "ru": "Вьетнам",
+        "en": "Vietnam"
+      },
+      "VU": {
+        "ru": "Вануату",
+        "en": "Vanuatu"
+      },
+      "YE": {
+        "ru": "Йемен",
+        "en": "Yemen"
+      },
+      "ZA": {
+        "ru": "Южно-Африканская Республика",
+        "en": "South Africa"
+      },
+      "ZM": {
+        "ru": "Замбия",
+        "en": "Zambia"
+      },
+      "ZW": {
+        "ru": "Зимбабве",
+        "en": "Zimbabwe"
+      }
+    },
+    "northAmerica": {
+      "BS": {
+        "ru": "Багамские Острова",
+        "en": "Bahamas"
+      },
+      "BZ": {
+        "ru": "Белиз",
+        "en": "Belize"
+      },
+      "CA": {
+        "ru": "Канада",
+        "en": "Canada"
+      },
+      "CR": {
+        "ru": "Коста-Рика",
+        "en": "Costa Rica"
+      },
+      "CU": {
+        "ru": "Куба",
+        "en": "Cuba"
+      },
+      "DO": {
+        "ru": "Доминиканская Республика",
+        "en": "Dominican Republic"
+      },
+      "GT": {
+        "ru": "Гватемала",
+        "en": "Guatemala"
+      },
+      "HN": {
+        "ru": "Гондурас",
+        "en": "Honduras"
+      },
+      "HT": {
+        "ru": "Гаити",
+        "en": "Haiti"
+      },
+      "JM": {
+        "ru": "Ямайка",
+        "en": "Jamaica"
+      },
+      "MX": {
+        "ru": "Мексика",
+        "en": "Mexico"
+      },
+      "NI": {
+        "ru": "Никарагуа",
+        "en": "Nicaragua"
+      },
+      "PA": {
+        "ru": "Панама",
+        "en": "Panama"
+      },
+      "PR": {
+        "ru": "Пуэрто-Рико",
+        "en": "Puerto Rico"
+      },
+      "SV": {
+        "ru": "Сальвадор",
+        "en": "El Salvador"
+      },
+      "US": {
+        "ru": "США",
+        "en": "United States"
+      }
+    },
+    "centralAmerica": {
+      "BZ": {
+        "ru": "Белиз",
+        "en": "Belize"
+      },
+      "CR": {
+        "ru": "Коста-Рика",
+        "en": "Costa Rica"
+      },
+      "GT": {
+        "ru": "Гватемала",
+        "en": "Guatemala"
+      },
+      "HN": {
+        "ru": "Гондурас",
+        "en": "Honduras"
+      },
+      "MX": {
+        "ru": "Мексика",
+        "en": "Mexico"
+      },
+      "NI": {
+        "ru": "Никарагуа",
+        "en": "Nicaragua"
+      },
+      "PA": {
+        "ru": "Панама",
+        "en": "Panama"
+      },
+      "SV": {
+        "ru": "Сальвадор",
+        "en": "El Salvador"
+      }
+    },
+    "latinAmerica": {
+      "AR": {
+        "ru": "Аргентина",
+        "en": "Argentina"
+      },
+      "BO": {
+        "ru": "Боливия",
+        "en": "Bolivia"
+      },
+      "BR": {
+        "ru": "Бразилия",
+        "en": "Brazil"
+      },
+      "CL": {
+        "ru": "Чили",
+        "en": "Chile"
+      },
+      "CO": {
+        "ru": "Колумбия",
+        "en": "Colombia"
+      },
+      "EC": {
+        "ru": "Эквадор",
+        "en": "Ecuador"
+      },
+      "FK": {
+        "ru": "Фолклендские острова",
+        "en": "Falkland Islands"
+      },
+      "GF": {
+        "ru": "Французская Гвиана",
+        "en": "French Guiana"
+      },
+      "GY": {
+        "ru": "Гайана",
+        "en": "Guyana"
+      },
+      "PE": {
+        "ru": "Перу",
+        "en": "Peru"
+      },
+      "PY": {
+        "ru": "Парагвай",
+        "en": "Paraguay"
+      },
+      "SR": {
+        "ru": "Суринам",
+        "en": "Suriname"
+      },
+      "UY": {
+        "ru": "Уругвай",
+        "en": "Uruguay"
+      },
+      "VE": {
+        "ru": "Венесуэла",
+        "en": "Venezuela"
+      },
+      "BZ": {
+        "ru": "Белиз",
+        "en": "Belize"
+      },
+      "CR": {
+        "ru": "Коста-Рика",
+        "en": "Costa Rica"
+      },
+      "GT": {
+        "ru": "Гватемала",
+        "en": "Guatemala"
+      },
+      "HN": {
+        "ru": "Гондурас",
+        "en": "Honduras"
+      },
+      "MX": {
+        "ru": "Мексика",
+        "en": "Mexico"
+      },
+      "NI": {
+        "ru": "Никарагуа",
+        "en": "Nicaragua"
+      },
+      "PA": {
+        "ru": "Панама",
+        "en": "Panama"
+      },
+      "SV": {
+        "ru": "Сальвадор",
+        "en": "El Salvador"
+      },
+      "BS": {
+        "ru": "Багамские Острова",
+        "en": "Bahamas"
+      },
+      "CU": {
+        "ru": "Куба",
+        "en": "Cuba"
+      },
+      "DO": {
+        "ru": "Доминиканская Республика",
+        "en": "Dominican Republic"
+      },
+      "HT": {
+        "ru": "Гаити",
+        "en": "Haiti"
+      },
+      "JM": {
+        "ru": "Ямайка",
+        "en": "Jamaica"
+      },
+      "PR": {
+        "ru": "Пуэрто-Рико",
+        "en": "Puerto Rico"
+      },
+      "TT": {
+        "ru": "Тринидад и Тобаго",
+        "en": "Trinidad and Tobago"
+      }
+    },
+    "usa": {
+      "US-AK": {
+        "ru": "Аляска",
+        "en": "Alaska"
+      },
+      "US-AL": {
+        "ru": "Алабама",
+        "en": "Alabama"
+      },
+      "US-AR": {
+        "ru": "Арканзас",
+        "en": "Arkansas"
+      },
+      "US-AZ": {
+        "ru": "Аризона",
+        "en": "Arizona"
+      },
+      "US-CA": {
+        "ru": "Калифорния",
+        "en": "California"
+      },
+      "US-CO": {
+        "ru": "Колорадо",
+        "en": "Colorado"
+      },
+      "US-CT": {
+        "ru": "Коннектикут",
+        "en": "Connecticut"
+      },
+      "US-DE": {
+        "ru": "Делавэр",
+        "en": "Delaware"
+      },
+      "US-FL": {
+        "ru": "Флорида",
+        "en": "Florida"
+      },
+      "US-GA": {
+        "ru": "Джорджия",
+        "en": "Georgia"
+      },
+      "US-HI": {
+        "ru": "Гавайи",
+        "en": "Hawaii"
+      },
+      "US-IA": {
+        "ru": "Айова",
+        "en": "Iowa"
+      },
+      "US-ID": {
+        "ru": "Айдахо",
+        "en": "Idaho"
+      },
+      "US-IL": {
+        "ru": "Иллинойс",
+        "en": "Illinois"
+      },
+      "US-IN": {
+        "ru": "Индиана",
+        "en": "Indiana"
+      },
+      "US-KS": {
+        "ru": "Канзас",
+        "en": "Kansas"
+      },
+      "US-KY": {
+        "ru": "Кентукки",
+        "en": "Kentucky"
+      },
+      "US-LA": {
+        "ru": "Луизиана",
+        "en": "Louisiana"
+      },
+      "US-MA": {
+        "ru": "Массачусетс",
+        "en": "Massachusetts"
+      },
+      "US-MD": {
+        "ru": "Мэриленд",
+        "en": "Maryland"
+      },
+      "US-ME": {
+        "ru": "Мэн",
+        "en": "Maine"
+      },
+      "US-MI": {
+        "ru": "Мичиган",
+        "en": "Michigan"
+      },
+      "US-MN": {
+        "ru": "Миннесота",
+        "en": "Minnesota"
+      },
+      "US-MO": {
+        "ru": "Миссури",
+        "en": "Missouri"
+      },
+      "US-MS": {
+        "ru": "Миссисипи",
+        "en": "Mississippi"
+      },
+      "US-MT": {
+        "ru": "Монтана",
+        "en": "Montana"
+      },
+      "US-NC": {
+        "ru": "Северная Каролина",
+        "en": "North Carolina"
+      },
+      "US-ND": {
+        "ru": "Северная Дакота",
+        "en": "North Dakota"
+      },
+      "US-NE": {
+        "ru": "Небраска",
+        "en": "Nebraska"
+      },
+      "US-NH": {
+        "ru": "Нью-Гэмпшир",
+        "en": "New Hampshire"
+      },
+      "US-NJ": {
+        "ru": "Нью-Джерси",
+        "en": "New Jersey"
+      },
+      "US-NM": {
+        "ru": "Нью-Мексико",
+        "en": "New Mexico"
+      },
+      "US-NV": {
+        "ru": "Невада",
+        "en": "Nevada"
+      },
+      "US-NY": {
+        "ru": "Нью-Йорк",
+        "en": "New York"
+      },
+      "US-OH": {
+        "ru": "Огайо",
+        "en": "Ohio"
+      },
+      "US-OK": {
+        "ru": "Оклахома",
+        "en": "Oklahoma"
+      },
+      "US-OR": {
+        "ru": "Орегон",
+        "en": "Oregon"
+      },
+      "US-PA": {
+        "ru": "Пенсильвания",
+        "en": "Pennsylvania"
+      },
+      "US-RI": {
+        "ru": "Род-Айленд",
+        "en": "Rhode Island"
+      },
+      "US-SC": {
+        "ru": "Южная Каролина",
+        "en": "South Carolina"
+      },
+      "US-SD": {
+        "ru": "Южная Дакота",
+        "en": "South Dakota"
+      },
+      "US-TN": {
+        "ru": "Теннесси",
+        "en": "Tennessee"
+      },
+      "US-TX": {
+        "ru": "Техас",
+        "en": "Texas"
+      },
+      "US-UT": {
+        "ru": "Юта",
+        "en": "Utah"
+      },
+      "US-VA": {
+        "ru": "Вирджиния",
+        "en": "Virginia"
+      },
+      "US-VT": {
+        "ru": "Вермонт",
+        "en": "Vermont"
+      },
+      "US-WA": {
+        "ru": "Вашингтон",
+        "en": "Washington"
+      },
+      "US-WI": {
+        "ru": "Висконсин",
+        "en": "Wisconsin"
+      },
+      "US-WV": {
+        "ru": "Западная Вирджиния",
+        "en": "West Virginia"
+      },
+      "US-WY": {
+        "ru": "Вайоминг",
+        "en": "Wyoming"
+      }
+    },
+    "belarus": {
+      "BY-BR": {
+        "ru": "Брестская область",
+        "en": "Brest Region"
+      },
+      "BY-HO": {
+        "ru": "Гомельская область",
+        "en": "Gomel Region"
+      },
+      "BY-HR": {
+        "ru": "Гродненская область",
+        "en": "Grodnenskaya Oblast"
+      },
+      "BY-MA": {
+        "ru": "Могилевская область",
+        "en": "Mogilev Region"
+      },
+      "BY-MI": {
+        "ru": "Минская область",
+        "en": "Minsk Region"
+      },
+      "BY-VI": {
+        "ru": "Витебская область",
+        "en": "Vitebsk Region"
+      }
+    },
+    "europe": {
+      "RU": {
+        "ru": "Россия",
+        "en": "Russia"
+      },
+      "NL": {
+        "ru": "Нидерланды",
+        "en": "Netherlands"
+      },
+      "CY": {
+        "ru": "Кипр",
+        "en": "Cyprus"
+      },
+      "UA": {
+        "ru": "Украина",
+        "en": "Ukraine"
+      },
+      "TR": {
+        "ru": "Турция",
+        "en": "Turkey"
+      },
+      "SE": {
+        "ru": "Швеция",
+        "en": "Sweden"
+      },
+      "SI": {
+        "ru": "Словения",
+        "en": "Slovenia"
+      },
+      "SK": {
+        "ru": "Словакия",
+        "en": "Slovakia"
+      },
+      "RS": {
+        "ru": "Сербия",
+        "en": "Serbia"
+      },
+      "RO": {
+        "ru": "Румыния",
+        "en": "Romania"
+      },
+      "PT": {
+        "ru": "Португалия",
+        "en": "Portugal"
+      },
+      "PL": {
+        "ru": "Польша",
+        "en": "Poland"
+      },
+      "NO": {
+        "ru": "Норвегия",
+        "en": "Norway"
+      },
+      "ME": {
+        "ru": "Черногория",
+        "en": "Montenegro"
+      },
+      "MK": {
+        "ru": "Северная Македония",
+        "en": "North Macedonia"
+      },
+      "MD": {
+        "ru": "Молдова",
+        "en": "Moldova"
+      },
+      "LV": {
+        "ru": "Латвия",
+        "en": "Latvia"
+      },
+      "LU": {
+        "ru": "Люксембург",
+        "en": "Luxembourg"
+      },
+      "LT": {
+        "ru": "Литва",
+        "en": "Lithuania"
+      },
+      "KV": {
+        "ru": "Косово",
+        "en": "Kosovo"
+      },
+      "IS": {
+        "ru": "Исландия",
+        "en": "Iceland"
+      },
+      "IE": {
+        "ru": "Ирландия",
+        "en": "Ireland"
+      },
+      "HU": {
+        "ru": "Венгрия",
+        "en": "Hungary"
+      },
+      "HR": {
+        "ru": "Хорватия",
+        "en": "Croatia"
+      },
+      "GR": {
+        "ru": "Греция",
+        "en": "Greece"
+      },
+      "GE": {
+        "ru": "Грузия",
+        "en": "Georgia"
+      },
+      "FR": {
+        "ru": "Франция",
+        "en": "France"
+      },
+      "FI": {
+        "ru": "Финляндия",
+        "en": "Finland"
+      },
+      "EE": {
+        "ru": "Эстония",
+        "en": "Estonia"
+      },
+      "ES": {
+        "ru": "Испания",
+        "en": "Spain"
+      },
+      "GB": {
+        "ru": "Великобритания",
+        "en": "United Kingdom"
+      },
+      "DK": {
+        "ru": "Дания",
+        "en": "Denmark"
+      },
+      "DE": {
+        "ru": "Германия",
+        "en": "Germany"
+      },
+      "CZ": {
+        "ru": "Чехия",
+        "en": "Czech Republic"
+      },
+      "CH": {
+        "ru": "Швейцария",
+        "en": "Switzerland"
+      },
+      "BY": {
+        "ru": "Беларусь",
+        "en": "Belarus"
+      },
+      "BA": {
+        "ru": "Босния и Герцеговина",
+        "en": "Bosnia and Herzegovina"
+      },
+      "BG": {
+        "ru": "Болгария",
+        "en": "Bulgaria"
+      },
+      "BE": {
+        "ru": "Бельгия",
+        "en": "Belgium"
+      },
+      "AZ": {
+        "ru": "Азербайджан",
+        "en": "Azerbaijan"
+      },
+      "AT": {
+        "ru": "Австрия",
+        "en": "Austria"
+      },
+      "AM": {
+        "ru": "Армения",
+        "en": "Armenia"
+      },
+      "AL": {
+        "ru": "Албания",
+        "en": "Albania"
+      },
+      "IT": {
+        "ru": "Италия",
+        "en": "Italy"
+      },
+      "KZ": {
+        "ru": "Казахстан",
+        "en": "Kazakhstan"
+      },
+      "AD": {
+        "ru": "Андорра",
+        "en": "Andorra"
+      }
+    },
+    "bulgaria": {
+      "BG-01": {
+        "ru": "Благоевград",
+        "en": "Blagoevgrad"
+      },
+      "BG-02": {
+        "ru": "Бургас",
+        "en": "Burgas"
+      },
+      "BG-03": {
+        "ru": "Варна",
+        "en": "Varna"
+      },
+      "BG-04": {
+        "ru": "Велико-Тырново",
+        "en": "Veliko Tarnovo"
+      },
+      "BG-05": {
+        "ru": "Видин",
+        "en": "Vidin"
+      },
+      "BG-06": {
+        "ru": "Враца",
+        "en": "Vratsa"
+      },
+      "BG-07": {
+        "ru": "Габрово",
+        "en": "Gabrovo"
+      },
+      "BG-08": {
+        "ru": "Добрич",
+        "en": "Dobrich"
+      },
+      "BG-09": {
+        "ru": "Кырджали",
+        "en": "Kardzhali"
+      },
+      "BG-10": {
+        "ru": "Кюстендил",
+        "en": "Kyustendil"
+      },
+      "BG-11": {
+        "ru": "Ловеч",
+        "en": "Lovech"
+      },
+      "BG-12": {
+        "ru": "Монтана",
+        "en": "Montana"
+      },
+      "BG-13": {
+        "ru": "Пазарджик",
+        "en": "Pazardzhik"
+      },
+      "BG-14": {
+        "ru": "Перник",
+        "en": "Pernik"
+      },
+      "BG-15": {
+        "ru": "Плевен",
+        "en": "Pleven"
+      },
+      "BG-16": {
+        "ru": "Пловдив",
+        "en": "Plovdiv"
+      },
+      "BG-17": {
+        "ru": "Разград",
+        "en": "Razgrad"
+      },
+      "BG-18": {
+        "ru": "Русе",
+        "en": "Ruse"
+      },
+      "BG-19": {
+        "ru": "Силистра",
+        "en": "Silistra"
+      },
+      "BG-20": {
+        "ru": "Сливен",
+        "en": "Sliven"
+      },
+      "BG-21": {
+        "ru": "Смолян",
+        "en": "Smolyan"
+      },
+      "BG-22": {
+        "ru": "София-град",
+        "en": "Sofia-city"
+      },
+      "BG-23": {
+        "ru": "София",
+        "en": "Sofia"
+      },
+      "BG-24": {
+        "ru": "Стара-Загора",
+        "en": "Stara Zagora"
+      },
+      "BG-25": {
+        "ru": "Тырговиште",
+        "en": "Targovishte"
+      },
+      "BG-26": {
+        "ru": "Хасково",
+        "en": "Haskovo"
+      },
+      "BG-27": {
+        "ru": "Шумен",
+        "en": "Shumen"
+      },
+      "BG-28": {
+        "ru": "Ямбол",
+        "en": "Yambol"
+      }
+    },
+    "czech": {
+      "CZ-JC": {
+        "ru": "Южночешский край",
+        "en": "South Bohemia"
+      },
+      "CZ-JM": {
+        "ru": "Южноморавский край",
+        "en": "South Moravia"
+      },
+      "CZ-KA": {
+        "ru": "Карловарский край",
+        "en": "Karlovy Vary Region"
+      },
+      "CZ-KR": {
+        "ru": "Краловеградецкий край",
+        "en": "Hradec Králové Region"
+      },
+      "CZ-LI": {
+        "ru": "Либерецкий край",
+        "en": "Liberec Region"
+      },
+      "CZ-MO": {
+        "ru": "Моравскосилезский край",
+        "en": "Moravian-Silesian Region"
+      },
+      "CZ-OL": {
+        "ru": "Оломоуцкий край",
+        "en": "Olomouc Region"
+      },
+      "CZ-PA": {
+        "ru": "Пардубицкий край",
+        "en": "Pardubice Region"
+      },
+      "CZ-PL": {
+        "ru": "Пльзеньский край",
+        "en": "Plzeň Region"
+      },
+      "CZ-PR": {
+        "ru": "Прага",
+        "en": "Prague"
+      },
+      "CZ-ST": {
+        "ru": "Среднечешский край",
+        "en": "Central Bohemia"
+      },
+      "CZ-US": {
+        "ru": "Устецкий край",
+        "en": "Ústí nad Labem Region"
+      },
+      "CZ-VY": {
+        "ru": "Высочина",
+        "en": "Vysočina Region"
+      },
+      "CZ-ZL": {
+        "ru": "Злинский край",
+        "en": "Zlín Region"
+      }
+    },
+    "russia": {
+      "RU-AD": {
+        "ru": "Республика Адыгея",
+        "en": "Republic of Adygea"
+      },
+      "RU-ALT": {
+        "ru": "Алтайский край",
+        "en": "Altai Krai"
+      },
+      "RU-AMU": {
+        "ru": "Амурская область",
+        "en": "Amur Oblast"
+      },
+      "RU-ARK": {
+        "ru": "Архангельская область",
+        "en": "Arkhangelsk Oblast"
+      },
+      "RU-AST": {
+        "ru": "Астраханская область",
+        "en": "Astrakhan Oblast"
+      },
+      "RU-BA": {
+        "ru": "Республика Башкортостан",
+        "en": "Republic of Bashkortostan"
+      },
+      "RU-BEL": {
+        "ru": "Белгородская область",
+        "en": "Belgorod Oblast"
+      },
+      "RU-BRY": {
+        "ru": "Брянская область",
+        "en": "Bryansk Oblast"
+      },
+      "RU-BU": {
+        "ru": "Республика Бурятия",
+        "en": "Republic of Buryatia"
+      },
+      "RU-CE": {
+        "ru": "Чеченская Республика",
+        "en": "Chechen Republic"
+      },
+      "RU-CHE": {
+        "ru": "Челябинская область",
+        "en": "Chelyabinsk Oblast"
+      },
+      "RU-CHU": {
+        "ru": "Чукотский автономный округ",
+        "en": "Chukotka Autonomous Okrug"
+      },
+      "RU-CU": {
+        "ru": "Чувашская Республика",
+        "en": "Chuvash Republic"
+      },
+      "RU-DA": {
+        "ru": "Республика Дагестан",
+        "en": "Republic of Dagestan"
+      },
+      "RU-AL": {
+        "ru": "Республика Алтай",
+        "en": "Altai Republic"
+      },
+      "RU-IN": {
+        "ru": "Республика Ингушетия",
+        "en": "Republic of Ingushetia"
+      },
+      "RU-IRK": {
+        "ru": "Иркутская область",
+        "en": "Irkutsk Oblast"
+      },
+      "RU-IVA": {
+        "ru": "Ивановская область",
+        "en": "Ivanovo Oblast"
+      },
+      "RU-KB": {
+        "ru": "Кабардино-Балкарская Республика",
+        "en": "Kabardino-Balkarian Republic"
+      },
+      "RU-KC": {
+        "ru": "Карачаево-Черкесская Республика",
+        "en": "Karachay-Cherkess Republic"
+      },
+      "RU-KDA": {
+        "ru": "Краснодарский край",
+        "en": "Krasnodar Krai"
+      },
+      "RU-KEM": {
+        "ru": "Кемеровская область",
+        "en": "Kemerovo Oblast"
+      },
+      "RU-KLU": {
+        "ru": "Калужская область",
+        "en": "Kaluga Oblast"
+      },
+      "RU-KHA": {
+        "ru": "Хабаровский край",
+        "en": "Khabarovsk Krai"
+      },
+      "RU-KR": {
+        "ru": "Республика Карелия",
+        "en": "Republic of Karelia"
+      },
+      "RU-KK": {
+        "ru": "Республика Хакасия",
+        "en": "Republic of Khakassia"
+      },
+      "RU-KL": {
+        "ru": "Республика Калмыкия",
+        "en": "Republic of Kalmykia"
+      },
+      "RU-KHM": {
+        "ru": "Ханты-Мансийский автономный округ — Югра",
+        "en": "Khanty-Mansi Autonomous Okrug — Yugra"
+      },
+      "RU-KGD": {
+        "ru": "Калининградская область",
+        "en": "Kaliningrad Oblast"
+      },
+      "RU-KO": {
+        "ru": "Республика Коми",
+        "en": "Komi Republic"
+      },
+      "RU-KAM": {
+        "ru": "Камчатский край",
+        "en": "Kamchatka Krai"
+      },
+      "RU-KRS": {
+        "ru": "Курская область",
+        "en": "Kursk Oblast"
+      },
+      "RU-KOS": {
+        "ru": "Костромская область",
+        "en": "Kostroma Oblast"
+      },
+      "RU-KGN": {
+        "ru": "Курганская область",
+        "en": "Kurgan Oblast"
+      },
+      "RU-KIR": {
+        "ru": "Кировская область",
+        "en": "Kirov Oblast"
+      },
+      "RU-KYA": {
+        "ru": "Красноярский край",
+        "en": "Krasnoyarsk Krai"
+      },
+      "RU-LEN": {
+        "ru": "Ленинградская область",
+        "en": "Leningrad Oblast"
+      },
+      "RU-LIP": {
+        "ru": "Липецкая область",
+        "en": "Lipetsk Oblast"
+      },
+      "RU-MOW": {
+        "ru": "Москва",
+        "en": "Moscow"
+      },
+      "RU-ME": {
+        "ru": "Республика Марий Эл",
+        "en": "Mari El Republic"
+      },
+      "RU-MAG": {
+        "ru": "Магаданская область",
+        "en": "Magadan Oblast"
+      },
+      "RU-MUR": {
+        "ru": "Мурманская область",
+        "en": "Murmansk Oblast"
+      },
+      "RU-MO": {
+        "ru": "Республика Мордовия",
+        "en": "Republic of Mordovia"
+      },
+      "RU-MOS": {
+        "ru": "Московская область",
+        "en": "Moscow Oblast"
+      },
+      "RU-NGR": {
+        "ru": "Новгородская область",
+        "en": "Novgorod Oblast"
+      },
+      "RU-NEN": {
+        "ru": "Ненецкий автономный округ",
+        "en": "Nenets Autonomous Okrug"
+      },
+      "RU-SE": {
+        "ru": "Республика Северная Осетия — Алания",
+        "en": "Republic of North Ossetia–Alania"
+      },
+      "RU-NVS": {
+        "ru": "Новосибирская область",
+        "en": "Novosibirsk Oblast"
+      },
+      "RU-NIZ": {
+        "ru": "Нижегородская область",
+        "en": "Nizhny Novgorod Oblast"
+      },
+      "RU-ORE": {
+        "ru": "Оренбургская область",
+        "en": "Orenburg Oblast"
+      },
+      "RU-ORL": {
+        "ru": "Орловская область",
+        "en": "Oryol Oblast"
+      },
+      "RU-OMS": {
+        "ru": "Омская область",
+        "en": "Omsk Oblast"
+      },
+      "RU-PER": {
+        "ru": "Пермский край",
+        "en": "Perm Krai"
+      },
+      "RU-PRI": {
+        "ru": "Приморский край",
+        "en": "Primorsky Krai"
+      },
+      "RU-PSK": {
+        "ru": "Псковская область",
+        "en": "Pskov Oblast"
+      },
+      "RU-PNZ": {
+        "ru": "Пензенская область",
+        "en": "Penza Oblast"
+      },
+      "RU-ROS": {
+        "ru": "Ростовская область",
+        "en": "Rostov Oblast"
+      },
+      "RU-RYA": {
+        "ru": "Рязанская область",
+        "en": "Ryazan Oblast"
+      },
+      "RU-SAM": {
+        "ru": "Самарская область",
+        "en": "Samara Oblast"
+      },
+      "RU-SA": {
+        "ru": "Республика Саха (Якутия)",
+        "en": "Sakha Republic (Yakutia)"
+      },
+      "RU-SAK": {
+        "ru": "Сахалинская область",
+        "en": "Sakhalin Oblast"
+      },
+      "RU-SMO": {
+        "ru": "Смоленская область",
+        "en": "Smolensk Oblast"
+      },
+      "RU-SPE": {
+        "ru": "Санкт-Петербург",
+        "en": "Saint Petersburg"
+      },
+      "RU-SAR": {
+        "ru": "Саратовская область",
+        "en": "Saratov Oblast"
+      },
+      "RU-STA": {
+        "ru": "Ставропольский край",
+        "en": "Stavropol Krai"
+      },
+      "RU-SVE": {
+        "ru": "Свердловская область",
+        "en": "Sverdlovsk Oblast"
+      },
+      "RU-TAM": {
+        "ru": "Тамбовская область",
+        "en": "Tambov Oblast"
+      },
+      "RU-TOM": {
+        "ru": "Томская область",
+        "en": "Tomsk Oblast"
+      },
+      "RU-TUL": {
+        "ru": "Тульская область",
+        "en": "Tula Oblast"
+      },
+      "RU-TA": {
+        "ru": "Республика Татарстан",
+        "en": "Republic of Tatarstan"
+      },
+      "RU-TY": {
+        "ru": "Республика Тыва",
+        "en": "Tuva Republic"
+      },
+      "RU-TVE": {
+        "ru": "Тверская область",
+        "en": "Tver Oblast"
+      },
+      "RU-TYU": {
+        "ru": "Тюменская область",
+        "en": "Tyumen Oblast"
+      },
+      "RU-UD": {
+        "ru": "Удмуртская Республика",
+        "en": "Udmurt Republic"
+      },
+      "RU-ULY": {
+        "ru": "Ульяновская область",
+        "en": "Ulyanovsk Oblast"
+      },
+      "RU-VGG": {
+        "ru": "Волгоградская область",
+        "en": "Volgograd Oblast"
+      },
+      "RU-VLA": {
+        "ru": "Владимирская область",
+        "en": "Vladimir Oblast"
+      },
+      "RU-YAN": {
+        "ru": "Ямало-Ненецкий автономный округ",
+        "en": "Yamalo-Nenets Autonomous Okrug"
+      },
+      "RU-VLG": {
+        "ru": "Вологодская область",
+        "en": "Vologda Oblast"
+      },
+      "RU-VOR": {
+        "ru": "Воронежская область",
+        "en": "Voronezh Oblast"
+      },
+      "RU-YAR": {
+        "ru": "Ярославская область",
+        "en": "Yaroslavl Oblast"
+      },
+      "RU-YEV": {
+        "ru": "Еврейская автономная область",
+        "en": "Jewish Autonomous Oblast"
+      },
+      "RU-ZAB": {
+        "ru": "Забайкальский край",
+        "en": "Zabaykalsky Krai"
+      },
+      "RU-LUG": {
+        "ru": "Луганская Народная Республика",
+        "en": "Luhansk People's Republic"
+      },
+      "RU-DON": {
+        "ru": "Донецкая Народная Республика",
+        "en": "Donetsk People's Republic"
+      },
+      "RU-ZP": {
+        "ru": "Запорожская область",
+        "en": "Zaporizhzhia Oblast"
+      },
+      "RU-HR": {
+        "ru": "Херсонская область",
+        "en": "Kherson Oblast"
+      },
+      "RU-CR": {
+        "ru": "Республика Крым",
+        "en": "Republic of Crimea"
+      },
+      "RU-SEV": {
+        "ru": "Севастополь",
+        "en": "Sevastopol"
+      }
+    },
+    "africa": {
+      "AO": {
+        "ru": "Ангола",
+        "en": "Angola"
+      },
+      "BF": {
+        "ru": "Буркина-Фасо",
+        "en": "Burkina Faso"
+      },
+      "BI": {
+        "ru": "Бурунди",
+        "en": "Burundi"
+      },
+      "BJ": {
+        "ru": "Бенин",
+        "en": "Benin"
+      },
+      "BW": {
+        "ru": "Ботсвана",
+        "en": "Botswana"
+      },
+      "CD": {
+        "ru": "Демократическая Республика Конго",
+        "en": "Democratic Republic of the Congo"
+      },
+      "CF": {
+        "ru": "Центральноафриканская Республика",
+        "en": "Central African Republic"
+      },
+      "CG": {
+        "ru": "Республика Конго",
+        "en": "Republic of the Congo"
+      },
+      "CI": {
+        "ru": "Кот-д’Ивуар",
+        "en": "Côte d'Ivoire"
+      },
+      "CM": {
+        "ru": "Камерун",
+        "en": "Cameroon"
+      },
+      "DJ": {
+        "ru": "Джибути",
+        "en": "Djibouti"
+      },
+      "DZ": {
+        "ru": "Алжир",
+        "en": "Algeria"
+      },
+      "EG": {
+        "ru": "Египет",
+        "en": "Egypt"
+      },
+      "ER": {
+        "ru": "Эритрея",
+        "en": "Eritrea"
+      },
+      "ET": {
+        "ru": "Эфиопия",
+        "en": "Ethiopia"
+      },
+      "GA": {
+        "ru": "Габон",
+        "en": "Gabon"
+      },
+      "GH": {
+        "ru": "Гана",
+        "en": "Ghana"
+      },
+      "GM": {
+        "ru": "Гамбия",
+        "en": "Gambia"
+      },
+      "GN": {
+        "ru": "Гвинея",
+        "en": "Guinea"
+      },
+      "GQ": {
+        "ru": "Экваториальная Гвинея",
+        "en": "Equatorial Guinea"
+      },
+      "GW": {
+        "ru": "Гвинея-Бисау",
+        "en": "Guinea-Bissau"
+      },
+      "KE": {
+        "ru": "Кения",
+        "en": "Kenya"
+      },
+      "LR": {
+        "ru": "Либерия",
+        "en": "Liberia"
+      },
+      "LS": {
+        "ru": "Лесото",
+        "en": "Lesotho"
+      },
+      "LY": {
+        "ru": "Ливия",
+        "en": "Libya"
+      },
+      "MA": {
+        "ru": "Марокко",
+        "en": "Morocco"
+      },
+      "MG": {
+        "ru": "Мадагаскар",
+        "en": "Madagascar"
+      },
+      "ML": {
+        "ru": "Мали",
+        "en": "Mali"
+      },
+      "MR": {
+        "ru": "Мавритания",
+        "en": "Mauritania"
+      },
+      "MW": {
+        "ru": "Малави",
+        "en": "Malawi"
+      },
+      "MZ": {
+        "ru": "Мозамбик",
+        "en": "Mozambique"
+      },
+      "NA": {
+        "ru": "Намибия",
+        "en": "Namibia"
+      },
+      "NE": {
+        "ru": "Нигер",
+        "en": "Niger"
+      },
+      "NG": {
+        "ru": "Нигерия",
+        "en": "Nigeria"
+      },
+      "RW": {
+        "ru": "Руанда",
+        "en": "Rwanda"
+      },
+      "SD": {
+        "ru": "Судан",
+        "en": "Sudan"
+      },
+      "SL": {
+        "ru": "Сьерра-Леоне",
+        "en": "Sierra Leone"
+      },
+      "SN": {
+        "ru": "Сенегал",
+        "en": "Senegal"
+      },
+      "SO": {
+        "ru": "Сомали",
+        "en": "Somalia"
+      },
+      "SS": {
+        "ru": "Южный Судан",
+        "en": "South Sudan"
+      },
+      "SZ": {
+        "ru": "Эсватини",
+        "en": "Eswatini"
+      },
+      "TD": {
+        "ru": "Чад",
+        "en": "Chad"
+      },
+      "TG": {
+        "ru": "Того",
+        "en": "Togo"
+      },
+      "TN": {
+        "ru": "Тунис",
+        "en": "Tunisia"
+      },
+      "TZ": {
+        "ru": "Танзания",
+        "en": "Tanzania"
+      },
+      "UG": {
+        "ru": "Уганда",
+        "en": "Uganda"
+      },
+      "ZA": {
+        "ru": "Южно-Африканская Республика",
+        "en": "South Africa"
+      },
+      "ZM": {
+        "ru": "Замбия",
+        "en": "Zambia"
+      },
+      "ZW": {
+        "ru": "Зимбабве",
+        "en": "Zimbabwe"
+      }
+    },
+    "asia": {
+      "AE": {
+        "ru": "ОАЭ",
+        "en": "United Arab Emirates"
+      },
+      "AF": {
+        "ru": "Афганистан",
+        "en": "Afghanistan"
+      },
+      "IQ": {
+        "ru": "Ирак",
+        "en": "Iraq"
+      },
+      "IR": {
+        "ru": "Иран",
+        "en": "Iran"
+      },
+      "IL": {
+        "ru": "Израиль",
+        "en": "Israel"
+      },
+      "JO": {
+        "ru": "Иордания",
+        "en": "Jordan"
+      },
+      "KW": {
+        "ru": "Кувейт",
+        "en": "Kuwait"
+      },
+      "LB": {
+        "ru": "Ливан",
+        "en": "Lebanon"
+      },
+      "OM": {
+        "ru": "Оман",
+        "en": "Oman"
+      },
+      "PS": {
+        "ru": "Палестина",
+        "en": "Palestine"
+      },
+      "QA": {
+        "ru": "Катар",
+        "en": "Qatar"
+      },
+      "SA": {
+        "ru": "Саудовская Аравия",
+        "en": "Saudi Arabia"
+      },
+      "SY": {
+        "ru": "Сирия",
+        "en": "Syria"
+      },
+      "YE": {
+        "ru": "Йемен",
+        "en": "Yemen"
+      },
+      "BD": {
+        "ru": "Бангладеш",
+        "en": "Bangladesh"
+      },
+      "BT": {
+        "ru": "Бутан",
+        "en": "Bhutan"
+      },
+      "IN": {
+        "ru": "Индия",
+        "en": "India"
+      },
+      "LK": {
+        "ru": "Шри-Ланка",
+        "en": "Sri Lanka"
+      },
+      "NP": {
+        "ru": "Непал",
+        "en": "Nepal"
+      },
+      "PK": {
+        "ru": "Пакистан",
+        "en": "Pakistan"
+      },
+      "CN": {
+        "ru": "Китай",
+        "en": "China"
+      },
+      "JP": {
+        "ru": "Япония",
+        "en": "Japan"
+      },
+      "KP": {
+        "ru": "КНДР",
+        "en": "North Korea"
+      },
+      "KR": {
+        "ru": "Республика Корея",
+        "en": "South Korea"
+      },
+      "MN": {
+        "ru": "Монголия",
+        "en": "Mongolia"
+      },
+      "TW": {
+        "ru": "Тайвань",
+        "en": "Taiwan"
+      },
+      "BN": {
+        "ru": "Бруней",
+        "en": "Brunei"
+      },
+      "ID": {
+        "ru": "Индонезия",
+        "en": "Indonesia"
+      },
+      "KH": {
+        "ru": "Камбоджа",
+        "en": "Cambodia"
+      },
+      "LA": {
+        "ru": "Лаос",
+        "en": "Laos"
+      },
+      "MM": {
+        "ru": "Мьянма",
+        "en": "Myanmar"
+      },
+      "MY": {
+        "ru": "Малайзия",
+        "en": "Malaysia"
+      },
+      "PH": {
+        "ru": "Филиппины",
+        "en": "Philippines"
+      },
+      "TH": {
+        "ru": "Таиланд",
+        "en": "Thailand"
+      },
+      "TL": {
+        "ru": "Восточный Тимор",
+        "en": "East Timor"
+      },
+      "VN": {
+        "ru": "Вьетнам",
+        "en": "Vietnam"
+      },
+      "KZ": {
+        "ru": "Казахстан",
+        "en": "Kazakhstan"
+      },
+      "KG": {
+        "ru": "Киргизия",
+        "en": "Kyrgyzstan"
+      },
+      "TJ": {
+        "ru": "Таджикистан",
+        "en": "Tajikistan"
+      },
+      "TM": {
+        "ru": "Туркменистан",
+        "en": "Turkmenistan"
+      },
+      "UZ": {
+        "ru": "Узбекистан",
+        "en": "Uzbekistan"
+      },
+      "RU": {
+        "ru": "Россия",
+        "en": "Russia"
+      }
+    },
+    "china": {
+      "CN-34": {
+        "ru": "Аньхой",
+        "en": "Anhui"
+      },
+      "CN-35": {
+        "ru": "Фуцзянь",
+        "en": "Fujian"
+      },
+      "CN-62": {
+        "ru": "Ганьсу",
+        "en": "Gansu"
+      },
+      "CN-44": {
+        "ru": "Гуандун",
+        "en": "Guangdong"
+      },
+      "CN-52": {
+        "ru": "Гуйчжоу",
+        "en": "Guizhou"
+      },
+      "CN-46": {
+        "ru": "Хайнань",
+        "en": "Hainan"
+      },
+      "CN-13": {
+        "ru": "Хэбэй",
+        "en": "Hebei"
+      },
+      "CN-41": {
+        "ru": "Хэнань",
+        "en": "Henan"
+      },
+      "CN-23": {
+        "ru": "Хэйлунцзян",
+        "en": "Heilongjiang"
+      },
+      "CN-43": {
+        "ru": "Хунань",
+        "en": "Hunan"
+      },
+      "CN-42": {
+        "ru": "Хубэй",
+        "en": "Hubei"
+      },
+      "CN-32": {
+        "ru": "Цзянсу",
+        "en": "Jiangsu"
+      },
+      "CN-36": {
+        "ru": "Цзянси",
+        "en": "Jiangxi"
+      },
+      "CN-22": {
+        "ru": "Цзилинь",
+        "en": "Jilin"
+      },
+      "CN-21": {
+        "ru": "Ляонин",
+        "en": "Liaoning"
+      },
+      "CN-63": {
+        "ru": "Цинхай",
+        "en": "Qinghai"
+      },
+      "CN-61": {
+        "ru": "Шэньси",
+        "en": "Shaanxi"
+      },
+      "CN-37": {
+        "ru": "Шаньдун",
+        "en": "Shandong"
+      },
+      "CN-14": {
+        "ru": "Шаньси",
+        "en": "Shanxi"
+      },
+      "CN-51": {
+        "ru": "Сычуань",
+        "en": "Sichuan"
+      },
+      "CN-71": {
+        "ru": "Тайвань",
+        "en": "Taiwan"
+      },
+      "CN-53": {
+        "ru": "Юньнань",
+        "en": "Yunnan"
+      },
+      "CN-33": {
+        "ru": "Чжэцзян",
+        "en": "Zhejiang"
+      },
+      "CN-45": {
+        "ru": "Гуанси-Чжуанский автономный район",
+        "en": "Guangxi Zhuang Autonomous Region"
+      },
+      "CN-15": {
+        "ru": "Внутренняя Монголия",
+        "en": "Inner Mongolia"
+      },
+      "CN-64": {
+        "ru": "Нинся-Хуэйский автономный район",
+        "en": "Ningxia Hui Autonomous Region"
+      },
+      "CN-65": {
+        "ru": "Синьцзян-Уйгурский автономный район",
+        "en": "Xinjiang Uygur Autonomous Region"
+      },
+      "CN-54": {
+        "ru": "Тибетский автономный район",
+        "en": "Tibet Autonomous Region"
+      },
+      "CN-11": {
+        "ru": "Пекин",
+        "en": "Beijing"
+      },
+      "CN-50": {
+        "ru": "Чунцин",
+        "en": "Chongqing"
+      },
+      "CN-31": {
+        "ru": "Шанхай",
+        "en": "Shanghai"
+      },
+      "CN-12": {
+        "ru": "Тяньцзинь",
+        "en": "Tianjin"
+      },
+      "CN-91": {
+        "ru": "Гонконг (Сянган)",
+        "en": "Hong Kong (Xianggang)"
+      }
+    },
+    "australia": {
+      "AU-NT": {
+        "ru": "Северная территория",
+        "en": "Northern Territory"
+      },
+      "AU-WA": {
+        "ru": "Западная Австралия",
+        "en": "Western Australia"
+      },
+      "AU-ACT": {
+        "ru": "Австралийская столичная территория",
+        "en": "Australian Capital Territory"
+      },
+      "AU-NSW": {
+        "ru": "Новый Южный Уэльс",
+        "en": "New South Wales"
+      },
+      "AU-SA": {
+        "ru": "Южная Австралия",
+        "en": "South Australia"
+      },
+      "AU-VIC": {
+        "ru": "Виктория",
+        "en": "Victoria"
+      },
+      "AU-QLD": {
+        "ru": "Квинсленд",
+        "en": "Queensland"
+      },
+      "AU-TAS": {
+        "ru": "Тасмания",
+        "en": "Tasmania"
+      }
+    }
+  }
+}

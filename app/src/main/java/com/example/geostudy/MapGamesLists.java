@@ -1,25 +1,33 @@
 package com.example.geostudy;
 
+import android.content.Context;
+
 import java.util.HashMap;
 import java.util.Map;
 
 public class MapGamesLists {
     public Map<String, String[]> mapGames = new HashMap<>();
     public String[] world = {"worldIndiaLow"};
-    public String[] worldItems = {"Мир: все страны"};
-    public String[] europe = {"europeLow", "belarusLow", "bulgariaLow", "hungaryLow", "ukLow", "germanyLow", "greeceLow", "denmarkLow", "italyLow", "netherlandsLow", "polandLow", "russiaHigh", "finlandLow", "franceLow", "czechLow", "switzerlandLow", "estoniaLow"};
-    public String[] europeItems = {"Европа: страны", "Беларусь: регионы", "Болгария: регионы", "Венгрия: медье", "Великобритания: регионы + Ирландия", "Германия: федеральные земли", "Греция: регионы", "Дания: регионы", "Италия: регионы", "Нидерланды: провинции", "Польша: воеводства", "Россия: субъекты", "Финляндия: области", "Франция: регионы", "Чехия: края", "Швейцария: кантоны", "Эстония: уезды"};
+    public String[] worldItems;
+    public String[] europe = {"europeLow", "belarusLow", "bulgariaLow", "hungaryLow", "ukLow", "germanyLow", "greeceLow", "denmarkLow", "italyLow", "netherlandsLow", "polandLow", "russiaLow", "finlandLow", "franceLow", "czechLow", "switzerlandLow", "estoniaLow"};
+    public String[] europeItems;
     public String[] africa = {"africaLow", "southAfricaLow", "egyptLow"};
-    public String[] africaItems = {"Африка: страны", "ЮАР: провинции + Лесото", "Египет: провинции"};
+    public String[] africaItems;
     public String[] america = {"northAmericaLow", "centralAmericaLow", "latinAmericaLow", "caribbeanLow", "canadaLow", "usaLow", "mexicoLow", "argentinaLow", "brazilLow"};
-    public String[] americaItems = {"Северная Америка: страны", "Центральная Америка: страны", "Латинская Америка: страны", "Страны Карибского бассейна", "Канада: штаты", "США: штаты", "Мексика: штаты", "Аргентина: провинции", "Бразилия: штаты"};
-    public String[] asia = {"asiaLow", "chinaLow", "japanHigh", "southKoreaLow", "indonesiaHigh", "unitedArabEmiratesLow", "turkeyLow", "indiaLow"};
-    public String[] asiaItems = {"Азия: страны", "Китай: регионы", "Япония: префектуры", "Южная Корея: провинции", "Индонезия: провинции", "ОАЭ: эмираты", "Турция: или", "Индия: штаты"};
-    public String[] oceania = {"oceaniaHigh", "australiaLow", "newZealandLow", "newCaledoniaLow"};
-    public String[] oceaniaItems = {"Австралия и океания: страны", "Австралия: штаты", "Новая Зеландия: регионы", "Новая Каледония: провинции"};
+    public String[] americaItems;
+    public String[] asia = {"asiaLow", "chinaLow", "japanLow", "southKoreaLow", "indonesiaLow", "unitedArabEmiratesLow", "turkeyLow", "indiaLow"};
+    public String[] asiaItems;
+    public String[] oceania = {"oceaniaLow", "australiaLow", "newZealandLow", "newCaledoniaLow"};
+    public String[] oceaniaItems;
     public Map<String, String> itemsNames = new HashMap<>();
 
-    public MapGamesLists() {
+    public MapGamesLists(Context context) {
+        worldItems = context.getResources().getStringArray(R.array.world_regions);
+        europeItems = context.getResources().getStringArray(R.array.european_regions);
+        africaItems = context.getResources().getStringArray(R.array.african_regions);
+        americaItems = context.getResources().getStringArray(R.array.americas_regions);
+        asiaItems = context.getResources().getStringArray(R.array.asia_regions);
+        oceaniaItems = context.getResources().getStringArray(R.array.australia_oceania_regions);
         mapGames.put("world", world);
         mapGames.put("europe", europe);
         mapGames.put("africa", africa);
