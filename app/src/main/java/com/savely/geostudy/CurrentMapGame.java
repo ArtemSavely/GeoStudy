@@ -106,7 +106,6 @@ public class CurrentMapGame {
      * @return
      */
     @JavascriptInterface
-    public String getCurrentRegion(){
-        return reversedRegions.get(currentRegion);
+    public String getCurrentRegion(){return reversedRegions.get(currentRegion);
     }
 }
