@@ -1,12 +1,10 @@
-package com.example.geostudy;
+package com.savely.geostudy;
 
 import android.content.Context;
 import android.content.res.Resources;
-import android.util.TypedValue;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.view.animation.AccelerateDecelerateInterpolator;
 import android.view.animation.PathInterpolator;
 import android.widget.BaseAdapter;
 import android.widget.ImageView;
@@ -16,7 +14,9 @@ import android.widget.TextView;
 import java.util.HashMap;
 import java.util.Map;
 
-
+/**
+ * Документация к классу. MapGameAdapter - класс-адаптер для списка ListView из меню игр-карт.
+ */
 public class MapGameAdapter extends BaseAdapter {
     Context context;
     MapGameItem[] mapGames;
@@ -44,33 +44,37 @@ public class MapGameAdapter extends BaseAdapter {
         if(convertView == null) {
             convertView = LayoutInflater.from(context).inflate(R.layout.adapter_map_game_item, parent, false);
         }
+        MapGameItem item = mapGames[position];
         TextView gameName = convertView.findViewById(R.id.game_name);
         ImageView flagIcon = convertView.findViewById(R.id.flag_icon);
-        LinearLayout percentBar = convertView.findViewById(R.id.percent_bar);
+        View percentBar = convertView.findViewById(R.id.percent_bar);
+        LinearLayout bar = convertView.findViewById(R.id.bar);
+        bar.post(() ->{
+            int barWidth = bar.getWidth();
+            ViewGroup.LayoutParams params = (LinearLayout.LayoutParams) percentBar.getLayoutParams();
+            params.width = item.percent * barWidth / 100;
+            percentBar.setLayoutParams(params);
+            PathInterpolator pathInterpolator = new PathInterpolator(0.2f, 0.8f, 0.6f, 1f);  //анимация прогресс-бара элемента списка
+            percentBar.setScaleX(0f);
+            percentBar.setPivotX(0f);
+            percentBar.setAlpha(0f);
+            percentBar.animate()
+                    .scaleX(1f)
+                    .alpha(1f)
+                    .setDuration(1200)
+                    .setInterpolator(pathInterpolator)
+                    .start();
+        });
         TextView percent = convertView.findViewById(R.id.record_percent);
-        MapGameItem item = mapGames[position];
         gameName.setText(item.itemName);
         percent.setText(String.valueOf(item.percent) + "%");
-        LinearLayout.LayoutParams params = (LinearLayout.LayoutParams) percentBar.getLayoutParams();
-        params.width = convertDpToPx((float) item.percent / 100 * 150);
-        PathInterpolator pathInterpolator = new PathInterpolator(0.2f, 0.8f, 0.6f, 1f);
-        percentBar.setLayoutParams(params);
-        percentBar.setScaleX(0f);
-        percentBar.setPivotX(0f);
-        percentBar.setAlpha(0f);
-        percentBar.animate()
-                .scaleX(1f)
-                .alpha(1f)
-                .setDuration(1000)
-                .setInterpolator(pathInterpolator)
-                .start();
         int iconID = context.getResources().getIdentifier(item.name.toLowerCase(), "drawable", context.getPackageName());
         String resourceName;
         try {
             resourceName = context.getResources().getResourceEntryName(iconID);
             if (iconID != 0 && resourceName.equals(item.name.toLowerCase())){
                 System.out.println(iconID + "id");
-                flagIcon.setImageResource(iconID);
+                flagIcon.setImageResource(iconID);   //присвоение иконки-флага соответсвующим играм-картам
             }
             System.out.println("Имя ресурса: " + resourceName);
         } catch (Resources.NotFoundException e) {
@@ -78,7 +82,7 @@ public class MapGameAdapter extends BaseAdapter {
             maps.put("africaLow", R.drawable.africa_button_icon);
             maps.put("worldIndiaLow", R.drawable.world_button_icon);
             maps.put("northAmericaLow", R.drawable.america_button_icon);
-            maps.put("latinAmericaLow", R.drawable.america_button_icon);
+            maps.put("latinAmericaLow", R.drawable.america_button_icon);    // присвоение иконок картам, для которых нет флагов
             maps.put("centralAmericaLow", R.drawable.america_button_icon);
             maps.put("caribbeanLow", R.drawable.america_button_icon);
             maps.put("asiaLow", R.drawable.asia_button_icon);
@@ -91,12 +95,5 @@ public class MapGameAdapter extends BaseAdapter {
             }
         }
         return convertView;
-    }
-
-    private int convertDpToPx(float dpValue) {
-        return Math.round(TypedValue.applyDimension(
-                TypedValue.COMPLEX_UNIT_DIP,
-                dpValue,
-                context.getResources().getDisplayMetrics()));
     }
 }

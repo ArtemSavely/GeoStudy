@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools">
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.savely.geostudy">
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
@@ -22,8 +23,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.geostudy.WorldActivity" />
-        <activity android:name="com.example.geostudy.MapActivity" />
+        <activity android:name="com.savely.geostudy.MapMenuActivity" />
+        <activity android:name="com.savely.geostudy.MapActivity" />
     </application>
 
 </manifest>

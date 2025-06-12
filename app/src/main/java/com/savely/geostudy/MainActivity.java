@@ -1,30 +1,20 @@
-package com.example.geostudy;
+package com.savely.geostudy;
 
-import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.content.pm.ActivityInfo;
-import android.content.res.AssetManager;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
-import android.webkit.WebView;
-import android.widget.Button;
 import android.widget.FrameLayout;
 import android.widget.ImageView;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-
+/**
+ * Документация к классу. MainActivity - главная активность приложения с главным меню.
+ */
 public class MainActivity extends AppCompatActivity {
     FrameLayout worldButton;
     FrameLayout europeButton;
@@ -48,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
         ImageView globe = findViewById(R.id.globe);
         Animation globeRotateAnimation = AnimationUtils.loadAnimation(this, R.anim.globe_rotation_infinite);
         globe.startAnimation(globeRotateAnimation);
-        Intent intent = new Intent(MainActivity.this, WorldActivity.class);
+        Intent intent = new Intent(MainActivity.this, MapMenuActivity.class);
         worldButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

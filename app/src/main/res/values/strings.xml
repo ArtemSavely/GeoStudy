@@ -9,7 +9,7 @@
     <string name="oceania">Океания</string>
     <string name="welcome_to_geostudy">Добро\nпожаловать\nв GeoStudy!</string>
     <string name="correct_answers_info">"Вы ответиили верно на %s вопросов."</string>
-    <string name="percentage">Правильность: %s</string>
+    <string name="question">Вопрос: %s</string>
     <string name="press_on">Нажмите на: %s</string>
     <string name="congrats">Поздравляем!</string>
     <string name="restart">Сыграть снова</string>

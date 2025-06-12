@@ -1,4 +1,4 @@
-package com.example.geostudy;
+package com.savely.geostudy;
 
 import android.app.ListActivity;
 import android.content.Intent;
@@ -11,7 +11,11 @@ import android.view.View;
 import android.widget.ListView;
 import android.widget.TextView;
 
-public class WorldActivity extends ListActivity {
+/**
+ * Документация к классу. MapMenuActivity - активность для отображения меню доступных игр-карт из выбранного
+ * раздела.
+ */
+public class MapMenuActivity extends ListActivity {
     ListView listView;
     TextView toolBarTextView;
     @Override
@@ -31,9 +35,14 @@ public class WorldActivity extends ListActivity {
         setListAdapter(mapGameAdapter);
     }
 
+    /**
+     * Метод для формирования списка элементов {@link MapGameItem} для отображения в меню.
+     * @param maps объект класса {@link MapGamesLists}
+     * @param mapList список карт
+     * @return список MapGameItem[]
+     */
     MapGameItem[] makeMapGames(MapGamesLists maps, String[] mapList) {
         MapGameItem[] mapGames = new MapGameItem[mapList.length];
-
         for(int i = 0; i < mapGames.length; i ++){
             SharedPreferences sharedPref = getSharedPreferences("geostudy_prefs", MODE_PRIVATE);
             int bestScore = sharedPref.getInt(mapList[i], 0);
@@ -52,7 +61,7 @@ public class WorldActivity extends ListActivity {
         if (selectedGame != null) {
             String gameName = selectedGame.name;
             String itemName = selectedGame.itemName;
-            Intent intent = new Intent(WorldActivity.this, MapActivity.class).putExtra("gameName", new String[] {gameName, itemName});
+            Intent intent = new Intent(MapMenuActivity.this, MapActivity.class).putExtra("gameName", new String[] {gameName, itemName});
             startActivity(intent);
         } else {
             Log.e("WorldActivity", "Selected game is null!");

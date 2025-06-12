@@ -1,14 +1,13 @@
-package com.example.geostudy;
+package com.savely.geostudy;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.pm.ActivityInfo;
 import android.os.Bundle;
-import android.util.TypedValue;
 import android.view.MotionEvent;
 import android.view.View;
-import android.view.accessibility.AccessibilityNodeInfo;
+import android.view.ViewGroup;
 import android.view.animation.PathInterpolator;
 import android.webkit.WebView;
 import android.widget.Button;
@@ -27,11 +26,15 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Map;
 
+/**
+ * Документация к классу. MapActivity - активность отвечающая непосредственно за игру-викторину с картой
+ * в приложении.
+ */
 @SuppressLint("SetJavaScriptEnabled")
 public class MapActivity extends AppCompatActivity {
     WebView webView;
     TextView currentRegion;
-    TextView percent;
+    TextView question;
     TextView title;
     AllGamesList allGamesList;
     List<String> regionNames;
@@ -41,7 +44,6 @@ public class MapActivity extends AppCompatActivity {
     int gameIndex = -1;
     String gameName;
     String[] intentList;
-
     ArrayList<AnswerItem> answerItems;
     AnswerListAdapter answerListAdapter;
     CurrentMapGame game;
@@ -52,7 +54,7 @@ public class MapActivity extends AppCompatActivity {
         setContentView(R.layout.activity_map);
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
         currentRegion = findViewById(R.id.current_region_text);
-        percent = findViewById(R.id.perc);
+        question = findViewById(R.id.question_number);
         intentList = getIntent().getStringArrayExtra("gameName");
         gameName = intentList[0];
         webView = findViewById(R.id.web_view);
@@ -62,8 +64,6 @@ public class MapActivity extends AppCompatActivity {
         webView.getSettings().setLoadWithOverviewMode(true);
         webView.getSettings().setBuiltInZoomControls(true);
         webView.getSettings().setDisplayZoomControls(false);
-
-
         allGamesList = new AllGamesList();
         System.out.println(gameName);
         Map<String, Map<String, String>> allRegions = allGamesList.createMapGame(gameName.replace("Low", ""), this);
@@ -86,23 +86,32 @@ public class MapActivity extends AppCompatActivity {
         nextQuestion();
     }
 
-
+    /**
+     * Метод для перехода к следующему вопросу игры.
+     */
     public void nextQuestion() {
-        gameIndex ++;
+        gameIndex++;
         String currentRegionText = getString(R.string.press_on, regionNames.get(gameIndex));
         currentRegion.setText(currentRegionText);
-        int intPer = game.coins * 100 / game.regions.size();
-        String strPer = getString(R.string.percentage, String.valueOf(intPer)) + "%";
-        percent.setText(strPer);
+        String strPer = getString(R.string.question, String.valueOf(gameIndex + 1) + "/" + String.valueOf(regionNames.size()));
+        question.setText(strPer);
         game.currentRegion = regionNames.get(gameIndex);
         System.out.println(game.currentRegion);
     }
 
+    /**
+     * Метод для завершения текущей игры.
+     */
     public void finishCurrentGame(){
         saveRecordResult();
         showFininshAlert();
     }
 
+    /**
+     * Метод класса для создания кастомного Toast, необходимого для отображения неправильных ответов.
+     * @param message строка-сообщение для отображения на Toast.
+     * @return контейнер {@link LinearLayout} для кастомного Toast.
+     */
     public View createCustomToast(String message){
         LinearLayout container = new LinearLayout(this);
         container.setOrientation(LinearLayout.HORIZONTAL);
@@ -115,27 +124,35 @@ public class MapActivity extends AppCompatActivity {
         return container;
     }
 
+    /**
+     * Метод для создания и отображения кастомного {@link AlertDialog} с информацией об итогах игры и
+     * проценте правильных ответов, а также кнопками для перезапуска игры и выхода к главному меню.
+     */
     public void showFininshAlert() {
         int intPer = game.coins * 100 / game.regions.size();
-        String strPer = getString(R.string.percentage, String.valueOf(intPer)) + "%";
-        percent.setText(strPer);
+        String strPer = getString(R.string.question, String.valueOf(gameIndex + 1) + "/" + String.valueOf(regionNames.size()));
+        question.setText(strPer);
         AlertDialog.Builder builder = new AlertDialog.Builder(this, R.style.ShadowedAlertDialogStyle);
         View customView = getLayoutInflater().inflate(R.layout.finish_alert_layout, null);
         TextView message = customView.findViewById(R.id.finish_alert_message);
-        LinearLayout percentBar = customView.findViewById(R.id.finish_alert_percent_bar);
-        LinearLayout.LayoutParams params = (LinearLayout.LayoutParams) percentBar.getLayoutParams();
-        params.width = convertDpToPx((float) intPer / 100 * 280);
-        PathInterpolator pathInterpolator = new PathInterpolator(0.2f, 0.8f, 0.6f, 1f);
-        percentBar.setLayoutParams(params);
-        percentBar.setScaleX(0f);
-        percentBar.setPivotX(0f);
-        percentBar.setAlpha(0f);
-        percentBar.animate()
-                .scaleX(1f)
-                .alpha(1f)
-                .setDuration(1500)
-                .setInterpolator(pathInterpolator)
-                .start();
+        LinearLayout bar = customView.findViewById(R.id.finish_alert_bar);
+        View percentBar = customView.findViewById(R.id.finish_alert_percent_bar);
+        bar.post(() ->{
+            int barWidth = bar.getWidth();
+            ViewGroup.LayoutParams params = (LinearLayout.LayoutParams) percentBar.getLayoutParams();
+            params.width = intPer * barWidth / 100;
+            percentBar.setLayoutParams(params);
+            PathInterpolator pathInterpolator = new PathInterpolator(0.2f, 0.8f, 0.6f, 1f);
+            percentBar.setScaleX(0f);
+            percentBar.setPivotX(0f);
+            percentBar.setAlpha(0f);
+            percentBar.animate()
+                    .scaleX(1f)
+                    .alpha(1f)
+                    .setDuration(1000)
+                    .setInterpolator(pathInterpolator)
+                    .start();
+        });
         message.setText(getString(R.string.correct_answers_info, String.valueOf(intPer) + "%"));
         Button finishButton = customView.findViewById(R.id.finish_alert_button);
         Button restartButton = customView.findViewById(R.id.finish_alert_restart_button);
@@ -159,13 +176,9 @@ public class MapActivity extends AppCompatActivity {
         finishAlert.show();
     }
 
-    private int convertDpToPx(float dpValue) {
-        return Math.round(TypedValue.applyDimension(
-                TypedValue.COMPLEX_UNIT_DIP,
-                dpValue,
-                this.getResources().getDisplayMetrics()));
-    }
-
+    /**
+     * Метод для сохранения рекорда прохождения игры пользователя с использованием {@link SharedPreferences}
+     */
     public void saveRecordResult(){
         int intPer = game.coins * 100 / game.regions.size();
         SharedPreferences sharedPref = getSharedPreferences("geostudy_prefs", MODE_PRIVATE);
@@ -177,6 +190,11 @@ public class MapActivity extends AppCompatActivity {
         }
     }
 
+    /**
+     * Метод для правильной обработки нажатий списка ListView с ответами - answers. Нужен для корректного
+     * скролла списка с целью предотвращения незапланированного закрытия answerBanner при попытке скролла снизу вверх.
+     */
+    @SuppressLint("ClickableViewAccessibility")
     public void setAnswersListOnTouch(){
         answers.setOnTouchListener(new View.OnTouchListener() {
             private float startY;
@@ -185,31 +203,23 @@ public class MapActivity extends AppCompatActivity {
             public boolean onTouch(View v, MotionEvent event) {
                 switch (event.getAction()) {
                     case MotionEvent.ACTION_DOWN:
-                        // Запоминаем начальную позицию касания
                         startY = event.getY();
-                        // Блокируем родительский контейнер от перехвата событий
                         v.getParent().requestDisallowInterceptTouchEvent(true);
                         break;
 
                     case MotionEvent.ACTION_MOVE:
                         float currentY = event.getY();
                         float deltaY = currentY - startY;
-
-                        // Если скроллим вниз и достигли верха списка
                         if (deltaY > 0 && !canScrollUp(answers)) {
-                            // Разрешаем BottomSheet обрабатывать жест
                             v.getParent().requestDisallowInterceptTouchEvent(false);
                         }
-                        // Если скроллим вверх и достигли низа списка
                         else if (deltaY < 0 && !canScrollDown(answers)) {
-                            // Разрешаем BottomSheet обрабатывать жест
                             v.getParent().requestDisallowInterceptTouchEvent(false);
                         }
                         break;
 
                     case MotionEvent.ACTION_UP:
                     case MotionEvent.ACTION_CANCEL:
-                        // Восстанавливаем нормальное поведение
                         v.getParent().requestDisallowInterceptTouchEvent(false);
                         break;
                 }

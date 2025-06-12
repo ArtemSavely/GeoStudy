@@ -10,7 +10,7 @@
     <string name="oceania">Oceania</string>
     <string name="welcome_to_geostudy">Welcome to\nGeoStudy!</string>
     <string name="correct_answers_info">"You answered %s questions correctly."</string>
-    <string name="percentage">Right: %s</string>
+    <string name="question">Question: %s</string>
     <string name="press_on">Click on: %s</string>
     <string name="congrats">Congratulations!</string>
     <string name="restart">Play again</string>

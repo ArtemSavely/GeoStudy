@@ -1,10 +1,13 @@
-package com.example.geostudy;
+package com.savely.geostudy;
 
 import android.content.Context;
 
 import java.util.HashMap;
 import java.util.Map;
-
+/**
+ * Документация к классу. MapGamesLists - класс, содержащий поля - списки с названиями игр-карт,
+ * а также списки с соответствующими именами файлов этих карт.
+ */
 public class MapGamesLists {
     public Map<String, String[]> mapGames = new HashMap<>();
     public String[] world = {"worldIndiaLow"};

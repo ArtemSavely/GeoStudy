@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.geostudy"
-    compileSdk = 34
+    namespace = "com.savely.geostudy"
+    compileSdk = 36
 
     defaultConfig {
-        applicationId = "com.example.geostudy"
+        applicationId = "com.savely.geostudy"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
@@ -18,7 +18,9 @@ android {
 
     buildTypes {
         release {
-            isMinifyEnabled = false
+            isMinifyEnabled = true
+            isShrinkResources = true
+            isDebuggable = false
             proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro")
         }
     }

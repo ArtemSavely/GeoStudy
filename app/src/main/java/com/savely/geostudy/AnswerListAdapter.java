@@ -1,11 +1,7 @@
-package com.example.geostudy;
+package com.savely.geostudy;
 
-import android.animation.AnimatorSet;
-import android.animation.ObjectAnimator;
 import android.app.Activity;
 import android.content.Context;
-import android.graphics.Rect;
-import android.util.DisplayMetrics;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -16,6 +12,10 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
+/**
+ * Документация к классу. AnswerListAdapter - класс-адаптер для ListView списка ответов пользователя.
+ * Элементы списка содержат информацию о последнем вопросе (регионе/стране) и  правильности ответа.
+ */
 public class AnswerListAdapter extends BaseAdapter {
     Context context;
     ArrayList<AnswerItem> answerItems;
@@ -60,24 +60,14 @@ public class AnswerListAdapter extends BaseAdapter {
         return convertView;
     }
 
+    /**
+     * Метод для обновления списка ответов путем добавления нового элемента в начало.
+     * @param item новый элемент списка.
+     */
     public void insert(AnswerItem item) {
         answerItems.add(0, item);
-//        notifyDataSetChanged();
         ((Activity)context).runOnUiThread(() -> {
             notifyDataSetChanged();
         });
-    }
-
-    public void animateFirstItem(ListView listView) {
-        final View firstItem = listView.getChildAt(0);
-        if (firstItem != null) {
-            DisplayMetrics metrics = context.getResources().getDisplayMetrics();
-            float dpToPx = metrics.density;
-
-            ObjectAnimator animator = ObjectAnimator.ofFloat(firstItem, "translationY",
-                    -dpToPx * 70f, 0f);
-            animator.setDuration(500).start();
-        }
-        System.out.println("animated");
     }
 }
