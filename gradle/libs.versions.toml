@@ -8,6 +8,7 @@ appcompat = "1.7.1"
 material = "1.12.0"
 activity = "1.10.1"
 constraintlayout = "2.2.1"
+navigationVersion = "2.9.0"
 
 [libraries]
 gson = { module = "com.google.code.gson:gson", version.ref = "gson" }
@@ -18,7 +19,10 @@ appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "a
 material = { group = "com.google.android.material", name = "material", version.ref = "material" }
 activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
 constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+navigationFragment = {name = "navigation-fragment", group = "androidx.navigation", version.ref = "navigationVersion"}
+navigationUi = {name = "navigation-ui", group = "androidx.navigation", version.ref = "navigationVersion"}
 
 [plugins]
 androidApplication = { id = "com.android.application", version.ref = "agp" }
+safeArgs = {id = "androidx.navigation.safeargs", version.ref = "navigationVersion"}
 

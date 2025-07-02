@@ -23,8 +23,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.savely.geostudy.MapMenuActivity" />
-        <activity android:name="com.savely.geostudy.MapActivity" />
+        <activity android:name="com.savely.geostudy.MapMenuFragment" />
+        <activity android:name="com.savely.geostudy.MapFragment" />
     </application>
 
 </manifest>

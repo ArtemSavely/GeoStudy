@@ -5,6 +5,7 @@
     android:layout_height="wrap_content"
     android:orientation="horizontal"
     android:paddingHorizontal="15dp"
+    android:id="@+id/answer_item"
     android:weightSum="10"
     android:layout_gravity="center_vertical">
 

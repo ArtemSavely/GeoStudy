@@ -1,5 +1,6 @@
 plugins {
     alias(libs.plugins.androidApplication)
+    alias(libs.plugins.safeArgs)
 }
 
 android {
@@ -8,7 +9,7 @@ android {
 
     defaultConfig {
         applicationId = "com.savely.geostudy"
-        minSdk = 24
+        minSdk = 28
         targetSdk = 34
         versionCode = 1
         versionName = "1.0"
@@ -31,6 +32,8 @@ android {
 }
 
 dependencies {
+    implementation(libs.navigationFragment)
+    implementation(libs.navigationUi)
     implementation(libs.gson)
     implementation(libs.appcompat)
     implementation(libs.material)

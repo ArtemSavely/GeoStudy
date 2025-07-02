@@ -11,45 +11,59 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
+import androidx.annotation.NonNull;
+import androidx.recyclerview.widget.RecyclerView;
+
 import java.util.HashMap;
 import java.util.Map;
 
 /**
- * Документация к классу. MapGameAdapter - класс-адаптер для списка ListView из меню игр-карт.
+ * Документация к классу. MapGameAdapter - класс-адаптер для списка RecyclerView из меню игр-карт.
  */
-public class MapGameAdapter extends BaseAdapter {
-    Context context;
+public class MapGameAdapter extends RecyclerView.Adapter<MapGameAdapter.MapGameViewHolder> {
     MapGameItem[] mapGames;
-    public MapGameAdapter(Context context, MapGameItem[] mapGames) {
+    Context context;
+    OnItemClickListener listener;
+
+    public static class MapGameViewHolder extends RecyclerView.ViewHolder {
+        public LinearLayout item;
+
+        public MapGameViewHolder(View view, OnItemClickListener listener) {
+            super(view);
+            item = view.findViewById(R.id.map_item);
+            item.setOnClickListener(v -> {
+                if (listener != null) {
+                    int position = getAdapterPosition();
+                    if (position != RecyclerView.NO_POSITION) {
+                        listener.onItemClick(position);
+                    }
+                }
+            });
+        }
+    }
+
+    public MapGameAdapter(MapGameItem[] mapGames, Context context, OnItemClickListener onItemClickListener) {
         this.mapGames = mapGames;
         this.context = context;
+        this.listener = onItemClickListener;
     }
+
+    @NonNull
     @Override
-    public int getCount() {
-        return mapGames.length;
+    public MapGameViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+        View view = LayoutInflater.from(parent.getContext())
+                .inflate(R.layout.adapter_map_game_item, parent, false);
+        return new MapGameViewHolder(view, listener);
     }
 
     @Override
-    public MapGameItem getItem(int position) {
-        return mapGames[position];
-    }
-
-    @Override
-    public long getItemId(int position) {
-        return position;
-    }
-
-    @Override
-    public View getView(int position, View convertView, ViewGroup parent) {
-        if(convertView == null) {
-            convertView = LayoutInflater.from(context).inflate(R.layout.adapter_map_game_item, parent, false);
-        }
+    public void onBindViewHolder(@NonNull MapGameViewHolder holder, int position) {
         MapGameItem item = mapGames[position];
-        TextView gameName = convertView.findViewById(R.id.game_name);
-        ImageView flagIcon = convertView.findViewById(R.id.flag_icon);
-        View percentBar = convertView.findViewById(R.id.percent_bar);
-        LinearLayout bar = convertView.findViewById(R.id.bar);
-        bar.post(() ->{
+        TextView gameName = holder.item.findViewById(R.id.game_name);
+        ImageView flagIcon = holder.item.findViewById(R.id.flag_icon);
+        View percentBar = holder.item.findViewById(R.id.percent_bar);
+        LinearLayout bar = holder.item.findViewById(R.id.bar);
+        bar.post(() -> {
             int barWidth = bar.getWidth();
             ViewGroup.LayoutParams params = (LinearLayout.LayoutParams) percentBar.getLayoutParams();
             params.width = item.percent * barWidth / 100;
@@ -65,14 +79,14 @@ public class MapGameAdapter extends BaseAdapter {
                     .setInterpolator(pathInterpolator)
                     .start();
         });
-        TextView percent = convertView.findViewById(R.id.record_percent);
+        TextView percent = holder.item.findViewById(R.id.record_percent);
         gameName.setText(item.itemName);
         percent.setText(String.valueOf(item.percent) + "%");
         int iconID = context.getResources().getIdentifier(item.name.toLowerCase(), "drawable", context.getPackageName());
         String resourceName;
         try {
             resourceName = context.getResources().getResourceEntryName(iconID);
-            if (iconID != 0 && resourceName.equals(item.name.toLowerCase())){
+            if (iconID != 0 && resourceName.equals(item.name.toLowerCase())) {
                 System.out.println(iconID + "id");
                 flagIcon.setImageResource(iconID);   //присвоение иконки-флага соответсвующим играм-картам
             }
@@ -87,13 +101,17 @@ public class MapGameAdapter extends BaseAdapter {
             maps.put("caribbeanLow", R.drawable.america_button_icon);
             maps.put("asiaLow", R.drawable.asia_button_icon);
             maps.put("oceaniaLow", R.drawable.oceania_button_icon);
-            if (maps.containsKey(item.name)){
+            if (maps.containsKey(item.name)) {
                 flagIcon.setImageResource(maps.get(item.name));
                 flagIcon.setMaxHeight(40);
-            } else{
+            } else {
                 e.printStackTrace();
             }
         }
-        return convertView;
+    }
+
+    @Override
+    public int getItemCount() {
+        return mapGames.length;
     }
 }

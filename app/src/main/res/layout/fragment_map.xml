@@ -22,6 +22,15 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@color/blue">
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/action_back"
+                    android:background="@color/blue"
+                    android:layout_gravity="center_vertical"
+                    android:translationY="10dp"
+                    android:src="@drawable/outline_arrow_back_ios_24"/>
+
 
                 <TextView
                     android:id="@+id/map_tool_bar_title"
@@ -29,6 +38,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
+                    android:gravity="center"
                     android:layout_marginTop="25dp"
                     android:layout_marginBottom="10dp"
                     android:textSize="30sp" />
@@ -46,23 +56,24 @@
                 android:layout_height="wrap_content"
                 android:layout_alignParentTop="true"
                 android:layout_marginTop="5dp"
+                android:padding="10dp"
                 android:layout_marginHorizontal="10dp"
                 android:orientation="vertical">
-
-                <TextView
-                    android:id="@+id/current_region_text"
-                    style="@style/MyText"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textSize="30sp" />
-
                 <TextView
                     android:id="@+id/question_number"
                     style="@style/MyText"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/question"
-                    android:textSize="30sp" />
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:id="@+id/current_region_text"
+                    style="@style/MyText"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="25sp" />
             </LinearLayout>
 
             <WebView
@@ -80,6 +91,7 @@
         android:layout_width="match_parent"
         android:layout_height="600dp"
         android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="68dp"
         android:background="@drawable/answer_banner_background"
         android:orientation="vertical"
         app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior">
@@ -110,11 +122,10 @@
             android:text="@string/your_answers"
             android:textSize="30sp" />
 
-        <ListView
-            android:id="@+id/answers_list"
+        <androidx.recyclerview.widget.RecyclerView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="5dp"
-            android:layout_marginTop="30sp" />
+            android:layout_marginBottom="50dp"
+            android:id="@+id/answers_list"/>
     </LinearLayout>
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

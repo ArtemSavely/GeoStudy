@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--Навигационный граф для навигации в приложении с использованием Navigation API-->
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:startDestination="@id/main_fragment"
+    android:id="@+id/nav_graph">
+    <fragment
+        android:id="@+id/main_fragment"
+        android:name="com.savely.geostudy.MainMenuFragment">
+        <action
+            android:id="@+id/action_to_map_menu_list"
+            app:destination="@id/map_menu_fragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/fade_out"
+            app:popEnterAnim="@anim/fade_in"
+            app:popExitAnim="@anim/slide_out_left">
+            <argument
+                android:name="game_class"
+                app:argType="string[]"/>
+        </action>
+    </fragment>
+
+    <fragment
+        android:id="@+id/map_menu_fragment"
+        android:name="com.savely.geostudy.MapMenuFragment">
+        <argument
+            android:name="game_class"
+            app:argType="string[]"/>
+        <action
+            android:id="@+id/action_to_map"
+            app:destination="@id/map_fragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/fade_out"
+            app:popEnterAnim="@anim/fade_in"
+            app:popExitAnim="@anim/slide_out_left">
+        </action>
+    </fragment>
+
+    <fragment
+        android:id="@+id/map_fragment"
+        android:name="com.savely.geostudy.MapFragment">
+        <argument
+            android:name="game_name"
+            app:argType="string[]"/>
+        <action
+            android:id="@+id/action_to_map"
+            app:destination="@id/map_fragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/fade_out"
+            app:popEnterAnim="@anim/fade_in"
+            app:popExitAnim="@anim/slide_out_left">
+        </action>
+    </fragment>
+
+
+</navigation>

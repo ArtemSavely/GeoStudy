@@ -1,7 +1,7 @@
 package com.savely.geostudy;
 
 /**
- * Документация к классу. AnswerItem - класс, обьекты которого хранят данные для отображения в элементах списка ответов пользователя (см. {@link AnswerListAdapter}) в игре (cм. {@link MapActivity}).
+ * Документация к классу. AnswerItem - класс, обьекты которого хранят данные для отображения в элементах списка ответов пользователя (см. {@link AnswerListAdapter}) в игре (cм. {@link MapFragment}).
  */
 public class AnswerItem {
     public String region;

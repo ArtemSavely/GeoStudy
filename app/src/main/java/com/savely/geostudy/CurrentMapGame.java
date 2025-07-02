@@ -4,6 +4,8 @@ import android.view.Gravity;
 import android.webkit.JavascriptInterface;
 import android.widget.Toast;
 
+import androidx.fragment.app.FragmentActivity;
+
 import java.util.HashMap;
 import java.util.Map;
 
@@ -17,7 +19,8 @@ public class CurrentMapGame {
     public Map<String, String> reversedRegions;
 
     public String currentRegion;
-    public MapActivity activity;
+    public FragmentActivity activity;
+    MapFragment fragment;
     public AllGamesList allGamesList;
     public int coins;
 
@@ -28,11 +31,12 @@ public class CurrentMapGame {
      * @param activity активность, из которой запущена игра.
      * @param allGamesList объект класса AllGamesList (см. {@link AllGamesList})
      */
-    public CurrentMapGame(Map<String, Map<String, String>> regions, MapActivity activity, AllGamesList allGamesList) {
+    public CurrentMapGame(Map<String, Map<String, String>> regions, FragmentActivity activity, MapFragment fragment, AllGamesList allGamesList) {
         this.regions = regions;
         this.currentRegion = "";
         this.coins = 0;
         this.activity = activity;
+        this.fragment = fragment;
         this.reversedRegions = new HashMap<>();
         this.allGamesList = allGamesList;
         for (Map.Entry<String, Map<String, String>> entry : regions.entrySet()) {
@@ -45,14 +49,14 @@ public class CurrentMapGame {
      */
     @JavascriptInterface
     public void nextGame(){
-        if (activity.gameIndex < regions.size() - 1){
+        if (fragment.gameIndex < regions.size() - 1){
             new Thread(new Runnable() {
                 @Override
                 public void run() {
                     activity.runOnUiThread(new Runnable() {
                         @Override
                         public void run() {
-                            activity.nextQuestion();
+                            fragment.nextQuestion();
                         }
                     });
                 }
@@ -64,7 +68,7 @@ public class CurrentMapGame {
                     activity.runOnUiThread(new Runnable() {
                         @Override
                         public void run() {
-                            activity.finishCurrentGame();
+                            fragment.finishCurrentGame();
                         }
                     });
                 }
@@ -82,7 +86,7 @@ public class CurrentMapGame {
     public void showIncorrectToast(String regionId){
         String regionName = regions.get(regionId).get(allGamesList.getCurrentLanguage());
         Toast toast = Toast.makeText(activity, regionName, Toast.LENGTH_SHORT);
-        toast.setView(activity.createCustomToast(regionName));
+        toast.setView(fragment.createCustomToast(regionName));
         toast.setGravity(Gravity.TOP, 0,1200);
         toast.show();
     }
@@ -96,14 +100,14 @@ public class CurrentMapGame {
     public boolean check(String id){
         boolean flag = regions.get(id).get(allGamesList.getCurrentLanguage()).equals(currentRegion) ? true : false;
         if (flag) {coins ++;}
-        activity.answerListAdapter.insert(new AnswerItem(currentRegion, flag));
+        fragment.answerListAdapter.insert(new AnswerItem(currentRegion, flag));
         return flag;
     }
 
     /**
      * Метод, вызываемый из assets/script.js, возвращающий ISO-код текущего региона (вопроса) для того,
      * чтобы подсветить его красным цветом на карте, если ответ пользователя был неверным.
-     * @return
+     * @return ISO-код текущего региона (вопроса)
      */
     @JavascriptInterface
     public String getCurrentRegion(){return reversedRegions.get(currentRegion);
